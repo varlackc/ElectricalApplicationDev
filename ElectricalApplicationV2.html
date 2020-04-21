@@ -37,7 +37,7 @@
 
         // Find Power 
         var PowerGivenResistantCurrent = function(resistance, current) {
-            var power;
+            var power = (current * resistance) * current;
             return power;
         };
 
