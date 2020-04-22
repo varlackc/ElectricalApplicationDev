@@ -11,11 +11,13 @@
     <script source="jquery-3.4.1.js"></script>
     <script>
         //<!----------------------------------------------------------->
+
         // Find Voltage
         var CalculateVoltageGivenCurrentResistance = function(current, resistance) {
             var voltage = current * resistance;
             return voltage;
         };
+        //-------------------------------------------------------------- //
 
         // Find Current
         var CalculateCurrentGivenVoltageResistance = function(voltage, resistance) {
@@ -45,7 +47,6 @@
         var PowerGivenVoltageResistance = function(voltage, resistance) {
             var power = (voltage) * (voltage / resistance);
             return power;
-
         };
         //<!----------------------------------------------------------->
 
