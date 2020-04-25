@@ -9,6 +9,14 @@
     <h1>Electrical Application V2</h1>
     <h2>This Page was intentionally left blank</h2>
     <script source="jquery-3.4.1.js"></script>
+
+    Voltage: <input type="number" id="voltage"> Current: <input type="number" id="current"> Resistance: <input type="number" id="resistance">
+    <button onclick="FindTheMissingValue()">Calculate</button>
+    <p> </p>
+
+
+
+
     <script>
         //--------- Find Voltage Given Current and Resistance ---------- //
         var CalculateVoltageGivenCurrentResistance = function(current, resistance) {
@@ -51,10 +59,33 @@
             return power;
         };
         //--------------------------------------------------------- //
+
+        // --------- Find the Missing Ohms Law Value -------------- //
+        var FindTheMissingValue = function() {
+            //get values
+            var voltage = document.getElementById("voltage");
+            var current = document.getElementById("current");
+            var resistance = document.getElementById("resistance");
+
+            console.log("---------------------------------");
+            console.log("Voltage: " + voltage.value);
+            console.log("Current: " + current.value);
+            console.log("Resistance: " + resistance.value);
+            console.log("---------------------------------");
+
+            if (voltage.value.length === 0 && current.value.length > 0 && resistance.value.length > 0) {
+                console.log("Calculate Voltage");
+            } else if (voltage.value.length > 0 && current.value.length === 0 && resistance.value.length > 0) {
+                console.log("Calculate Current");
+            } else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length === 0) {
+                console.log("Calculate Resistance");
+            } else {
+                console.log("Incorrect Input Could Not Calculate");
+            }
+        };
+        // -------------------------------------------------------- //
     </script>
 
-    Voltage: <input type="number" id="voltage"> Current: <input type="number" id="current"> Resistance: <input type="number" id="Resistance">
-    <button onclick="">Calculate</button>
 
 </body>
 
