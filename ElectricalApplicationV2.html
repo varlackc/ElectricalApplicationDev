@@ -14,9 +14,6 @@
     <button onclick="FindTheMissingValue()">Calculate</button>
     <p> </p>
 
-
-
-
     <script>
         //--------- Find Voltage Given Current and Resistance ---------- //
         var CalculateVoltageGivenCurrentResistance = function(current, resistance) {
@@ -35,7 +32,7 @@
         //-------- Find Resistance Given Voltage and Current ----------- //
         var CalculateResistanceGivenVoltageCurrent = function(voltage, current) {
             var resistance = voltage / current;
-            return current;
+            return resistance;
         };
         //------------------------------------------------------------ //
 
@@ -63,6 +60,7 @@
         // --------- Find the Missing Ohms Law Value -------------- //
         var FindTheMissingValue = function() {
             //get values
+            var result = 0;
             var voltage = document.getElementById("voltage");
             var current = document.getElementById("current");
             var resistance = document.getElementById("resistance");
@@ -75,18 +73,22 @@
 
             if (voltage.value.length === 0 && current.value.length > 0 && resistance.value.length > 0) {
                 console.log("Calculate Voltage");
+                result = CalculateVoltageGivenCurrentResistance(current.value, resistance.value)
+                voltage.value = result;
             } else if (voltage.value.length > 0 && current.value.length === 0 && resistance.value.length > 0) {
                 console.log("Calculate Current");
+                result = CalculateCurrentGivenVoltageResistance(voltage.value, resistance.value)
+                current.value = result;
             } else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length === 0) {
                 console.log("Calculate Resistance");
+                result = CalculateResistanceGivenVoltageCurrent(voltage.value, current.value)
+                resistance.value = result;
             } else {
                 console.log("Incorrect Input Could Not Calculate");
             }
         };
         // -------------------------------------------------------- //
     </script>
-
-
 </body>
 
 </html>
