@@ -76,18 +76,21 @@
                 console.log("Calculate Voltage");
                 result = CalculateVoltageGivenCurrentResistance(current.value, resistance.value)
                 voltage.value = result;
+                document.getElementById("message").innerHTML = " ";
             }
             // Calculate Current
             else if (voltage.value.length > 0 && current.value.length === 0 && resistance.value.length > 0) {
                 console.log("Calculate Current");
                 result = CalculateCurrentGivenVoltageResistance(voltage.value, resistance.value)
                 current.value = result;
+                document.getElementById("message").innerHTML = " ";
             }
             // Calculate Resistance
             else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length === 0) {
                 console.log("Calculate Resistance");
                 result = CalculateResistanceGivenVoltageCurrent(voltage.value, current.value)
                 resistance.value = result;
+                document.getElementById("message").innerHTML = " ";
             }
             // Error
             else {
