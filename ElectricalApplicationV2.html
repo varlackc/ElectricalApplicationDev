@@ -12,7 +12,7 @@
 
     Voltage: <input type="number" id="voltage"> Current: <input type="number" id="current"> Resistance: <input type="number" id="resistance">
     <button onclick="FindTheMissingValue()">Calculate</button>
-    <p> </p>
+    <p id="message"> </p>
 
     <script>
         //--------- Find Voltage Given Current and Resistance ---------- //
@@ -71,20 +71,29 @@
             console.log("Resistance: " + resistance.value);
             console.log("---------------------------------");
 
+            // Calculate voltage
             if (voltage.value.length === 0 && current.value.length > 0 && resistance.value.length > 0) {
                 console.log("Calculate Voltage");
                 result = CalculateVoltageGivenCurrentResistance(current.value, resistance.value)
                 voltage.value = result;
-            } else if (voltage.value.length > 0 && current.value.length === 0 && resistance.value.length > 0) {
+            }
+            // Calculate Current
+            else if (voltage.value.length > 0 && current.value.length === 0 && resistance.value.length > 0) {
                 console.log("Calculate Current");
                 result = CalculateCurrentGivenVoltageResistance(voltage.value, resistance.value)
                 current.value = result;
-            } else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length === 0) {
+            }
+            // Calculate Resistance
+            else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length === 0) {
                 console.log("Calculate Resistance");
                 result = CalculateResistanceGivenVoltageCurrent(voltage.value, current.value)
                 resistance.value = result;
-            } else {
+            }
+            // Error
+            else {
                 console.log("Incorrect Input Could Not Calculate");
+                alert("Incorrect Input Could Not Calculate");
+                document.getElementById("message").innerHTML = "Incorrect Input Could Not Calculate";
             }
         };
         // -------------------------------------------------------- //
