@@ -64,6 +64,7 @@
             var voltage = document.getElementById("voltage");
             var current = document.getElementById("current");
             var resistance = document.getElementById("resistance");
+            var power = document.getElementById("power");
 
             console.log("---------------------------------");
             console.log("Voltage: " + voltage.value);
@@ -94,7 +95,8 @@
             } else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length > 0) {
                 var testVoltage = CalculateVoltageGivenCurrentResistance(current.value, resistance.value);
                 if (testVoltage === voltage.value) {
-                    var power = PowerGivenVoltageCurrent(voltage.value, current.value);
+                    result = PowerGivenVoltageCurrent(voltage.value, current.value);
+
                 }
             }
             // Error
