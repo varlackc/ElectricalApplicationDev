@@ -88,6 +88,7 @@
                 result = CalculateCurrentGivenVoltageResistance(voltage.value, resistance.value)
                 current.value = result;
                 result = PowerGivenVoltageResistance(voltage.value, resistance.value);
+                power.value = result;
                 document.getElementById("message").innerHTML = " ";
             }
             // Calculate Resistance
