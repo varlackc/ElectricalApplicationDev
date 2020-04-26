@@ -93,6 +93,7 @@
                 resistance.value = result;
                 document.getElementById("message").innerHTML = " ";
             } else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length > 0) {
+                console.log("Need to calculate power");
                 var testVoltage = CalculateVoltageGivenCurrentResistance(current.value, resistance.value);
                 if (testVoltage === voltage.value) {
                     result = PowerGivenVoltageCurrent(voltage.value, current.value);
