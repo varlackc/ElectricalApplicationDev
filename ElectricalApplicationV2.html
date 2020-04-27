@@ -106,7 +106,6 @@
             }
             // If all values are full calculate accuracy
             else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length > 0) {
-                console.log("Need to calculate power");
                 var testVoltage = CalculateVoltageGivenCurrentResistance(current.value, resistance.value);
                 console.log("Test Value: " + testVoltage + " Received value: " + voltage.value);
                 if (testVoltage == voltage.value) {
