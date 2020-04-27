@@ -110,7 +110,6 @@
                 var testVoltage = CalculateVoltageGivenCurrentResistance(current.value, resistance.value);
                 console.log("Test Value: " + testVoltage + " Received value: " + voltage.value);
                 if (testVoltage == voltage.value) {
-                    console.log("Made it here");
                     result = PowerGivenVoltageCurrent(voltage.value, current.value);
                     console.log("Power: " + result);
                     power.value = result;
