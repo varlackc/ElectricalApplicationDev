@@ -10,16 +10,6 @@
     <h2>This Page was intentionally left blank</h2>
     <script source="jquery-3.4.1.js"></script>
 
-    <!-- Input Section -->
-    Voltage: <input type="number" id="voltage">
-    <br/> Current: <input type="number" id="current">
-    <br/>Resistance: <input type="number" id="resistance">
-    <br/>Power: <input type="number" id="power">
-    <br/><button onclick="FindTheMissingValue()">Calculate</button>
-
-    <!-- Message Section -->
-    <p id="message"> </p>
-
     <script>
         //--------- Find Voltage Given Current and Resistance ---------- //
         var CalculateVoltageGivenCurrentResistance = function(current, resistance) {
@@ -125,6 +115,17 @@
         };
         // -------------------------------------------------------- //
     </script>
+
+    <!-- Input Section -->
+    Voltage: <input type="number" id="voltage">
+    <br/> Current: <input type="number" id="current">
+    <br/>Resistance: <input type="number" id="resistance">
+    <br/>Power: <input type="number" id="power">
+    <br/><button onclick="FindTheMissingValue()">Calculate</button>
+
+    <!-- Message Section -->
+    <p id="message"> </p>
+
 </body>
 
 </html>
