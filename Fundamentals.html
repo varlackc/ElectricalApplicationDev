@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Electrical Application V2</title>
+
+</head>
+
+<body>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Source\bootstrap.css">
+
+    <!-- JQuery Library -->
+    <script src="Source\jquery-3.4.1.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="Source\bootstrap.js"></script>
+
+    <!-- Custom JS file -->
+    <script src="Source\Calculations.js"></script>
+
+    <link rel="stylesheet" href="Source\style.css">
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="ElectricalApplicationV2.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Fundamentals</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Components
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Resistors.html">Resistors</a>
+                        <a class="dropdown-item" href="Capacitors.html">Capacitors</a>
+                        <a class="dropdown-item" href="Inductors.html">Inductors</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-------->
+
+    <h1>Electrical Application V2</h1>
+
+    <!-- Input Section -->
+    <strong>Voltage (Volts):</strong> <input type="number" id="voltage">
+    <br/><strong> Current (Amps):</strong> <input type="number" id="current">
+    <br/><strong>Resistance (Ohms): </strong><input type="number" id="resistance">
+    <br/><strong>Power (Watts): </strong><input type="number" id="power">
+    <br/><button type="button" class="btn btn-secondary btn-lg" onclick="FindTheMissingValue()">Calculate</button>
+
+    <!-- Message Section -->
+    <p id="message"> </p>
+
+</body>
+
+</html>
