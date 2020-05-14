@@ -4,7 +4,7 @@ body {
 
 h1 {
     color: blue;
-    align: center;
+    align-content: center;
 }
 
 p {
@@ -15,5 +15,5 @@ table,
 th,
 td {
     border: 1px solid black;
-    align-self: center;
+    align-items: center;
 }
