@@ -102,6 +102,52 @@
     };
     // -------------------------------------------------------- //
 
-    //------------------ Controller behaviour ----------------- //
-    $('select').
-        //--------------------------------------------------------- //
+    //------------------ Resistor Controller behaviour ----------------- //
+    function getSelectValue() {
+        var selectedValue = document.getElementById("Resistor").value;
+        console.log("----------------------------------");
+        console.log(selectedValue);
+        console.log("----------------------------------");
+
+        switch (selectedValue) {
+            case "10":
+                document.getElementById('path1307').style.fill = 'brown';
+                document.getElementById('path1309').style.fill = 'black';
+                document.getElementById('rect2188').style.fill = 'black';
+                break;
+            case "15":
+                document.getElementById('path1307').style.fill = 'brown';
+                document.getElementById('path1309').style.fill = 'green';
+                document.getElementById('rect2188').style.fill = 'black';
+                break;
+            case "22":
+                document.getElementById('path1307').style.fill = 'red';
+                document.getElementById('path1309').style.fill = 'red';
+                document.getElementById('rect2188').style.fill = 'black';
+                break;
+            case "33":
+                document.getElementById('path1307').style.fill = 'orange';
+                document.getElementById('path1309').style.fill = 'orange';
+                document.getElementById('rect2188').style.fill = 'black';
+                break;
+            case "47":
+                document.getElementById('path1307').style.fill = 'yellow';
+                document.getElementById('path1309').style.fill = 'violet';
+                document.getElementById('rect2188').style.fill = 'black';
+                break;
+
+            case "68":
+                document.getElementById('path1307').style.fill = 'blue';
+                document.getElementById('path1309').style.fill = 'gray';
+                document.getElementById('rect2188').style.fill = 'black';
+                break;
+
+            default:
+                document.getElementById('path1307').style.fill = 'black';
+                document.getElementById('path1309').style.fill = 'black';
+                document.getElementById('rect2188').style.fill = 'black';
+        }
+
+
+    }
+    //--------------------------------------------------------- //
