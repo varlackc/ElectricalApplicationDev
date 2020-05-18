@@ -397,10 +397,12 @@
     </center>
 
     <center>
+        <br/>
         <label for="Resistor">
             Select the resistor Value
         </label>
-        <select class="selectResistor" multiple data-live-search="true" name="Resistor" id="Resistor">
+        <br/>
+        <select class="selectResistor" multiple data-live-search="true" name="Resistor" id="Resistor" onchange="getSelectValue();">
     <option value="10">10</option>
     <option value="15">15</option>
     <option value="22">22</option>
