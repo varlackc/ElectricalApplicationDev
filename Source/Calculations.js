@@ -463,12 +463,14 @@
                 break;
 
             case "10%":
-                document.getElementById('stop3940').style.fill = '#404443';
-                document.getElementById('stop3948').style.fill = '#404443';
-                document.getElementById('stop3946').style.fill = '#404443';
+                //document.getElementById('rect2190').style.fill = 'linear-gradient(toright, red, blue)';
+                document.getElementById('rect2190').style.fill = '7C8280';
+                //document.getElementById('stop3946').style.stop-color = '#404443';
+
                 break;
 
             case "20%":
+
                 break;
         }
     }
