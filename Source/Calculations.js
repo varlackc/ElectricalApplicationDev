@@ -457,12 +457,12 @@
 
         switch (selectedTolerance) {
             case "5%":
-                document.getElementById('stop3940').style.fill = '#d57c00';
-                document.getElementById('stop3948').style.fill = '#d57c00';
-                document.getElementById('stop3946').style.fill = '#d57c00';
+                $(this).attr('id', 'rect2190');
+                document.getElementById('rect2190').style.fill = 'url(#linearGradient9206)';
                 break;
 
             case "10%":
+                $(this).attr('id', 'rect2190');
                 //document.getElementById('rect2190').style.fill = 'linear-gradient(toright, red, blue)';
                 document.getElementById('rect2190').style.fill = '7C8280';
                 //document.getElementById('stop3946').style.stop-color = '#404443';
@@ -470,7 +470,7 @@
                 break;
 
             case "20%":
-
+                document.getElementById('rect2190').style.fill = 'none';
                 break;
         }
     }
