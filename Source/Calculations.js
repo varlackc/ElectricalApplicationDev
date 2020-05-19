@@ -448,4 +448,15 @@
                 document.getElementById('rect2188').style.fill = 'black';
         }
     }
+
+    function getSelectTolerance() {
+        var selectedTolerance = document.getElementById("Tolerance").value;
+        console.log("----------------------------------");
+        console.log(selectedTolerance);
+        console.log("----------------------------------");
+
+        switch (selectedTolerance) {
+
+        }
+    }
     //--------------------------------------------------------- //
