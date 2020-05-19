@@ -457,9 +457,17 @@
 
         switch (selectedTolerance) {
             case "5%":
+                document.getElementById('stop3940').style.fill = '#d57c00';
+                document.getElementById('stop3948').style.fill = '#d57c00';
+                document.getElementById('stop3946').style.fill = '#d57c00';
                 break;
+
             case "10%":
+                document.getElementById('stop3940').style.fill = '#404443';
+                document.getElementById('stop3948').style.fill = '#404443';
+                document.getElementById('stop3946').style.fill = '#404443';
                 break;
+
             case "20%":
                 break;
         }
