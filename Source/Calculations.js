@@ -15,6 +15,9 @@
     //-------- Find Resistance Given Voltage and Current ----------- //
     var CalculateResistanceGivenVoltageCurrent = function(voltage, current) {
         var resistance = voltage / current;
+        if (resistance < 0) {
+            resistance = -1.0 * resistance;
+        }
         return resistance;
     };
     //------------------------------------------------------------ //
