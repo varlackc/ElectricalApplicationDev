@@ -105,6 +105,21 @@
     };
     // -------------------------------------------------------- //
 
+
+    //<!-- Find The Horsepower -->
+
+    //<!-- Find The Horsepower Direct Current: HoursePower = (Volts * Amps * Efficiency)/(746) -->
+
+    //<!-- Find The Horsepower Single Phase: HP = (Volts*Amp*Efficiency*Power Factor)/746 -->
+
+    //<!-- Find The Horsepower Three Phase: HP = (Volts * Amp * Efficiency * PowerFactor * 1.73)/746 -->
+
+    //<!-- P#20 -->
+
+    //<!-- Find Kilovolt Amperes -->
+    //<!-- Single Phase: KVA = (volts * Amperes)/1000 -->
+    //<!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
+
     //------------------ Resistor Controller behaviour ----------------- //
     function getSelectValue() {
         var selectedValue = document.getElementById("Resistor").value;
