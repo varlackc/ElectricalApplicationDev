@@ -138,7 +138,9 @@
     function calculateSinglePhaseKVA(volts, amps) {
         var kva = (volts * amps) / 1000;
     }
+
     //<!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
+
 
     //------------------ Resistor Controller behaviour ----------------- //
     function getSelectValue() {
