@@ -137,6 +137,7 @@
     //<!-- Single Phase: KVA = (volts * Amperes)/1000 -->
     function calculateSinglePhaseKVA(volts, amps) {
         var kva = (volts * amps) / 1000;
+        return kva;
     }
 
     //<!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
