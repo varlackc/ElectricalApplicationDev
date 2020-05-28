@@ -140,7 +140,11 @@
     }
 
     //<!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
+    function calculateThreePhaseKVA(volts, amps) {
+        var threeFaceConversion = 1.73;
+        var conversionFactor = 746;
 
+    }
 
     //------------------ Resistor Controller behaviour ----------------- //
     function getSelectValue() {
