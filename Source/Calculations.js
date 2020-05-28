@@ -123,6 +123,15 @@
     }
 
     //<!-- Find The Horsepower Three Phase: HP = (Volts * Amp * Efficiency * PowerFactor * 1.73)/746 -->
+    function calculateThreePhaseHP(volts, amps, efficiency, powerFactor) {
+        var threeFaceConversion = 1.73;
+        var conversionFactor = 746;
+        var horsePower = (volts * amp * efficiency * powerFactor * threeFaceConversion) /
+            conversionFactor;
+        return horsePower;
+    }
+
+
 
     //<!-- Find Kilovolt Amperes -->
     //<!-- Single Phase: KVA = (volts * Amperes)/1000 -->
