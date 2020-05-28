@@ -112,9 +112,15 @@
     function calculateDirectCurrentHP(volts, amps, efficiency) {
         var conversionFactor = 746;
         var horsePower = (volts * amps * efficiency) / (conversionFactor);
+        return horsePower;
     }
 
     //<!-- Find The Horsepower Single Phase: HP = (Volts*Amp*Efficiency*Power Factor)/746 -->
+    function calculateSinglePhaseHP(volts, amps, efficiency, powerFactor) {
+        var conversionFactor = 746;
+        var horsePower = (volts * amps * efficiency * powerFactor) / (conversionFactor);
+        return horsePower;
+    }
 
     //<!-- Find The Horsepower Three Phase: HP = (Volts * Amp * Efficiency * PowerFactor * 1.73)/746 -->
 
