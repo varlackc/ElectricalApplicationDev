@@ -124,8 +124,6 @@
 
     //<!-- Find The Horsepower Three Phase: HP = (Volts * Amp * Efficiency * PowerFactor * 1.73)/746 -->
 
-    //<!-- P#20 -->
-
     //<!-- Find Kilovolt Amperes -->
     //<!-- Single Phase: KVA = (volts * Amperes)/1000 -->
     //<!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
