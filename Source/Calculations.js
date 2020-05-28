@@ -105,7 +105,6 @@
     };
     // -------------------------------------------------------- //
 
-
     //<!-- Find The Horsepower -->
 
     //<!-- Find The Horsepower Direct Current: HorsePower = (Volts * Amps * Efficiency)/(746) -->
