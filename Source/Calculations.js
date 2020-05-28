@@ -126,7 +126,7 @@
     function calculateThreePhaseHP(volts, amps, efficiency, powerFactor) {
         var threeFaceConversion = 1.73;
         var conversionFactor = 746;
-        var horsePower = (volts * amp * efficiency * powerFactor * threeFaceConversion) /
+        var horsePower = (volts * amps * efficiency * powerFactor * threeFaceConversion) /
             conversionFactor;
         return horsePower;
     }
@@ -135,6 +135,9 @@
 
     //<!-- Find Kilovolt Amperes -->
     //<!-- Single Phase: KVA = (volts * Amperes)/1000 -->
+    function calculateSinglePhaseKVA(volts, amps) {
+        var kva = (volts * amps) / 1000;
+    }
     //<!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
 
     //------------------ Resistor Controller behaviour ----------------- //
