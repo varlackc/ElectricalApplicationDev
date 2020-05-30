@@ -124,10 +124,10 @@
         <br/><strong> Current (Amps):</strong> <input type="number" id="current">
         <br/><strong>Efficiency: </strong><input type="number" id="efficiency">
         <br/><strong>Horsepower (HP): </strong><input type="number" id="horsePower">
-        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateDirectCurrentHP()">Calculate</button>
+        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateSinglePhaseKVA()">Calculate</button>
 
         <!-- Message Section -->
-        <p id="message"> </p>
+        <p id="singlePhaseKVAMessage"> </p>
     </center>
 
     <!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
