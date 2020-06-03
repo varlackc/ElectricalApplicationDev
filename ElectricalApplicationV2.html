@@ -28,7 +28,7 @@
                     <a class="nav-link" href="ElectricalApplicationV2.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownFundamentalsLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFundamentalsLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Fundamentals
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownFundamentalsLink">
@@ -54,14 +54,19 @@
 
     <h1>Electrical Application V2</h1>
     <!-- Input Section -->
-    <strong>Voltage (Volts):</strong> <input type="number" id="voltage">
-    <br/><strong> Current (Amps):</strong> <input type="number" id="current">
-    <br/><strong>Resistance (Ohms): </strong><input type="number" id="resistance">
-    <br/><strong>Power (Watts): </strong><input type="number" id="power">
-    <br/><button type="button" class="btn btn-secondary btn-lg" onclick="FindTheMissingValue()">Calculate</button>
+    <br/><br/>
+    <h3>Ohms Law Calculator</h3>
+    <center>
+        <strong>Voltage (Volts):</strong> <input type="number" id="voltage">
+        <br/><strong> Current (Amps):</strong> <input type="number" id="current">
+        <br/><strong>Resistance (Ohms): </strong><input type="number" id="resistance">
+        <br/><strong>Power (Watts): </strong><input type="number" id="power">
+        <br/>
+        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="FindTheMissingValue()">Calculate</button>
 
-    <!-- Message Section -->
-    <p id="message"> </p>
+        <!-- Message Section -->
+        <p id="message"> </p>
+    </center>
 
 </body>
 
