@@ -73,7 +73,7 @@
         <br/><strong>Efficiency: </strong><input type="number" id="efficiency1">
         <br/><strong>Horsepower (HP): </strong><input type="number" id="horsePower1">
         <br/>
-        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateDirectCurrentHP()">Calculate</button>
+        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateDirectCurrentHP('voltage1', 'current1', 'efficiency1')">Calculate</button>
         <!-- Message Section -->
         <p id="directCurrentHPMessage"> </p>
     </center>
@@ -103,7 +103,7 @@
         <br/><strong>Power Factor: </strong><input type="number" id="powerFactor3">
         <br/><strong>Horsepower (HP): </strong><input type="number" id="horsePower3">
         <br/>
-        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateThreePhaseCurrentHP()">Calculate</button>
+        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateThreePhaseCurrentHP('voltage3','current3','efficiency3', 'powerFactor3')">Calculate</button>
         <!-- Message Section -->
         <p id="threePhaseMessage"> </p>
     </center>
