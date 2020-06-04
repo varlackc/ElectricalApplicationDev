@@ -127,7 +127,6 @@
             conversionFactor;
         return horsePower;
     }
-
     //<!-- Find Kilovolt Amperes -->
     //<!-- Single Phase: KVA = (volts * Amperes)/1000 -->
     function calculateSinglePhaseKVA(volts, amps) {
