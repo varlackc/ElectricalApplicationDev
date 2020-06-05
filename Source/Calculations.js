@@ -99,6 +99,7 @@
                 power.value = result;
             }
         }
+
         // Error
         else {
             console.log("Incorrect Input Could Not Calculate");
