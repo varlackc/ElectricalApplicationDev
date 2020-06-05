@@ -116,6 +116,7 @@
         var conversionFactor = 746;
         var result = (volts * amps * efficiency) / (conversionFactor);
         horsePower.value = result;
+        console.log("The Result is: " + result);
     }
     //<!-- Find The Horsepower Single Phase: HP = (Volts*Amp*Efficiency*Power Factor)/746 -->
     function calculateSinglePhaseHP(volts, amps, efficiency, powerFactor) {
