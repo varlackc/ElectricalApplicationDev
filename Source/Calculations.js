@@ -108,10 +108,14 @@
     //<!-- Find The Horsepower -->
 
     //<!-- Find The Horsepower Direct Current: HorsePower = (Volts * Amps * Efficiency)/(746) -->
-    function calculateDirectCurrentHP(volts, amps, efficiency) {
+    function calculateDirectCurrentHP() {
+        var volts = document.getElementById("voltage1");
+        var amps = document.getElementById("current1");
+        var efficiency = document.getElementById("efficiency1");
+        var horsePower = document.getElementById("horsePower1");
         var conversionFactor = 746;
-        var horsePower = (volts * amps * efficiency) / (conversionFactor);
-        return horsePower;
+        var result = (volts * amps * efficiency) / (conversionFactor);
+        horsePower.value = result;
     }
     //<!-- Find The Horsepower Single Phase: HP = (Volts*Amp*Efficiency*Power Factor)/746 -->
     function calculateSinglePhaseHP(volts, amps, efficiency, powerFactor) {
