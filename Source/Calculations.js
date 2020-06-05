@@ -69,6 +69,7 @@
             power.value = result;
             document.getElementById("message").innerHTML = " ";
         }
+
         // Calculate Current
         else if (voltage.value.length > 0 && current.value.length === 0 && resistance.value.length > 0) {
             console.log("Calculate Current");
