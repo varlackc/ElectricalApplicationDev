@@ -107,6 +107,7 @@
             document.getElementById("message").innerHTML = "Incorrect Input Could Not Calculate";
         }
     };
+
     // -------------------------------------------------------- //
 
     //<!-- Find The Horsepower -->
