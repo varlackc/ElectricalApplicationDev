@@ -183,7 +183,7 @@
 
         var threeFaceConversion = 1.73;
         result = (volts.value * amps.value * threeFaceConversion) / 1000;
-        return kva;
+        kva.value = result;
     }
 
     //------------------ Resistor Controller behaviour ----------------- //
