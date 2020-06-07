@@ -120,10 +120,11 @@
         var horsePower = document.getElementById("horsePower1");
         var conversionFactor = 746;
         var result = 0;
-        result = (volts.value * amps.value * efficiency.value) / (conversionFactor.value);
+        console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor)
+        result = (volts.value * amps.value * efficiency.value) / (conversionFactor);
         horsePower.value = result;
-        console.log("voltage: " + volts.value + " Amps: " + amps.value + " Efficiency: " + efficiency.value +
-            " Hourse Power: " + horsePower.value);
+        //console.log("voltage: " + volts.value + " Amps: " + amps.value + " Efficiency: " + efficiency.value +
+        //  " Hourse Power: " + horsePower.value);
         console.log("The Result is: " + result);
     }
 
