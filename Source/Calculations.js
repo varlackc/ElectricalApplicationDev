@@ -122,17 +122,27 @@
         var result = 0;
         console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor)
         result = (volts.value * amps.value * efficiency.value) / (conversionFactor);
-        horsePower.value = result;
+        horsePower.value = result.toPrecision(4);
         //console.log("voltage: " + volts.value + " Amps: " + amps.value + " Efficiency: " + efficiency.value +
         //  " Hourse Power: " + horsePower.value);
         console.log("The Result is: " + result);
     }
 
     //<!-- Find The Horsepower Single Phase: HP = (Volts*Amp*Efficiency*Power Factor)/746 -->
-    function calculateSinglePhaseHP(volts, amps, efficiency, powerFactor) {
+    function calculateSinglePhaseHP() {
+        var volts = document.getElementById("voltage2");
+        var amps = document.getElementById("current2");
+        var efficiency = document.getElementById("efficiency2");
+        var horsePower = document.getElementById("horsePower2");
+        var powerFactor = document.getElementById("powerFactor2");
         var conversionFactor = 746;
-        var horsePower = (volts * amps * efficiency * powerFactor) / (conversionFactor);
-        return horsePower;
+        var result = 0;
+        console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor)
+
+        result = (volts.value * amps.value * efficiency.value * powerFactor.value) / (conversionFactor);
+
+        horsePower.value = result.toPrecision(4);
+
     }
 
     //<!-- Find The Horsepower Three Phase: HP = (Volts * Amp * Efficiency * PowerFactor * 1.73)/746 -->
