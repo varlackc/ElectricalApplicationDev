@@ -119,8 +119,11 @@
         var efficiency = document.getElementById("efficiency1");
         var horsePower = document.getElementById("horsePower1");
         var conversionFactor = 746;
-        var result = (volts * amps * efficiency) / (conversionFactor);
+        var result = 0;
+        result = (volts.value * amps.value * efficiency.value) / (conversionFactor.value);
         horsePower.value = result;
+        console.log("voltage: " + volts.value + " Amps: " + amps.value + " Efficiency: " + efficiency.value +
+            " Hourse Power: " + horsePower.value);
         console.log("The Result is: " + result);
     }
 
