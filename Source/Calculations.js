@@ -170,12 +170,17 @@
         var result = 0;
 
         result = (volts.value * amps.value) / 1000;
-        kva.value = result.toExponential(4);
+        kva.value = result.toPrecision(4);
         return kva;
     }
 
     //<!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
     function calculateThreePhaseKVA(volts, amps) {
+        var volts = document.getElementById("voltage4");
+        var amps = document.getElementById("current4");
+        var kva = document.getElementById("kva4");
+        var result = 0;
+
         var threeFaceConversion = 1.73;
         var kva = (volts * amps * threeFaceConversion) / 1000;
         return kva;
