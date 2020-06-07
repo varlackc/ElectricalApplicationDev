@@ -176,13 +176,13 @@
 
     //<!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
     function calculateThreePhaseKVA(volts, amps) {
-        var volts = document.getElementById("voltage4");
-        var amps = document.getElementById("current4");
-        var kva = document.getElementById("kva4");
+        var volts = document.getElementById("voltage5");
+        var amps = document.getElementById("current5");
+        var kva = document.getElementById("kva5");
         var result = 0;
 
         var threeFaceConversion = 1.73;
-        var kva = (volts * amps * threeFaceConversion) / 1000;
+        result = (volts.value * amps.value * threeFaceConversion) / 1000;
         return kva;
     }
 
