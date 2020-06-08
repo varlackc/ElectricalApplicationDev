@@ -179,6 +179,8 @@
         var volts = document.getElementById("voltage5");
         var amps = document.getElementById("current5");
         var kva = document.getElementById("kva5");
+
+
         var result = 0;
 
         var threeFaceConversion = 1.73;
@@ -188,7 +190,12 @@
 
     // ----------------- MultiSection Calculation ---------------------- //
     function multiSectionCalculation() {
-
+        var volts = document.getElementById();
+        var amps = document.getElementById();
+        var efficiency = document.getElementById();
+        var p
+        var kva = document.getElementById();
+        var result = 0;
     }
     // ----------------------------------------------------------------- //
 
