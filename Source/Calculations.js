@@ -190,9 +190,9 @@
     function multiSectionCalculation() {
 
         // Declare Variables
-        var volts = document.getElementById();
-        var amps = document.getElementById();
-        var efficiency = document.getElementById();
+        var volts = document.getElementById("voltage6");
+        var amps = document.getElementById("current6");
+        var efficiency = document.getElementById("efficiency6");
         var powerFactor = document.getElementById();
         var horsePower = document.getElementById();
         var kva = document.getElementById();
