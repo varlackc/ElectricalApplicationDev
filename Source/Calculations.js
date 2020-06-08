@@ -194,7 +194,7 @@
         var amps = document.getElementById("current6");
         var efficiency = document.getElementById("efficiency6");
         var powerFactor = document.getElementById("powerFactor6");
-        var horsePower = document.getElementById();
+        var horsePower = document.getElementById("horsePower6");
         var kva = document.getElementById();
         var result = 0;
     }
