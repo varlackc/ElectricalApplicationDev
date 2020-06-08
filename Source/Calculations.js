@@ -195,7 +195,7 @@
         var efficiency = document.getElementById("efficiency6");
         var powerFactor = document.getElementById("powerFactor6");
         var horsePower = document.getElementById("horsePower6");
-        var kva = document.getElementById();
+        var kva = document.getElementById("kva6");
         var result = 0;
     }
     // ----------------------------------------------------------------- //
