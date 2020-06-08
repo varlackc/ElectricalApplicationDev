@@ -134,6 +134,24 @@
         <!-- Message Section -->
         <p id="threePhaseKVAMessage"> </p>
     </center>
+
+    <!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
+    <center>
+        <!-- Input Section -->
+        <h3>MultiSelection</h3>
+
+        <strong>Voltage (Volts):</strong> <input type="number" id="voltage5">
+        <br/><strong> Current (Amps):</strong> <input type="number" id="current5">
+        <br/><strong>Efficiency: </strong><input type="number" id="efficiency3">
+        <br/><strong>Power Factor: </strong><input type="number" id="powerFactor3">
+        <br/><strong>Horsepower (HP): </strong><input type="number" id="horsePower3">
+        <br/><strong>Efficiency: </strong><input type="number" id="kva5">
+        <br/>
+        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateThreePhaseKVA('voltage5','current5','efficiency5', 'powerFactor5')">Calculate</button>
+        <!-- Message Section -->
+        <p id="threePhaseKVAMessage"> </p>
+    </center>
+
     <br/> The fundamentas in electronics are very important. Use this tool to get more information or to use the available tools.
     <br/>
 </body>
