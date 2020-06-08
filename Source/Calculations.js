@@ -188,14 +188,14 @@
 
     // ----------------- MultiSection Calculation ---------------------- //
     function multiSectionCalculation() {
+
+        // Declare Variables
         var volts = document.getElementById();
         var amps = document.getElementById();
         var efficiency = document.getElementById();
-
         var efficiency = document.getElementById();
         var horsePower = document.getElementById();
         var powerFactor = document.getElementById();
-
         var kva = document.getElementById();
         var result = 0;
     }
