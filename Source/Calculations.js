@@ -175,7 +175,7 @@
     }
 
     //<!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
-    function calculateThreePhaseKVA(volts, amps) {
+    function calculateThreePhaseKVA() {
         var volts = document.getElementById("voltage5");
         var amps = document.getElementById("current5");
         var kva = document.getElementById("kva5");
@@ -185,6 +185,12 @@
         result = (volts.value * amps.value * threeFaceConversion) / 1000;
         kva.value = result;
     }
+
+    // ----------------- MultiSection Calculation ---------------------- //
+    function multiSectionCalculation() {
+
+    }
+    // ----------------------------------------------------------------- //
 
     //------------------ Resistor Controller behaviour ----------------- //
     function getSelectValue() {
