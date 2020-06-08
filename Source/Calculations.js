@@ -193,7 +193,7 @@
         var volts = document.getElementById("voltage6");
         var amps = document.getElementById("current6");
         var efficiency = document.getElementById("efficiency6");
-        var powerFactor = document.getElementById();
+        var powerFactor = document.getElementById("powerFactor6");
         var horsePower = document.getElementById();
         var kva = document.getElementById();
         var result = 0;
