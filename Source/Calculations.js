@@ -253,127 +253,106 @@
                 document.getElementById('path1309').style.fill = 'green';
                 document.getElementById('rect2188').style.fill = 'brown';
                 break;
-
             case "180":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'grey';
                 document.getElementById('rect2188').style.fill = 'brown';
                 break;
-
             case "220":
                 document.getElementById('path1307').style.fill = 'red';
                 document.getElementById('path1309').style.fill = 'red';
                 document.getElementById('rect2188').style.fill = 'brown';
                 break;
-
             case "270":
                 document.getElementById('path1307').style.fill = 'red';
                 document.getElementById('path1309').style.fill = 'violet';
                 document.getElementById('rect2188').style.fill = 'brown';
                 break;
-
             case "330":
                 document.getElementById('path1307').style.fill = 'orange';
                 document.getElementById('path1309').style.fill = 'orange';
                 document.getElementById('rect2188').style.fill = 'brown';
                 break;
-
             case "390":
                 document.getElementById('path1307').style.fill = 'orange';
                 document.getElementById('path1309').style.fill = 'white';
                 document.getElementById('rect2188').style.fill = 'brown';
                 break;
-
             case "470":
                 document.getElementById('path1307').style.fill = 'yellow';
                 document.getElementById('path1309').style.fill = 'violet';
                 document.getElementById('rect2188').style.fill = 'brown';
                 break;
-
             case "560":
                 document.getElementById('path1307').style.fill = 'green';
                 document.getElementById('path1309').style.fill = 'blue';
                 document.getElementById('rect2188').style.fill = 'brown';
                 break;
-
             case "680":
                 document.getElementById('path1307').style.fill = 'blue';
                 document.getElementById('path1309').style.fill = 'grey';
                 document.getElementById('rect2188').style.fill = 'brown';
                 break;
-
             case "1.0k":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'black';
                 document.getElementById('rect2188').style.fill = 'red';
                 break;
-
             case "1.2k":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'red';
                 document.getElementById('rect2188').style.fill = 'red';
                 break;
-
             case "1.5k":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'green';
                 document.getElementById('rect2188').style.fill = 'red';
                 break;
-
             case "1.8k":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'grey';
                 document.getElementById('rect2188').style.fill = 'red';
                 break;
-
             case "2.2k":
                 document.getElementById('path1307').style.fill = 'red';
                 document.getElementById('path1309').style.fill = 'red';
                 document.getElementById('rect2188').style.fill = 'red';
                 break;
-
             case "2.7k":
                 document.getElementById('path1307').style.fill = 'red';
                 document.getElementById('path1309').style.fill = 'violet';
                 document.getElementById('rect2188').style.fill = 'red';
                 break;
-
             case "3.3k":
                 document.getElementById('path1307').style.fill = 'orange';
                 document.getElementById('path1309').style.fill = 'orange';
                 document.getElementById('rect2188').style.fill = 'red';
                 break;
-
             case "3.9k":
                 document.getElementById('path1307').style.fill = 'orange';
                 document.getElementById('path1309').style.fill = 'white';
                 document.getElementById('rect2188').style.fill = 'red';
                 break;
-
             case "4.7k":
                 document.getElementById('path1307').style.fill = 'yellow';
                 document.getElementById('path1309').style.fill = 'violet';
                 document.getElementById('rect2188').style.fill = 'red';
                 break;
-
             case "5.6k":
                 document.getElementById('path1307').style.fill = 'green';
                 document.getElementById('path1309').style.fill = 'blue';
                 document.getElementById('rect2188').style.fill = 'red';
                 break;
-
             case "6.8k":
                 document.getElementById('path1307').style.fill = 'blue';
                 document.getElementById('path1309').style.fill = 'grey';
                 document.getElementById('rect2188').style.fill = 'red';
                 break;
-
             case "10k":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'black';
                 document.getElementById('rect2188').style.fill = 'orange';
                 break;
-
             case "12k":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'red';
