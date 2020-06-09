@@ -599,6 +599,9 @@
             case "threePhaseKVA":
                 document.getElementById("multipleSectionLabel").innerHTML = "Three Phase KVA";
                 break;
+            default:
+                document.getElementById("multipleSectionLabel").innerHTML = "Select An Option";
+                break;
         }
 
 
