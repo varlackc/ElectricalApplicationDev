@@ -587,6 +587,7 @@
             case "directCurrentHP":
                 document.getElementById("multipleSectionLabel").innerHTML = "Direct Current Horse Power";
                 document.getElementById("powerFactor6").disabled = true;
+                document.getElementById("kva6").disabled = true;
                 document.getElementById("voltage6").disabled = false;
                 document.getElementById("current6").disabled = false;
                 document.getElementById("efficiency6").disabled = false;
