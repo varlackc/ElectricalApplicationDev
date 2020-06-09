@@ -592,7 +592,6 @@
                 document.getElementById("current6").disabled = false;
                 document.getElementById("efficiency6").disabled = false;
                 document.getElementById("horsePower6").disabled = false;
-
                 break;
             case "singlePhaseHP":
                 document.getElementById("multipleSectionLabel").innerHTML = "Single Phase Horse Power";
