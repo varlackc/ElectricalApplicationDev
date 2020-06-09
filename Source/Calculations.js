@@ -233,13 +233,11 @@
                 document.getElementById('path1309').style.fill = 'violet';
                 document.getElementById('rect2188').style.fill = 'black';
                 break;
-
             case "68":
                 document.getElementById('path1307').style.fill = 'blue';
                 document.getElementById('path1309').style.fill = 'gray';
                 document.getElementById('rect2188').style.fill = 'black';
                 break;
-
             case "100":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'black';
