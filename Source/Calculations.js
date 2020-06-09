@@ -563,7 +563,6 @@
                 //document.getElementById('rect2190').style.fill = 'linear-gradient(toright, red, blue)';
                 document.getElementById('rect2190').style.fill = '7C8280';
                 //document.getElementById('stop3946').style.stop-color = '#404443';
-
                 break;
 
             case "20%":
