@@ -573,3 +573,34 @@
         }
     }
     //--------------------------------------------------------- //
+
+    //--------------- Select The Calculation ------------------ //
+    function getSelectCalculation() {
+        var selectCalculation = document.getElementById("calculation").value;
+
+        console.log("--------------------------------");
+        console.log("Calculation Selection: " + selectCalculation);
+        console.log("--------------------------------");
+
+        //switch 
+        switch (selectCalculation) {
+            case "directCurrentHP":
+                document.getElementById("multipleSectionLabel").innerHTML = "Direct Current Horse Power";
+                break;
+            case "singlePhaseHP":
+                document.getElementById("multipleSectionLabel").innerHTML = "Single Phase Horse Power";
+                break;
+            case "threePhaseCurrentHP":
+                document.getElementById("multipleSectionLabel").innerHTML = "Three Phase Current Horse Power";
+                break;
+            case "singlePhaseKVA":
+                document.getElementById("multipleSectionLabel").innerHTML = "Single Phase KVA";
+                break;
+            case "threePhaseKVA":
+                document.getElementById("multipleSectionLabel").innerHTML = "Three Phase KVA";
+                break;
+        }
+
+
+    }
+    //--------------------------------------------------------- //
