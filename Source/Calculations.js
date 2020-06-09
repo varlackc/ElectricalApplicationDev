@@ -580,7 +580,6 @@
         console.log("--------------------------------");
         console.log("Calculation Selection: " + selectCalculation);
         console.log("--------------------------------");
-
         //switch 
         switch (selectCalculation) {
             case "directCurrentHP":
