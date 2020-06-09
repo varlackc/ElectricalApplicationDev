@@ -138,7 +138,16 @@
     <!-- MultiSelection -->
     <center>
         <!-- Input Section -->
-        <h3 id="multipleSectionLabel">MultiSelection</h3>
+        <br/>
+        <h3 id="multipleSectionLabel">Select An Option</h3>
+
+        <select class="selectCalculation" data-live-search="true" name="Calculation" id="calculation" onchange="getSelectCalculation()">
+            <option value="directCurrentHP">Direct Current Horse Power Calculator</option>
+            <option value="singlePhaseHP">Single Phase Horse Power Calculator</option>
+            <option value="threePhaseCurrentHP">Three Phase Current Horse Power Calculator</option>
+            <option value="singlePhaseKVA">Single Phase KVA Calculator</option>
+            <option value="threePhaseKVA">Three Phase KVA Calculator</option>
+        </select><br/><br/>
 
         <strong>Voltage (Volts):</strong> <input type="number" id="voltage6">
         <br/><strong> Current (Amps):</strong> <input type="number" id="current6">
@@ -147,14 +156,6 @@
         <br/><strong>Horsepower (HP): </strong><input type="number" id="horsePower6">
         <br/><strong>Efficiency: </strong><input type="number" id="kva5">
         <br/>
-
-        <select class="selectCalculation" data-live-search="true" name="Calculation" id="calculation" onchange="getSelectCalculation()">
-            <option value="directCurrentHP">Direct Current Horse Power Calculator</option>
-            <option value="singlePhaseHP">Single Phase Horse Power Calculator</option>
-            <option value="threePhaseCurrentHP">Three Phase Current Horse Power Calculator</option>
-            <option value="singlePhaseKVA">Single Phase KVA Calculator</option>
-            <option value="threePhaseKVA">Three Phase KVA Calculator</option>
-        </select>
 
         <br/><button type="button " class="btn btn-secondary btn-lg " onclick="multiSectionCalculation() ">Calculate</button>
         <!-- Message Section -->
