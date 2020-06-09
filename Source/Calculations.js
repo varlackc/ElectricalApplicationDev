@@ -558,7 +558,6 @@
                 $(this).attr('id', 'rect2190');
                 document.getElementById('rect2190').style.fill = 'url(#linearGradient9206)';
                 break;
-
             case "10%":
                 $(this).attr('id', 'rect2190');
                 //document.getElementById('rect2190').style.fill = 'linear-gradient(toright, red, blue)';
