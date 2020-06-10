@@ -89,7 +89,6 @@
             power.value = result;
             document.getElementById("message").innerHTML = " ";
         }
-
         // If all values are full calculate accuracy
         else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length > 0) {
             var testVoltage = CalculateVoltageGivenCurrentResistance(current.value, resistance.value);
@@ -99,7 +98,6 @@
                 power.value = result;
             }
         }
-
         // Error
         else {
             console.log("Incorrect Input Could Not Calculate");
@@ -107,7 +105,6 @@
             document.getElementById("message").innerHTML = "Incorrect Input Could Not Calculate";
         }
     };
-
     // -------------------------------------------------------- //
 
     //<!-- Find The Horsepower -->
