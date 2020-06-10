@@ -358,19 +358,16 @@
                 document.getElementById('path1309').style.fill = 'red';
                 document.getElementById('rect2188').style.fill = 'orange';
                 break;
-
             case "15k":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'green';
                 document.getElementById('rect2188').style.fill = 'orange';
                 break;
-
             case "18k":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'grey';
                 document.getElementById('rect2188').style.fill = 'orange';
                 break;
-
             case "22k":
                 document.getElementById('path1307').style.fill = 'red';
                 document.getElementById('path1309').style.fill = 'red';
