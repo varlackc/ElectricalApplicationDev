@@ -539,6 +539,12 @@
                 break;
             case "singlePhaseHP":
                 document.getElementById("multipleSectionLabel").innerHTML = "Single Phase Horse Power";
+                document.getElementById("powerFactor6").disabled = false;
+                document.getElementById("kva6").disabled = true;
+                document.getElementById("voltage6").disabled = false;
+                document.getElementById("current6").disabled = false;
+                document.getElementById("efficiency6").disabled = false;
+                document.getElementById("horsePower6").disabled = false;
                 break;
             case "threePhaseCurrentHP":
                 document.getElementById("multipleSectionLabel").innerHTML = "Three Phase Current Horse Power";
