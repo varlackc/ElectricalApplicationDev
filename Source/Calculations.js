@@ -388,13 +388,11 @@
                 document.getElementById('path1309').style.fill = 'white';
                 document.getElementById('rect2188').style.fill = 'orange';
                 break;
-
             case "47k":
                 document.getElementById('path1307').style.fill = 'yellow';
                 document.getElementById('path1309').style.fill = 'violet';
                 document.getElementById('rect2188').style.fill = 'orange';
                 break;
-
             case "56k":
                 document.getElementById('path1307').style.fill = 'green';
                 document.getElementById('path1309').style.fill = 'blue';
