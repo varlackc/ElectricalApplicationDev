@@ -548,9 +548,21 @@
                 break;
             case "threePhaseCurrentHP":
                 document.getElementById("multipleSectionLabel").innerHTML = "Three Phase Current Horse Power";
+                document.getElementById("powerFactor6").disabled = false;
+                document.getElementById("kva6").disabled = true;
+                document.getElementById("voltage6").disabled = false;
+                document.getElementById("current6").disabled = false;
+                document.getElementById("efficiency6").disabled = false;
+                document.getElementById("horsePower6").disabled = false;
                 break;
             case "singlePhaseKVA":
                 document.getElementById("multipleSectionLabel").innerHTML = "Single Phase KVA";
+                document.getElementById("powerFactor6").disabled = true;
+                document.getElementById("kva6").disabled = false;
+                document.getElementById("voltage6").disabled = false;
+                document.getElementById("current6").disabled = false;
+                document.getElementById("efficiency6").disabled = true;
+                document.getElementById("horsePower6").disabled = true;
                 break;
             case "threePhaseKVA":
                 document.getElementById("multipleSectionLabel").innerHTML = "Three Phase KVA";
