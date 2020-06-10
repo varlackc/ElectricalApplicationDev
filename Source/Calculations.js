@@ -424,37 +424,31 @@
                 document.getElementById('path1309').style.fill = 'grey';
                 document.getElementById('rect2188').style.fill = 'yellow';
                 break;
-
             case "220k":
                 document.getElementById('path1307').style.fill = 'red';
                 document.getElementById('path1309').style.fill = 'red';
                 document.getElementById('rect2188').style.fill = 'yellow';
                 break;
-
             case "270k":
                 document.getElementById('path1307').style.fill = 'red';
                 document.getElementById('path1309').style.fill = 'violet';
                 document.getElementById('rect2188').style.fill = 'yellow';
                 break;
-
             case "330k":
                 document.getElementById('path1307').style.fill = 'orange';
                 document.getElementById('path1309').style.fill = 'orange';
                 document.getElementById('rect2188').style.fill = 'yellow';
                 break;
-
             case "390k":
                 document.getElementById('path1307').style.fill = 'orange';
                 document.getElementById('path1309').style.fill = 'white';
                 document.getElementById('rect2188').style.fill = 'yellow';
                 break;
-
             case "470k":
                 document.getElementById('path1307').style.fill = 'yellow';
                 document.getElementById('path1309').style.fill = 'violet';
                 document.getElementById('rect2188').style.fill = 'yellow';
                 break;
-
             case "560k":
                 document.getElementById('path1307').style.fill = 'green';
                 document.getElementById('path1309').style.fill = 'blue';
