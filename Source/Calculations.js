@@ -180,7 +180,6 @@
         var amps = document.getElementById("current5");
         var kva = document.getElementById("kva5");
         var result = 0;
-
         var threeFaceConversion = 1.73;
         result = (volts.value * amps.value * threeFaceConversion) / 1000;
         kva.value = result;
