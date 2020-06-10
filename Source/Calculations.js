@@ -454,25 +454,21 @@
                 document.getElementById('path1309').style.fill = 'blue';
                 document.getElementById('rect2188').style.fill = 'yellow';
                 break;
-
             case "680k":
                 document.getElementById('path1307').style.fill = 'blue';
                 document.getElementById('path1309').style.fill = 'grey';
                 document.getElementById('rect2188').style.fill = 'yellow';
                 break;
-
             case "1.0M":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'black';
                 document.getElementById('rect2188').style.fill = 'green';
                 break;
-
             case "1.5M":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'green';
                 document.getElementById('rect2188').style.fill = 'green';
                 break;
-
             case "2.2M":
                 document.getElementById('path1307').style.fill = 'red';
                 document.getElementById('path1309').style.fill = 'red';
