@@ -404,13 +404,11 @@
                 document.getElementById('path1309').style.fill = 'grey';
                 document.getElementById('rect2188').style.fill = 'orange';
                 break;
-
             case "100k":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'black';
                 document.getElementById('rect2188').style.fill = 'yellow';
                 break;
-
             case "120k":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'red';
