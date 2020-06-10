@@ -373,19 +373,16 @@
                 document.getElementById('path1309').style.fill = 'red';
                 document.getElementById('rect2188').style.fill = 'orange';
                 break;
-
             case "27k":
                 document.getElementById('path1307').style.fill = 'red';
                 document.getElementById('path1309').style.fill = 'violet';
                 document.getElementById('rect2188').style.fill = 'orange';
                 break;
-
             case "33k":
                 document.getElementById('path1307').style.fill = 'orange';
                 document.getElementById('path1309').style.fill = 'orange';
                 document.getElementById('rect2188').style.fill = 'orange';
                 break;
-
             case "39k":
                 document.getElementById('path1307').style.fill = 'orange';
                 document.getElementById('path1309').style.fill = 'white';
