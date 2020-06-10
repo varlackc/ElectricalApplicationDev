@@ -551,6 +551,12 @@
                 break;
             default:
                 document.getElementById("multipleSectionLabel").innerHTML = "Select An Option";
+                document.getElementById("powerFactor6").disabled = true;
+                document.getElementById("kva6").disabled = true;
+                document.getElementById("voltage6").disabled = true;
+                document.getElementById("current6").disabled = true;
+                document.getElementById("efficiency6").disabled = true;
+                document.getElementById("horsePower6").disabled = true;
                 break;
         }
     }
