@@ -579,7 +579,5 @@
                 document.getElementById("multipleSectionLabel").innerHTML = "Select An Option";
                 break;
         }
-
-
     }
     //--------------------------------------------------------- //
