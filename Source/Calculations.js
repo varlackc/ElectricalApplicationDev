@@ -188,7 +188,6 @@
 
     // ----------------- MultiSection Calculation ---------------------- //
     function multiSectionCalculation() {
-
         // Declare Variables
         var volts = document.getElementById("voltage6");
         var amps = document.getElementById("current6");
