@@ -205,7 +205,6 @@
         console.log("----------------------------------");
         console.log(selectedValue);
         console.log("----------------------------------");
-
         switch (selectedValue) {
             case "10":
                 document.getElementById('path1307').style.fill = 'brown';
