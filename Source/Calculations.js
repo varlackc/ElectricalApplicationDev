@@ -168,7 +168,6 @@
         var amps = document.getElementById("current4");
         var kva = document.getElementById("kva4");
         var result = 0;
-
         result = (volts.value * amps.value) / 1000;
         kva.value = result.toPrecision(4);
         return kva;
