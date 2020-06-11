@@ -500,8 +500,6 @@
                 break;
         }
     }
-    //--------------------------------------------------------- //
-
     //--------------- Select The Calculation ------------------ //
     function getSelectCalculation() {
         var selectCalculation = document.getElementById("calculation").value;
