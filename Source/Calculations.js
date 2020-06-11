@@ -9,7 +9,6 @@
         var current = voltage / resistance;
         return current;
     };
-    //------------------------------------------------------------- //
 
     //-------- Find Resistance Given Voltage and Current ----------- //
     var CalculateResistanceGivenVoltageCurrent = function(voltage, current) {
