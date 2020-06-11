@@ -18,8 +18,6 @@
         }
         return resistance;
     };
-    //------------------------------------------------------------ //
-
     //-------- Find Power Given Voltage and Current -------------- //
     var PowerGivenVoltageCurrent = function(voltage, current) {
         var power = voltage * current;
