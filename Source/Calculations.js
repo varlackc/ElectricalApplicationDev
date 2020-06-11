@@ -36,6 +36,7 @@
         var power = (voltage * voltage) / resistance;
         return power;
     };
+
     // --------- Find the Missing Ohms Law Value -------------- //
     var FindTheMissingValue = function() {
         //get values
