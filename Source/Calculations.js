@@ -3,7 +3,6 @@
         var voltage = current * resistance;
         return voltage;
     };
-    //-------------------------------------------------------------- //
 
     //-------- Find Current Given Voltage and Resistance  ---------- //
     var CalculateCurrentGivenVoltageResistance = function(voltage, resistance) {
