@@ -30,8 +30,6 @@
         var power = (current * current) * resistance;
         return power;
     };
-    //---------------------------------------------------------- //
-
     //-------- Find Power Given Voltage and Resistance --------- //
     var PowerGivenVoltageResistance = function(voltage, resistance) {
         var power = (voltage * voltage) / resistance;
