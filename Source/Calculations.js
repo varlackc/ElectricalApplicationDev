@@ -24,8 +24,6 @@
         var power = voltage * current;
         return power;
     };
-    //----------------------------------------------------------- //
-
     //-------- Find Power Given Resistance and Current ---------- // 
     var PowerGivenResistantCurrent = function(resistance, current) {
         var power = (current * current) * resistance;
