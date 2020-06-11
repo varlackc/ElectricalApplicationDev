@@ -101,6 +101,7 @@
             document.getElementById("message").innerHTML = "Incorrect Input Could Not Calculate";
         }
     };
+
     //<!-- Find The Horsepower Direct Current: HorsePower = (Volts * Amps * Efficiency)/(746) -->
     function calculateDirectCurrentHP() {
         var volts = document.getElementById("voltage1");
