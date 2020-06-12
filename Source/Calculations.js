@@ -536,6 +536,7 @@
                 document.getElementById("current6").disabled = false;
                 document.getElementById("efficiency6").disabled = false;
                 document.getElementById("horsePower6").disabled = false;
+                // Select the Three Phase Current Horse Power Calculation
                 break;
             case "singlePhaseKVA":
                 document.getElementById("multipleSectionLabel").innerHTML = "Single Phase KVA";
