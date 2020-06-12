@@ -379,7 +379,6 @@
                 document.getElementById('path1309').style.fill = 'blue';
                 document.getElementById('rect2188').style.fill = 'orange';
                 break;
-
             case "68k":
                 document.getElementById('path1307').style.fill = 'blue';
                 document.getElementById('path1309').style.fill = 'grey';
