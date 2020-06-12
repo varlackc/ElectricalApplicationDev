@@ -556,7 +556,7 @@
                 document.getElementById("current6").disabled = false;
                 document.getElementById("efficiency6").disabled = false;
                 document.getElementById("horsePower6").disabled = true;
-                //Three Phase KVA Calculation
+                // Three Phase KVA Calculation
                 break;
             default:
                 document.getElementById("multipleSectionLabel").innerHTML = "Select An Option";
