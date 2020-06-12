@@ -566,6 +566,7 @@
                 document.getElementById("current6").disabled = true;
                 document.getElementById("efficiency6").disabled = true;
                 document.getElementById("horsePower6").disabled = true;
+                // Select An Option, Default Option
                 break;
         }
     }
