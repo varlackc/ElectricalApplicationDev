@@ -526,6 +526,7 @@
                 document.getElementById("current6").disabled = false;
                 document.getElementById("efficiency6").disabled = false;
                 document.getElementById("horsePower6").disabled = false;
+                //Select the Single Phase Horse Power Calculation
                 break;
             case "threePhaseCurrentHP":
                 document.getElementById("multipleSectionLabel").innerHTML = "Three Phase Current Horse Power";
