@@ -134,7 +134,6 @@
             conversionFactor;
         horsePower.value = result.toPrecision(4);
     }
-
     //<!-- Single Phase: KVA = (volts * Amperes)/1000 -->
     function calculateSinglePhaseKVA() {
         var volts = document.getElementById("voltage4");
