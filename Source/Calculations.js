@@ -119,7 +119,6 @@
         result = (volts.value * amps.value * efficiency.value * powerFactor.value) / (conversionFactor);
         horsePower.value = result.toPrecision(4);
     }
-
     //<!-- Find The Horsepower Three Phase: HP = (Volts * Amp * Efficiency * PowerFactor * 1.73)/746 -->
     function calculateThreePhaseHP() {
         var volts = document.getElementById("voltage3");
