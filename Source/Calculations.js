@@ -154,7 +154,6 @@
         result = (volts.value * amps.value * threeFaceConversion) / 1000;
         kva.value = result;
     }
-
     // ----------------- MultiSection Calculation ---------------------- //
     function multiSectionCalculation() {
         // Declare Variables
