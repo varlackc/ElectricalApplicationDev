@@ -165,7 +165,6 @@
         var kva = document.getElementById("kva6");
         var result = 0;
     }
-
     //------------------ Resistor Controller behaviour ----------------- //
     function getSelectValue() {
         var selectedValue = document.getElementById("Resistor").value;
