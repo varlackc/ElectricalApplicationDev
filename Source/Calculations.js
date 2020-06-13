@@ -39,7 +39,6 @@
         var current = document.getElementById("current");
         var resistance = document.getElementById("resistance");
         var power = document.getElementById("power");
-
         // Log results
         console.log("---------------------------------");
         console.log("Voltage: " + voltage.value);
