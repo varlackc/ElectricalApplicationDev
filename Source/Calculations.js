@@ -106,7 +106,6 @@
         //  " Hourse Power: " + horsePower.value);
         console.log("The Result is: " + result);
     }
-
     //<!-- Find The Horsepower Single Phase: HP = (Volts*Amp*Efficiency*Power Factor)/746 -->
     function calculateSinglePhaseHP() {
         var volts = document.getElementById("voltage2");
