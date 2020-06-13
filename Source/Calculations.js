@@ -46,7 +46,6 @@
         console.log("Resistance: " + resistance.value);
         console.log("Power: " + power.value);
         console.log("---------------------------------");
-
         // Calculate voltage
         if (voltage.value.length === 0 && current.value.length > 0 && resistance.value.length > 0) {
             console.log("Calculate Voltage");
