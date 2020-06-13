@@ -144,7 +144,6 @@
         kva.value = result.toPrecision(4);
         return kva;
     }
-
     //<!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
     function calculateThreePhaseKVA() {
         var volts = document.getElementById("voltage5");
