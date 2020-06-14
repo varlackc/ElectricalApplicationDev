@@ -51,7 +51,7 @@
         </div>
     </nav>
 
-    <h1>Electrical Applications Fundamentas</h1>
+    <h1>Cables And Wires</h1>
     <ul>
         <li><strong><a href="Mathematics.html">Mathematics</strong></li>
         <li><strong><a href="Physics.html">Physics</a></strong></li>
@@ -61,106 +61,6 @@
             </li>
             <li><strong>Electronics Components</strong></li>
     </ul>
-
-    <!-- Find The Horsepower -->
-    <!-- Find The Horsepower Direct Current: HoursePower = (Volts * Amps * Efficiency)/(746) -->
-    <center>
-        <!-- Input Section -->
-        <h3>Direct Current Horse Power Calculator</h3>
-        <strong>Voltage (Volts):</strong> <input type="number" id="voltage1">
-        <br/><strong> Current (Amps):</strong> <input type="number" id="current1">
-        <br/><strong>Efficiency: </strong><input type="number" id="efficiency1">
-        <br/><strong>Horsepower (HP): </strong><input type="number" id="horsePower1">
-        <br/>
-        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateDirectCurrentHP()">Calculate</button>
-        <!-- Message Section -->
-        <p id="directCurrentHPMessage"> </p>
-    </center>
-    <br/>
-    <!-- Find The Horsepower Single Phase: HP = (Volts*Amp*Efficiency*Power Factor)/746 -->
-    <center>
-        <!-- Input Section -->
-        <h3>Single Phase Horse Power Calculator</h3>
-        <strong>Voltage (Volts):</strong> <input type="number" id="voltage2">
-        <br/><strong> Current (Amps):</strong> <input type="number" id="current2">
-        <br/><strong>Efficiency: </strong><input type="number" id="efficiency2">
-        <br/><strong>Power Factor: </strong><input type="number" id="powerFactor2">
-        <br/><strong>Horsepower (HP): </strong><input type="number" id="horsePower2">
-        <br/>
-        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateSinglePhaseHP()">Calculate</button>
-        <!-- Message Section -->
-        <p id="singlePhaseMessage"> </p>
-    </center>
-    <br/>
-    <!-- Find The Horsepower Three Phase: HP = (Volts * Amp * Efficiency * PowerFactor * 1.73)/746 -->
-    <center>
-        <!-- Input Section -->
-        <h3>Three Phase Current Horse Power Calculator</h3>
-        <strong>Voltage (Volts):</strong> <input type="number" id="voltage3">
-        <br/><strong> Current (Amps):</strong> <input type="number" id="current3">
-        <br/><strong>Efficiency: </strong><input type="number" id="efficiency3">
-        <br/><strong>Power Factor: </strong><input type="number" id="powerFactor3">
-        <br/><strong>Horsepower (HP): </strong><input type="number" id="horsePower3">
-        <br/>
-        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateThreePhaseHP()">Calculate</button>
-        <!-- Message Section -->
-        <p id="threePhaseMessage"> </p>
-    </center>
-
-    <!-- Find Kilovolt Amperes -->
-    <!-- Single Phase: KVA = (volts * Amperes)/1000 -->
-    <center>
-        <!-- Input Section -->
-        <h3>Single Phase KVA Calculator</h3>
-        <strong>Voltage (Volts):</strong> <input type="number" id="voltage4">
-        <br/><strong> Current (Amps):</strong> <input type="number" id="current4">
-        <br/><strong> KVA:</strong> <input type="number" id="kva4">
-        <br/>
-        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateSinglePhaseKVA('voltage4','current4','efficiency4', 'powerFactor4')">Calculate</button>
-        <!-- Message Section -->
-        <p id="singlePhaseKVAMessage"> </p>
-    </center>
-
-    <!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
-    <center>
-        <!-- Input Section -->
-        <h3>Three Phase KVA Calculator</h3>
-        <strong>Voltage (Volts):</strong> <input type="number" id="voltage5">
-        <br/><strong> Current (Amps):</strong> <input type="number" id="current5">
-        <br/><strong>Efficiency: </strong><input type="number" id="kva5">
-        <br/>
-        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateThreePhaseKVA('voltage5','current5','efficiency5', 'powerFactor5')">Calculate</button>
-        <!-- Message Section -->
-        <p id="threePhaseKVAMessage"> </p>
-    </center>
-
-    <!-- MultiSelection -->
-    <center>
-        <!-- Input Section -->
-        <br/>
-        <h3 id="multipleSectionLabel">Select An Option</h3>
-
-        <select class="selectCalculation" data-live-search="true" name="Calculation" id="calculation" onchange="getSelectCalculation()">
-            <option value="select">-- Select An Option --</option>>
-            <option value="directCurrentHP">Direct Current Horse Power Calculator</option>
-            <option value="singlePhaseHP">Single Phase Horse Power Calculator</option>
-            <option value="threePhaseCurrentHP">Three Phase Current Horse Power Calculator</option>
-            <option value="singlePhaseKVA">Single Phase KVA Calculator</option>
-            <option value="threePhaseKVA">Three Phase KVA Calculator</option>
-        </select><br/><br/>
-
-        <strong>Voltage (Volts):</strong> <input type="number" id="voltage6">
-        <br/><strong> Current (Amps):</strong> <input type="number" id="current6">
-        <br/><strong>Efficiency: </strong><input type="number" id="efficiency6">
-        <br/><strong>Power Factor: </strong><input type="number" id="powerFactor6">
-        <br/><strong>Horsepower (HP): </strong><input type="number" id="horsePower6">
-        <br/><strong>KVA: </strong><input type="number" id="kva6">
-        <br/>
-
-        <br/><button type="button " class="btn btn-secondary btn-lg " onclick="multiSectionCalculation() ">Calculate</button>
-        <!-- Message Section -->
-        <p id="threePhaseKVAMessage "> </p>
-    </center>
 
     <br/> The fundamentas in electronics are very important. Use this tool to get more information or to use the available tools.
     <br/>
