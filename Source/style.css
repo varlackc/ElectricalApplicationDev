@@ -22,4 +22,6 @@ td {
     margin: 0 auto;
 }
 
-.CenterObject {}
+.CenterObject {
+    align-content: center;
+}
