@@ -24,4 +24,6 @@ td {
 
 .CenterObject {
     align-content: center;
+    display: block;
+    margin: auto;
 }
