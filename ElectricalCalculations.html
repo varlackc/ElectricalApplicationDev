@@ -131,17 +131,19 @@
     </div>
 
     <!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
-    <center>
-        <!-- Input Section -->
-        <h3>Three Phase KVA Calculator</h3>
-        <strong>Voltage (Volts):</strong> <input type="number" id="voltage5">
-        <br/><strong> Current (Amps):</strong> <input type="number" id="current5">
-        <br/><strong>Efficiency: </strong><input type="number" id="kva5">
-        <br/>
-        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateThreePhaseKVA('voltage5','current5','efficiency5', 'powerFactor5')">Calculate</button>
-        <!-- Message Section -->
-        <p id="threePhaseKVAMessage"> </p>
-    </center>
+    <div>
+        <center>
+            <!-- Input Section -->
+            <h3>Three Phase KVA Calculator</h3>
+            <strong>Voltage (Volts):</strong> <input type="number" id="voltage5">
+            <br/><strong> Current (Amps):</strong> <input type="number" id="current5">
+            <br/><strong>Efficiency: </strong><input type="number" id="kva5">
+            <br/>
+            <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateThreePhaseKVA('voltage5','current5','efficiency5', 'powerFactor5')">Calculate</button>
+            <!-- Message Section -->
+            <p id="threePhaseKVAMessage"> </p>
+        </center>
+    </div>
 
     <!-- MultiSelection -->
     <center>
