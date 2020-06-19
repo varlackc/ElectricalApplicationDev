@@ -116,17 +116,19 @@
 
     <!-- Find Kilovolt Amperes -->
     <!-- Single Phase: KVA = (volts * Amperes)/1000 -->
-    <center>
-        <!-- Input Section -->
-        <h3>Single Phase KVA Calculator</h3>
-        <strong>Voltage (Volts):</strong> <input type="number" id="voltage4">
-        <br/><strong> Current (Amps):</strong> <input type="number" id="current4">
-        <br/><strong> KVA:</strong> <input type="number" id="kva4">
-        <br/>
-        <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateSinglePhaseKVA('voltage4','current4','efficiency4', 'powerFactor4')">Calculate</button>
-        <!-- Message Section -->
-        <p id="singlePhaseKVAMessage"> </p>
-    </center>
+    <div>
+        <center>
+            <!-- Input Section -->
+            <h3>Single Phase KVA Calculator</h3>
+            <strong>Voltage (Volts):</strong> <input type="number" id="voltage4">
+            <br/><strong> Current (Amps):</strong> <input type="number" id="current4">
+            <br/><strong> KVA:</strong> <input type="number" id="kva4">
+            <br/>
+            <br/><button type="button" class="btn btn-secondary btn-lg" onclick="calculateSinglePhaseKVA('voltage4','current4','efficiency4', 'powerFactor4')">Calculate</button>
+            <!-- Message Section -->
+            <p id="singlePhaseKVAMessage"> </p>
+        </center>
+    </div>
 
     <!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
     <center>
