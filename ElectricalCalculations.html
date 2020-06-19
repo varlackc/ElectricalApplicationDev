@@ -146,12 +146,13 @@
     </div>
 
     <!-- MultiSelection -->
-    <center>
-        <!-- Input Section -->
-        <br/>
-        <h3 id="multipleSectionLabel">Select An Option</h3>
+    <div>
+        <center>
+            <!-- Input Section -->
+            <br/>
+            <h3 id="multipleSectionLabel">Select An Option</h3>
 
-        <select class="selectCalculation" data-live-search="true" name="Calculation" id="calculation" onchange="getSelectCalculation()">
+            <select class="selectCalculation" data-live-search="true" name="Calculation" id="calculation" onchange="getSelectCalculation()">
             <option value="select">-- Select An Option --</option>>
             <option value="directCurrentHP">Direct Current Horse Power Calculator</option>
             <option value="singlePhaseHP">Single Phase Horse Power Calculator</option>
@@ -159,17 +160,18 @@
             <option value="singlePhaseKVA">Single Phase KVA Calculator</option>
             <option value="threePhaseKVA">Three Phase KVA Calculator</option>
         </select><br/><br/>
-        <strong>Voltage (Volts):</strong> <input type="number" id="voltage6">
-        <br/><strong> Current (Amps):</strong> <input type="number" id="current6">
-        <br/><strong>Efficiency: </strong><input type="number" id="efficiency6">
-        <br/><strong>Power Factor: </strong><input type="number" id="powerFactor6">
-        <br/><strong>Horsepower (HP): </strong><input type="number" id="horsePower6">
-        <br/><strong>KVA: </strong><input type="number" id="kva6">
-        <br/>
-        <br/><button type="button " class="btn btn-secondary btn-lg " onclick="multiSectionCalculation() ">Calculate</button>
-        <!-- Message Section -->
-        <p id="threePhaseKVAMessage "> </p>
-    </center>
+            <strong>Voltage (Volts):</strong> <input type="number" id="voltage6">
+            <br/><strong> Current (Amps):</strong> <input type="number" id="current6">
+            <br/><strong>Efficiency: </strong><input type="number" id="efficiency6">
+            <br/><strong>Power Factor: </strong><input type="number" id="powerFactor6">
+            <br/><strong>Horsepower (HP): </strong><input type="number" id="horsePower6">
+            <br/><strong>KVA: </strong><input type="number" id="kva6">
+            <br/>
+            <br/><button type="button " class="btn btn-secondary btn-lg " onclick="multiSectionCalculation() ">Calculate</button>
+            <!-- Message Section -->
+            <p id="threePhaseKVAMessage "> </p>
+        </center>
+    </div>
     <br/> The fundamentas in electronics are very important. Use this tool to get more information or to use the available tools.
     <br/>
 </body>
