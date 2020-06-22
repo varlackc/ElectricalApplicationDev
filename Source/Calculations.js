@@ -193,6 +193,10 @@
             case "directCurrentHP":
                 console.log("Direct Current HP Calculation");
                 break;
+
+            case "singlePhaseHP":
+                console.log("Single Phase HP Calculation");
+                break;
             default:
                 break;
 
