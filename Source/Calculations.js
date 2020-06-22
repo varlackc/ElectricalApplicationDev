@@ -171,6 +171,13 @@
     }
     // ----------------- MultiSection Calculation ---------------------- //
     function multiSectionCalculation() {
+
+        //kva = document.getElementById("kva6").disabled = true;
+        //voltage = document.getElementById("voltage6").disabled = false;
+        //current = document.getElementById("current6").disabled = false;
+        //efficiency = document.getElementById("efficiency6").disabled = false;
+        //horsePower = document.getElementById("horsePower6").disabled = false;
+
         // Declare Variables
         var volts = document.getElementById("voltage6");
         var amps = document.getElementById("current6");
