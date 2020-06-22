@@ -203,10 +203,9 @@
                 break;
 
             case "singlePhaseKVA":
-                console.log("Single Phase HP Calculation");
+                console.log("Single Phase KVA");
                 break;
 
-                threePhaseKVA
             default:
                 break;
 
