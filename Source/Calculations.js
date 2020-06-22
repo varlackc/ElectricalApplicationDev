@@ -90,7 +90,7 @@
         }
     };
     //<!-- Find The Horsepower Direct Current: HorsePower = (Volts * Amps * Efficiency)/(746) -->
-    function calculateDirectCurrentHP(volts, amps, efficiency) {
+    function calculateDirectCurrentHP() {
         var volts = document.getElementById("voltage1");
         var amps = document.getElementById("current1");
         var efficiency = document.getElementById("efficiency1");
@@ -100,6 +100,22 @@
         console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor)
         result = (volts.value * amps.value * efficiency.value) / (conversionFactor);
         horsePower.value = result.toPrecision(4);
+        //console.log("voltage: " + volts.value + " Amps: " + amps.value + " Efficiency: " + efficiency.value +
+        //  " Hourse Power: " + horsePower.value);
+        console.log("The Result is: " + result);
+        return result;
+    }
+
+    function calculateDirectCurrentHP(volts, amps, efficiency) {
+        //var volts = document.getElementById("voltage1");
+        //var amps = document.getElementById("current1");
+        //var efficiency = document.getElementById("efficiency1");
+        //var horsePower = document.getElementById("horsePower1");
+        var conversionFactor = 746;
+        var result = 0;
+        console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor)
+        result = (volts.value * amps.value * efficiency.value) / (conversionFactor);
+        result = result.toPrecision(4);
         //console.log("voltage: " + volts.value + " Amps: " + amps.value + " Efficiency: " + efficiency.value +
         //  " Hourse Power: " + horsePower.value);
         console.log("The Result is: " + result);
@@ -163,6 +179,7 @@
         var horsePower = document.getElementById("horsePower6");
         var kva = document.getElementById("kva6");
         var result = 0;
+        console.log("Calculate Result");
     }
     //------------------ Resistor Controller behaviour ----------------- //
     function getSelectValue() {
@@ -506,6 +523,7 @@
                 efficiency = document.getElementById("efficiency6").disabled = false;
                 horsePower = document.getElementById("horsePower6").disabled = false;
                 // Select the Direct Current Horse Power Calculation
+                //horsePower = calculateDirectCurrentHP(volts, amps, efficiency);
                 horsePower = calculateDirectCurrentHP(volts, amps, efficiency);
                 document.getElementById("horsePower6").value = horsePower;
                 console.log(" Calculate Direct Current HP ");
