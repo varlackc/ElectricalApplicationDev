@@ -189,6 +189,9 @@
         var calcType = document.getElementById("calculation").value;
         var result = 0;
         console.log("Calculate Result: " + calcType);
+        switch (calcType) {
+
+        }
     }
     //------------------ Resistor Controller behaviour ----------------- //
     function getSelectValue() {
