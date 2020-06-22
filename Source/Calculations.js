@@ -190,6 +190,11 @@
         var result = 0;
         console.log("Calculate Result: " + calcType);
         switch (calcType) {
+            case "directCurrentHP":
+                console.log("Direct Current HP Calculation");
+                break;
+            default:
+                break;
 
         }
     }
