@@ -199,14 +199,14 @@
                 break;
 
             case "threePhaseCurrentHP":
-                console.log("Single Phase HP Calculation");
+                console.log("Three Phase Current HP");
                 break;
 
             case "singlePhaseKVA":
                 console.log("Single Phase HP Calculation");
                 break;
 
-
+                threePhaseKVA
             default:
                 break;
 
