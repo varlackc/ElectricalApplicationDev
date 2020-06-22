@@ -134,6 +134,20 @@
         result = (volts.value * amps.value * efficiency.value * powerFactor.value) / (conversionFactor);
         horsePower.value = result.toPrecision(4);
     }
+
+    function calculateSinglePhaseHP(volts, amps, efficiency, powerFactor) {
+        //var volts = document.getElementById("voltage2");
+        //var amps = document.getElementById("current2");
+        //var efficiency = document.getElementById("efficiency2");
+        var horsePower = document.getElementById("horsePower2");
+        //var powerFactor = document.getElementById("powerFactor2");
+        var conversionFactor = 746;
+        var result = 0;
+        console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor);
+        result = (volts.value * amps.value * efficiency.value * powerFactor.value) / (conversionFactor);
+        horsePower.value = result.toPrecision(4);
+        return result.toPrecision(4);
+    }
     //<!-- Find The Horsepower Three Phase: HP = (Volts * Amp * Efficiency * PowerFactor * 1.73)/746 -->
     function calculateThreePhaseHP() {
         var volts = document.getElementById("voltage3");
@@ -192,10 +206,14 @@
         switch (calcType) {
             case "directCurrentHP":
                 console.log("Direct Current HP Calculation");
+                result = calculateDirectCurrentHP(volts, amps, efficiency);
+                horsePower.value = result;
                 break;
 
             case "singlePhaseHP":
                 console.log("Single Phase HP Calculation");
+                result = calculateSinglePhaseHP(volts, amps, efficiency, powerFactor);
+                horsePower.value = result;
                 break;
 
             case "threePhaseCurrentHP":
