@@ -185,9 +185,10 @@
         var powerFactor = document.getElementById("powerFactor6");
         var horsePower = document.getElementById("horsePower6");
         var kva = document.getElementById("kva6");
-        var calcType = document.getElementById("selectCalculation");
+        //var calcType = document.getElementById("selectCalculation");
+        var calcType = document.getElementById("calculation").value;
         var result = 0;
-        console.log("Calculate Result: " + calcType.value);
+        console.log("Calculate Result: " + calcType);
     }
     //------------------ Resistor Controller behaviour ----------------- //
     function getSelectValue() {
