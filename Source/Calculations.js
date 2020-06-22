@@ -185,8 +185,9 @@
         var powerFactor = document.getElementById("powerFactor6");
         var horsePower = document.getElementById("horsePower6");
         var kva = document.getElementById("kva6");
+        var calcType = document.getElementById("selectCalculation");
         var result = 0;
-        console.log("Calculate Result");
+        console.log("Calculate Result: " + calcType);
     }
     //------------------ Resistor Controller behaviour ----------------- //
     function getSelectValue() {
@@ -523,6 +524,7 @@
         switch (selectCalculation) {
             case "directCurrentHP":
                 multipleSectionLabel = document.getElementById("multipleSectionLabel").innerHTML = "Direct Current Horse Power";
+                document.getElementById("multipleSectionLabel").value = "Direct Current Horse Power";
                 powerFactor = document.getElementById("powerFactor6").disabled = true;
                 kva = document.getElementById("kva6").disabled = true;
                 voltage = document.getElementById("voltage6").disabled = false;
@@ -537,6 +539,7 @@
                 break;
             case "singlePhaseHP":
                 document.getElementById("multipleSectionLabel").innerHTML = "Single Phase Horse Power";
+                document.getElementById("multipleSectionLabel").value = "Single Phase Horse Power";
                 document.getElementById("powerFactor6").disabled = false;
                 document.getElementById("kva6").disabled = true;
                 document.getElementById("voltage6").disabled = false;
@@ -548,6 +551,7 @@
                 break;
             case "threePhaseCurrentHP":
                 document.getElementById("multipleSectionLabel").innerHTML = "Three Phase Current Horse Power";
+                document.getElementById("multipleSectionLabel").value = "Three Phase Current Horse Power";
                 document.getElementById("powerFactor6").disabled = false;
                 document.getElementById("kva6").disabled = true;
                 document.getElementById("voltage6").disabled = false;
@@ -559,6 +563,7 @@
                 break;
             case "singlePhaseKVA":
                 document.getElementById("multipleSectionLabel").innerHTML = "Single Phase KVA";
+                document.getElementById("multipleSectionLabel").value = "Single Phase KVA";
                 document.getElementById("powerFactor6").disabled = true;
                 document.getElementById("kva6").disabled = false;
                 document.getElementById("voltage6").disabled = false;
@@ -570,6 +575,7 @@
                 break;
             case "threePhaseKVA":
                 document.getElementById("multipleSectionLabel").innerHTML = "Three Phase KVA";
+                document.getElementById("multipleSectionLabel").value = "Three Phase KVA";
                 document.getElementById("powerFactor6").disabled = true;
                 document.getElementById("kva6").disabled = false;
                 document.getElementById("voltage6").disabled = false;
@@ -581,6 +587,7 @@
                 break;
             default:
                 document.getElementById("multipleSectionLabel").innerHTML = "Select An Option";
+                document.getElementById("multipleSectionLabel").value = "Select An Option";
                 document.getElementById("powerFactor6").disabled = true;
                 document.getElementById("kva6").disabled = true;
                 document.getElementById("voltage6").disabled = true;
