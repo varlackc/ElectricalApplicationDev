@@ -197,6 +197,16 @@
             case "singlePhaseHP":
                 console.log("Single Phase HP Calculation");
                 break;
+
+            case "threePhaseCurrentHP":
+                console.log("Single Phase HP Calculation");
+                break;
+
+            case "singlePhaseKVA":
+                console.log("Single Phase HP Calculation");
+                break;
+
+
             default:
                 break;
 
