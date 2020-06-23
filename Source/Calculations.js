@@ -163,6 +163,22 @@
             conversionFactor;
         horsePower.value = result.toPrecision(4);
     }
+
+    function calculateThreePhaseHP(volts, amps, efficiency, powerFactor) {
+        //var volts = document.getElementById("voltage3");
+        //var amps = document.getElementById("current3");
+        //var efficiency = document.getElementById("efficiency3");
+        //var horsePower = document.getElementById("horsePower3");
+        var powerFactor = document.getElementById("powerFactor3");
+        var conversionFactor = 746;
+        var result = 0;
+        var threeFaceConversion = 1.73;
+        var conversionFactor = 746;
+        result = (volts.value * amps.value * efficiency.value * powerFactor.value * threeFaceConversion) /
+            conversionFactor;
+        horsePower.value = result.toPrecision(4);
+        return result.toPrecision
+    }
     //<!-- Single Phase: KVA = (volts * Amperes)/1000 -->
     function calculateSinglePhaseKVA() {
         var volts = document.getElementById("voltage4");
@@ -220,7 +236,9 @@
 
             case "threePhaseCurrentHP":
                 console.log("Three Phase Current HP");
+                result = calculateThreePhaseHP(volts, amps, efficiency, powerFactor)
                 console.log("Result: " + result);
+                horsePower.value = result;
                 break;
 
             case "singlePhaseKVA":
