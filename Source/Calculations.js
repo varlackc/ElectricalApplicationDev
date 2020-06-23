@@ -177,7 +177,7 @@
         result = (volts.value * amps.value * efficiency.value * powerFactor.value * threeFaceConversion) /
             conversionFactor;
         horsePower.value = result.toPrecision(4);
-        return result.toPrecision
+        return result.toPrecision(4);
     }
     //<!-- Single Phase: KVA = (volts * Amperes)/1000 -->
     function calculateSinglePhaseKVA() {
@@ -187,7 +187,17 @@
         var result = 0;
         result = (volts.value * amps.value) / 1000;
         kva.value = result.toPrecision(4);
-        return kva;
+        return result.toPrecision(4);
+    }
+
+    function calculateSinglePhaseKVA(volts, amps) {
+        //var volts = document.getElementById("voltage4");
+        //var amps = document.getElementById("current4");
+        var kva = document.getElementById("kva4");
+        var result = 0;
+        result = (volts.value * amps.value) / 1000;
+        kva.value = result.toPrecision(4);
+        return result.toPrecision(4);
     }
     //<!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
     function calculateThreePhaseKVA() {
@@ -198,6 +208,17 @@
         var threeFaceConversion = 1.73;
         result = (volts.value * amps.value * threeFaceConversion) / 1000;
         kva.value = result;
+    }
+
+    function calculateThreePhaseKVA(volts, amps, ) {
+        // var volts = document.getElementById("voltage5");
+        // var amps = document.getElementById("current5");
+        var kva = document.getElementById("kva5");
+        var result = 0;
+        var threeFaceConversion = 1.73;
+        result = (volts.value * amps.value * threeFaceConversion) / 1000;
+        kva.value = result;
+        return result.toPrecision(4);
     }
     // ----------------- MultiSection Calculation ---------------------- //
     function multiSectionCalculation() {
