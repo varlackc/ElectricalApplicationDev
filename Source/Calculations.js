@@ -207,21 +207,25 @@
             case "directCurrentHP":
                 console.log("Direct Current HP Calculation");
                 result = calculateDirectCurrentHP(volts, amps, efficiency);
+                console.log("Result: " + result);
                 horsePower.value = result;
                 break;
 
             case "singlePhaseHP":
                 console.log("Single Phase HP Calculation");
                 result = calculateSinglePhaseHP(volts, amps, efficiency, powerFactor);
+                console.log("Result: " + result);
                 horsePower.value = result;
                 break;
 
             case "threePhaseCurrentHP":
                 console.log("Three Phase Current HP");
+                console.log("Result: " + result);
                 break;
 
             case "singlePhaseKVA":
                 console.log("Single Phase KVA");
+                console.log("Result: " + result);
                 break;
 
             default:
