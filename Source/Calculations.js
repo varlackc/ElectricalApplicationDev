@@ -210,7 +210,7 @@
         kva.value = result;
     }
 
-    function calculateThreePhaseKVA(volts, amps, ) {
+    function calculateThreePhaseKVA(volts, amps) {
         // var volts = document.getElementById("voltage5");
         // var amps = document.getElementById("current5");
         var kva = document.getElementById("kva5");
@@ -265,6 +265,7 @@
             case "singlePhaseKVA":
                 console.log("Single Phase KVA");
                 console.log("Result: " + result);
+                kva.value = calculateThreePhaseKVA(volts, amps);
                 break;
 
             default:
@@ -614,6 +615,13 @@
                 current = document.getElementById("current6").disabled = false;
                 efficiency = document.getElementById("efficiency6").disabled = false;
                 horsePower = document.getElementById("horsePower6").disabled = false;
+
+                //change the color of the answer
+                document.getElementById("voltage6").style.backgroundColor = "#9AD58E";
+                document.getElementById("current6").style.backgroundColor = "#9AD58E";
+                document.getElementById("efficiency6").style.backgroundColor = "#9AD58E";
+                document.getElementById("horsePower6").style.backgroundColor = "#D46D6A";
+
                 // Select the Direct Current Horse Power Calculation
                 //horsePower = calculateDirectCurrentHP(volts, amps, efficiency);
                 horsePower = calculateDirectCurrentHP(volts, amps, efficiency);
