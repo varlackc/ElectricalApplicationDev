@@ -39,7 +39,6 @@
         var current = document.getElementById("current");
         var resistance = document.getElementById("resistance");
         var power = document.getElementById("power");
-
         // Calculate voltage
         if (voltage.value.length === 0 && current.value.length > 0 && resistance.value.length > 0) {
             console.log("Calculate Voltage");
