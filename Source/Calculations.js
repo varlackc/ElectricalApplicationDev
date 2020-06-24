@@ -40,12 +40,12 @@
         var resistance = document.getElementById("resistance");
         var power = document.getElementById("power");
         // Log results
-        console.log("---------------------------------");
-        console.log("Voltage: " + voltage.value);
-        console.log("Current: " + current.value);
-        console.log("Resistance: " + resistance.value);
-        console.log("Power: " + power.value);
-        console.log("---------------------------------");
+        //console.log("---------------------------------");
+        //console.log("Voltage: " + voltage.value);
+        //console.log("Current: " + current.value);
+        //console.log("Resistance: " + resistance.value);
+        //console.log("Power: " + power.value);
+        //console.log("---------------------------------");
         // Calculate voltage
         if (voltage.value.length === 0 && current.value.length > 0 && resistance.value.length > 0) {
             console.log("Calculate Voltage");
@@ -540,13 +540,13 @@
         console.log("--------------------------------");
 
         //Declare Variables
-        var multipleSectionLabel = 0;
-        var powerFactor = 0;
-        var kva = 0;
-        var voltage = 0;
-        var current = 0;
-        var efficiency = 0;
-        var horsePower = 0;
+        //var multipleSectionLabel = 0;
+        //var powerFactor = 0;
+        //var kva = 0;
+        //var voltage = 0;
+        //var current = 0;
+        //var efficiency = 0;
+        //var horsePower = 0;
 
         //switch 
         switch (selectCalculation) {
