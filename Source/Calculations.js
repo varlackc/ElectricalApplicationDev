@@ -658,6 +658,14 @@
                 document.getElementById("current6").disabled = false;
                 document.getElementById("efficiency6").disabled = false;
                 document.getElementById("horsePower6").disabled = false;
+
+                //change the color of the answer
+                document.getElementById("voltage6").style.backgroundColor = "#9AD58E";
+                document.getElementById("current6").style.backgroundColor = "#9AD58E";
+                document.getElementById("efficiency6").style.backgroundColor = "#9AD58E";
+                document.getElementById("powerFactor6").style.backgroundColor = "#9AD58E";
+                document.getElementById("horsePower6").style.backgroundColor = "#FFAAAA"; //"#D46D6A";
+
                 // Select the Three Phase Current Horse Power Calculation
                 console.log(" Calculate Three Phase Current HP ");
                 break;
@@ -670,6 +678,16 @@
                 document.getElementById("current6").disabled = false;
                 document.getElementById("efficiency6").disabled = true;
                 document.getElementById("horsePower6").disabled = true;
+
+                //change the color of the answer
+                document.getElementById("voltage6").style.backgroundColor = "#9AD58E";
+                document.getElementById("current6").style.backgroundColor = "#9AD58E";
+                document.getElementById("efficiency6").style.backgroundColor = "initial";
+                document.getElementById("powerFactor6").style.backgroundColor = "initial";
+                document.getElementById("horsePower6").style.backgroundColor = "initial";
+                document.getElementById("kva6").style.backgroundColor = "#FFAAAA"; //"#D46D6A";
+
+
                 // Single Phase KVA Calculation
                 console.log(" Calculate Single Phase KVA ");
                 break;
