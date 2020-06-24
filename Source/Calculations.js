@@ -90,8 +90,6 @@
         console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor)
         result = (volts.value * amps.value * efficiency.value) / (conversionFactor);
         result = result.toPrecision(4);
-        //console.log("voltage: " + volts.value + " Amps: " + amps.value + " Efficiency: " + efficiency.value +
-        //  " Hourse Power: " + horsePower.value);
         console.log("The Result is: " + result);
         return result;
     }
@@ -101,7 +99,6 @@
         var result = 0;
         console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor);
         result = (volts.value * amps.value * efficiency.value * powerFactor.value) / (conversionFactor);
-        //horsePower.value = result.toPrecision(4);
         return result.toPrecision(4);
     }
 
@@ -129,13 +126,6 @@
     }
     // ----------------- MultiSection Calculation ---------------------- //
     function multiSectionCalculation() {
-
-        //kva = document.getElementById("kva6").disabled = true;
-        //voltage = document.getElementById("voltage6").disabled = false;
-        //current = document.getElementById("current6").disabled = false;
-        //efficiency = document.getElementById("efficiency6").disabled = false;
-        //horsePower = document.getElementById("horsePower6").disabled = false;
-
         // Declare Variables
         var volts = document.getElementById("voltage6");
         var amps = document.getElementById("current6");
@@ -143,7 +133,6 @@
         var powerFactor = document.getElementById("powerFactor6");
         var horsePower = document.getElementById("horsePower6");
         var kva = document.getElementById("kva6");
-        //var calcType = document.getElementById("selectCalculation");
         var calcType = document.getElementById("calculation").value;
         var result = 0;
         console.log("Calculate Result: " + calcType);
@@ -183,7 +172,6 @@
 
             default:
                 break;
-
         }
     }
 
@@ -493,9 +481,7 @@
                 break;
             case "10%":
                 $(this).attr('id', 'rect2190');
-                //document.getElementById('rect2190').style.fill = 'linear-gradient(toright, red, blue)';
                 document.getElementById('rect2190').style.fill = '7C8280';
-                //document.getElementById('stop3946').style.stop-color = '#404443';
                 break;
             case "20%":
                 document.getElementById('rect2190').style.fill = 'none';
@@ -509,21 +495,10 @@
         console.log("--------------------------------");
         console.log("Calculation Selection: " + selectCalculation);
         console.log("--------------------------------");
-
-        //Declare Variables
-        //var multipleSectionLabel = 0;
-        //var powerFactor = 0;
-        //var kva = 0;
-        //var voltage = 0;
-        //var current = 0;
-        //var efficiency = 0;
-        //var horsePower = 0;
-
         //switch 
         switch (selectCalculation) {
             case "directCurrentHP":
                 multipleSectionLabel = document.getElementById("multipleSectionLabel").innerHTML = "Direct Current Horse Power";
-                //document.getElementById("multipleSectionLabel").value = "Direct Current Horse Power";
                 powerFactor = document.getElementById("powerFactor6").disabled = true;
                 kva = document.getElementById("kva6").disabled = true;
                 voltage = document.getElementById("voltage6").disabled = false;
@@ -540,14 +515,12 @@
                 document.getElementById("kva6").style.backgroundColor = "initial";
 
                 // Select the Direct Current Horse Power Calculation
-                //horsePower = calculateDirectCurrentHP(volts, amps, efficiency);
                 horsePower = calculateDirectCurrentHP(volts, amps, efficiency);
                 document.getElementById("horsePower6").value = horsePower;
                 console.log(" Calculate Direct Current HP ");
                 break;
             case "singlePhaseHP":
                 document.getElementById("multipleSectionLabel").innerHTML = "Single Phase Horse Power";
-                //document.getElementById("multipleSectionLabel").value = "Single Phase Horse Power";
                 document.getElementById("powerFactor6").disabled = false;
                 document.getElementById("kva6").disabled = true;
                 document.getElementById("voltage6").disabled = false;
@@ -562,14 +535,11 @@
                 document.getElementById("powerFactor6").style.backgroundColor = "#9AD58E";
                 document.getElementById("horsePower6").style.backgroundColor = "#FFAAAA"; //"#D46D6A";
                 document.getElementById("kva6").style.backgroundColor = "initial";
-
-
                 // Select the Single Phase Horse Power Calculation
                 console.log(" Calculate Single Phase HP ");
                 break;
             case "threePhaseCurrentHP":
                 document.getElementById("multipleSectionLabel").innerHTML = "Three Phase Current Horse Power";
-                //document.getElementById("multipleSectionLabel").value = "Three Phase Current Horse Power";
                 document.getElementById("powerFactor6").disabled = false;
                 document.getElementById("kva6").disabled = true;
                 document.getElementById("voltage6").disabled = false;
@@ -589,7 +559,6 @@
                 break;
             case "singlePhaseKVA":
                 document.getElementById("multipleSectionLabel").innerHTML = "Single Phase KVA";
-                //document.getElementById("multipleSectionLabel").value = "Single Phase KVA";
                 document.getElementById("powerFactor6").disabled = true;
                 document.getElementById("kva6").disabled = false;
                 document.getElementById("voltage6").disabled = false;
@@ -610,7 +579,6 @@
                 break;
             case "threePhaseKVA":
                 document.getElementById("multipleSectionLabel").innerHTML = "Three Phase KVA";
-                //document.getElementById("multipleSectionLabel").value = "Three Phase KVA";
                 document.getElementById("powerFactor6").disabled = true;
                 document.getElementById("kva6").disabled = false;
                 document.getElementById("voltage6").disabled = false;
@@ -631,7 +599,6 @@
                 break;
             default:
                 document.getElementById("multipleSectionLabel").innerHTML = "Select An Option";
-                //document.getElementById("multipleSectionLabel").value = "Select An Option";
                 document.getElementById("powerFactor6").disabled = true;
                 document.getElementById("kva6").disabled = true;
                 document.getElementById("voltage6").disabled = true;
