@@ -215,6 +215,7 @@
 
         }
     }
+
     //------------------ Resistor Controller behaviour ----------------- //
     function getSelectValue() {
         var selectedValue = document.getElementById("Resistor").value;
@@ -530,6 +531,7 @@
                 break;
         }
     }
+
     //--------------- Select The Calculation ------------------ //
     function getSelectCalculation() {
         var selectCalculation = document.getElementById("calculation").value;
@@ -631,7 +633,6 @@
                 document.getElementById("powerFactor6").style.backgroundColor = "initial";
                 document.getElementById("horsePower6").style.backgroundColor = "initial";
                 document.getElementById("kva6").style.backgroundColor = "#FFAAAA"; //"#D46D6A";
-
 
                 // Single Phase KVA Calculation
                 console.log(" Calculate Single Phase KVA ");
