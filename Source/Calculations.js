@@ -85,10 +85,6 @@
     };
 
     function calculateDirectCurrentHP(volts, amps, efficiency) {
-        //var volts = document.getElementById("voltage1");
-        //var amps = document.getElementById("current1");
-        //var efficiency = document.getElementById("efficiency1");
-        //var horsePower = document.getElementById("horsePower1");
         var conversionFactor = 746;
         var result = 0;
         console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor)
@@ -101,11 +97,6 @@
     }
 
     function calculateSinglePhaseHP(volts, amps, efficiency, powerFactor) {
-        //var volts = document.getElementById("voltage2");
-        //var amps = document.getElementById("current2");
-        //var efficiency = document.getElementById("efficiency2");
-        //var horsePower = document.getElementById("horsePower2");
-        //var powerFactor = document.getElementById("powerFactor2");
         var conversionFactor = 746;
         var result = 0;
         console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor);
@@ -115,39 +106,25 @@
     }
 
     function calculateThreePhaseHP(volts, amps, efficiency, powerFactor) {
-        //var volts = document.getElementById("voltage3");
-        //var amps = document.getElementById("current3");
-        //var efficiency = document.getElementById("efficiency3");
-        //var horsePower = document.getElementById("horsePower3");
-        //var powerFactor = document.getElementById("powerFactor3");
         var conversionFactor = 746;
         var result = 0;
         var threeFaceConversion = 1.73;
         var conversionFactor = 746;
         result = (volts.value * amps.value * efficiency.value * powerFactor.value * threeFaceConversion) /
             conversionFactor;
-        //horsePower.value = result.toPrecision(4);
         return result.toPrecision(4);
     }
 
     function calculateSinglePhaseKVA(volts, amps) {
-        //var volts = document.getElementById("voltage4");
-        //var amps = document.getElementById("current4");
-        //var kva = document.getElementById("kva4");
         var result = 0;
         result = (volts.value * amps.value) / 1000;
-        // kva.value = result.toPrecision(4);
         return result.toPrecision(4);
     }
 
     function calculateThreePhaseKVA(volts, amps) {
-        // var volts = document.getElementById("voltage5");
-        // var amps = document.getElementById("current5");
-        //var kva = document.getElementById("kva5");
         var result = 0;
         var threeFaceConversion = 1.73;
         result = (volts.value * amps.value * threeFaceConversion) / 1000;
-        //kva.value = result;
         return result.toPrecision(4);
     }
     // ----------------- MultiSection Calculation ---------------------- //
