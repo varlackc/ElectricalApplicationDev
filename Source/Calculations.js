@@ -145,16 +145,6 @@
         // kva.value = result.toPrecision(4);
         return result.toPrecision(4);
     }
-    //<!-- Three Phase: KVA = (volts * Amperes * 1.73)/1000 -->
-    function calculateThreePhaseKVA() {
-        var volts = document.getElementById("voltage5");
-        var amps = document.getElementById("current5");
-        var kva = document.getElementById("kva5");
-        var result = 0;
-        var threeFaceConversion = 1.73;
-        result = (volts.value * amps.value * threeFaceConversion) / 1000;
-        kva.value = result;
-    }
 
     function calculateThreePhaseKVA(volts, amps) {
         // var volts = document.getElementById("voltage5");
@@ -219,7 +209,6 @@
                 console.log("Result: " + result);
                 kva.value = calculateThreePhaseKVA(volts, amps);
                 break;
-
 
             default:
                 break;
