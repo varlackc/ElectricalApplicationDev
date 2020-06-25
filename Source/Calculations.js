@@ -36,12 +36,10 @@
     };
 
     var ClearFields = function() {
-
         var voltage = document.getElementById("voltage");
         var current = document.getElementById("current");
         var resistance = document.getElementById("resistance");
         var power = document.getElementById("power");
-
 
         console.log("Reset");
         voltage.value = null;
