@@ -35,7 +35,9 @@
         return power;
     };
 
-    var ClearFields = function(voltage, current) {};
+    var ClearFields = function(voltage, current) {
+
+    };
 
     // --------- Find the Missing Ohms Law Value -------------- //
     var FindTheMissingValue = function() {
