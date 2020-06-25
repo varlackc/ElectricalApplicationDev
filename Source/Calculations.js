@@ -1,3 +1,6 @@
+    // Declare variables
+    var calculatedGlobal = false; // reset value
+
     //--------- Find Voltage Given Current and Resistance ---------- //
     var CalculateVoltageGivenCurrentResistance = function(current, resistance) {
         var voltage = current * resistance;
@@ -39,48 +42,73 @@
         var current = document.getElementById("current");
         var resistance = document.getElementById("resistance");
         var power = document.getElementById("power");
+
+
+        console.log("made it to the top");
+        if (calculatedGlobal == true) {
+            console.log("Reset");
+            voltage.value = null;
+            current.value = null;
+            resistance.value = null;
+            power.value = null;
+            calculatedGlobal = false;
+        }
+
         // Calculate voltage
-        if (voltage.value.length === 0 && current.value.length > 0 && resistance.value.length > 0) {
+        if (voltage.value.length === 0 && current.value.length > 0 && resistance.value.length > 0 && calculatedGlobal == false) {
             console.log("Calculate Voltage");
             result = CalculateVoltageGivenCurrentResistance(current.value, resistance.value);
             voltage.value = result;
             result = PowerGivenResistantCurrent(resistance.value, resistance.value);
             power.value = result;
             document.getElementById("message").innerHTML = " ";
+            calculatedGlobal = true;
         }
         // Calculate Current
-        else if (voltage.value.length > 0 && current.value.length === 0 && resistance.value.length > 0) {
+        else if (voltage.value.length > 0 && current.value.length === 0 && resistance.value.length > 0 && calculatedGlobal == false) {
             console.log("Calculate Current");
             result = CalculateCurrentGivenVoltageResistance(voltage.value, resistance.value)
             current.value = result;
             result = PowerGivenVoltageResistance(voltage.value, resistance.value);
             power.value = result;
             document.getElementById("message").innerHTML = " ";
+            calculatedGlobal = true;
         }
         // Calculate Resistance
-        else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length === 0) {
+        else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length === 0 && calculatedGlobal == false) {
             console.log("Calculate Resistance");
             result = CalculateResistanceGivenVoltageCurrent(voltage.value, current.value) // Calculate Resistance
             resistance.value = result;
             result = PowerGivenVoltageCurrent(voltage.value, current.value); // Calculate power
             power.value = result;
             document.getElementById("message").innerHTML = " ";
+            calculatedGlobal = true;
         }
-        // If all values are full calculate accuracy
-        else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length > 0) {
+        // If all values are full calculate Power
+        else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length > 0 && calculatedGlobal == false) {
             var testVoltage = CalculateVoltageGivenCurrentResistance(current.value, resistance.value);
             if (testVoltage == voltage.value) {
                 result = PowerGivenVoltageCurrent(voltage.value, current.value);
                 console.log("Power: " + result);
                 power.value = result;
+                calculatedGlobal = true;
+
+            } else {
+                console.log("Incorrect Values");
+                calculatedGlobal = true;
             }
+            console.log("Made it Here");
+
         }
         // Error
+        /*
         else {
             console.log("Incorrect Input Could Not Calculate");
             //Warn the user of incorrect input
+
             document.getElementById("message").innerHTML = "Incorrect Input Could Not Calculate";
         }
+        */
     };
 
     function calculateDirectCurrentHP(volts, amps, efficiency) {
