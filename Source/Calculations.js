@@ -37,6 +37,12 @@
 
     var ClearFields = function(voltage, current, resistance, power) {
 
+        console.log("Reset");
+        voltage.value = null;
+        current.value = null;
+        resistance.value = null;
+        power.value = null;
+        calculatedGlobal = false;
     };
 
     // --------- Find the Missing Ohms Law Value -------------- //
