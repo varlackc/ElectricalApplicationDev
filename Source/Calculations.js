@@ -35,7 +35,7 @@
         return power;
     };
 
-    var ClearFields = function(voltage, current, resistance) {
+    var ClearFields = function(voltage, current, resistance, power) {
 
     };
 
