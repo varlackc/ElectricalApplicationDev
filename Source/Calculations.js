@@ -57,11 +57,6 @@
         console.log("made it to the top");
         if (calculatedGlobal == true) {
             console.log("Reset");
-            //voltage.value = null;
-            //current.value = null;
-            //resistance.value = null;
-            //power.value = null;
-            //calculatedGlobal = false;
             ClearFields(voltage, current, resistance, power);
         }
 
