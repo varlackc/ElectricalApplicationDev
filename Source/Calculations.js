@@ -36,7 +36,6 @@
     };
 
     var ClearFields = function(voltage, current, resistance, power) {
-
         console.log("Reset");
         voltage.value = null;
         current.value = null;
