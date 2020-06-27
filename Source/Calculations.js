@@ -179,7 +179,6 @@
                 console.log("Result: " + result);
                 horsePower.value = result;
                 break;
-
             case "singlePhaseKVA":
                 console.log("Single Phase KVA");
                 console.log("Result: " + result);
