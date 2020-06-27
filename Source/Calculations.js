@@ -106,8 +106,6 @@
                 console.log("Incorrect Values");
                 calculatedGlobal = true;
             }
-            console.log("Made it Here");
-
         }
         // Error
         /*
