@@ -189,7 +189,6 @@
                 console.log("Result: " + result);
                 kva.value = calculateThreePhaseKVA(volts, amps);
                 break;
-
             default:
                 break;
         }
