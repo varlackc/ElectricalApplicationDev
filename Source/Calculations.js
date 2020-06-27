@@ -106,15 +106,6 @@
                 calculatedGlobal = true;
             }
         }
-        // Error
-        /*
-        else {
-            console.log("Incorrect Input Could Not Calculate");
-            //Warn the user of incorrect input
-
-            document.getElementById("message").innerHTML = "Incorrect Input Could Not Calculate";
-        }
-        */
     };
 
     function calculateDirectCurrentHP(volts, amps, efficiency) {
