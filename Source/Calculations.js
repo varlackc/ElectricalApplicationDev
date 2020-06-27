@@ -167,7 +167,6 @@
                 console.log("Result: " + result);
                 horsePower.value = result;
                 break;
-
             case "singlePhaseHP":
                 console.log("Single Phase HP Calculation");
                 result = calculateSinglePhaseHP(volts, amps, efficiency, powerFactor);
