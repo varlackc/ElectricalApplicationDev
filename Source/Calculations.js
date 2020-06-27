@@ -57,7 +57,6 @@
         var resistance = document.getElementById("resistance");
         var power = document.getElementById("power");
 
-
         console.log("made it to the top");
         if (calculatedGlobal == true) {
             console.log("Reset");
