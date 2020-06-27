@@ -103,7 +103,6 @@
                 calculatedGlobal = true;
 
             } else {
-                console.log("Incorrect Values");
                 calculatedGlobal = true;
             }
         }
