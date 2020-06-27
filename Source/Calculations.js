@@ -48,7 +48,6 @@
         power.value = null;
         calculatedGlobal = false;
     };
-
     // --------- Find the Missing Ohms Law Value -------------- //
     var FindTheMissingValue = function() {
         //get values
