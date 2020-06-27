@@ -173,7 +173,6 @@
                 console.log("Result: " + result);
                 horsePower.value = result;
                 break;
-
             case "threePhaseCurrentHP":
                 console.log("Three Phase Current HP");
                 result = calculateThreePhaseHP(volts, amps, efficiency, powerFactor)
