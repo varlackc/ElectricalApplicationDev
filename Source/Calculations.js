@@ -184,7 +184,6 @@
                 console.log("Result: " + result);
                 kva.value = calculateSinglePhaseKVA(volts, amps);
                 break;
-
             case "threePhaseKVA":
                 console.log("Single Phase KVA");
                 console.log("Result: " + result);
