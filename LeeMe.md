@@ -5,6 +5,5 @@ Esta aplicacion puede ser utilizada para simplificar el proceso de hacer calculo
 Esta herramienta puede ayudar a ingenieros electricos al verificar sus calculos manuales. 
 
 El programa contiene otros recursos miscelaneos como: 
-    - Tabla de tamaños de alambres y cables
-    
+    - Tabla de tamaños de alambres y cables  
     - Tabla de valores de resistencia comunes
