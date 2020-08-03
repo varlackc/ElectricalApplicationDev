@@ -8,3 +8,4 @@ El programa contiene otros recursos miscelaneos como:
     - Tabla de tamaños de alambres y cables  
     - Tabla de valores de resistencia comunes
     - Tabla de valores de capacitores mas comunes
+    - Tabla de valores de Inductores mas comunes
