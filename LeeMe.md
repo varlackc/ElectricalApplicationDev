@@ -10,3 +10,4 @@ El programa contiene otros recursos miscelaneos como:
     - Tabla de valores de capacitores mas comunes
     - Tabla de valores de Inductores mas comunes
     - Calculos de la ley de Ohms
+This program is provided without any warranty of correctness, accuracy or completeness. 
