@@ -111,6 +111,7 @@
         }
     };
 
+    // Direct Current Horse Power Calculation
     function calculateDirectCurrentHP(volts, amps, efficiency) {
         var conversionFactor = 746;
         var result = 0;
