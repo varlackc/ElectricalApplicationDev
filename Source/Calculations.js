@@ -145,6 +145,7 @@
         return result.toPrecision(4);
     }
 
+    // Three phase KVA power calculation
     function calculateThreePhaseKVA(volts, amps) {
         var result = 0;
         var threeFaceConversion = 1.73;
