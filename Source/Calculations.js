@@ -121,6 +121,7 @@
         return result;
     }
 
+    // Single Phase Horse Power Calculation
     function calculateSinglePhaseHP(volts, amps, efficiency, powerFactor) {
         var conversionFactor = 746;
         var result = 0;
