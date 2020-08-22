@@ -38,6 +38,7 @@
         return power;
     };
 
+    // Clear the input fields
     var ClearFields = function() {
         var voltage = document.getElementById("voltage");
         var current = document.getElementById("current");
