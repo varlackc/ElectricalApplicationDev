@@ -139,6 +139,7 @@
         return result.toPrecision(4);
     }
 
+    // Single Phase KVA Power Calculation
     function calculateSinglePhaseKVA(volts, amps) {
         var result = 0;
         result = (volts.value * amps.value) / 1000;
