@@ -129,6 +129,7 @@
         return result.toPrecision(4);
     }
 
+    // Three Phase Horse Power Calculation
     function calculateThreePhaseHP(volts, amps, efficiency, powerFactor) {
         var conversionFactor = 746;
         var result = 0;
