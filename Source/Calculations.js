@@ -41,6 +41,11 @@
     };
 
     //-------- Find Power Given Voltage and Current -------------- //
+    /**
+     * 
+     * @param {Electrical Voltage In Volts} voltage 
+     * @param {Electrical Resistance In Ohms} current 
+     */
     var PowerGivenVoltageCurrent = function(voltage, current) {
         var power = voltage * current;
         return power;
