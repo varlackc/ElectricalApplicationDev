@@ -27,6 +27,7 @@
 
     //-------- Find Resistance Given Voltage and Current ----------- //
     /**
+     * Find Resistance Given Voltage and Current
      * 
      * @param {Electrical Voltage In Volts} voltage 
      * @param {Electrical Resistance In Ohms} current 
