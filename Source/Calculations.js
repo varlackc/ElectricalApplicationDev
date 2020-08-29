@@ -26,6 +26,11 @@
     };
 
     //-------- Find Resistance Given Voltage and Current ----------- //
+    /**
+     * 
+     * @param {Electrical Voltage In Volts} voltage 
+     * @param {Electrical Resistance In Ohms} current 
+     */
     var CalculateResistanceGivenVoltageCurrent = function(voltage, current) {
         var resistance = voltage / current;
         if (resistance < 0) {
