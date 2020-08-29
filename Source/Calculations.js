@@ -63,6 +63,12 @@
         return power;
     };
     //-------- Find Power Given Voltage and Resistance --------- //
+    /**
+     * Find Power Given Voltage and Resistance
+     * 
+     * @param {Electrical Voltage In Volts} voltage 
+     * @param {Electrical Resistance In Ohms} resistance 
+     */
     var PowerGivenVoltageResistance = function(voltage, resistance) {
         var power = (voltage * voltage) / resistance;
         return power;
