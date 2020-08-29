@@ -53,9 +53,10 @@
     };
     //-------- Find Power Given Resistance and Current ---------- // 
     /**
+     * Find Power Given Resistance and Current
      * 
-     * @param {} resistance 
-     * @param {*} current 
+     * @param {Electrical Resistance In Ohms} resistance 
+     * @param {Electrical Current In Amps} current 
      */
     var PowerGivenResistantCurrent = function(resistance, current) {
         var power = (current * current) * resistance;
