@@ -2,6 +2,11 @@
     var calculatedGlobal = false; // reset value
 
     //--------- Find Voltage Given Current and Resistance ---------- //
+    /**
+     * 
+     * @param {Electrical Current In Amps} current 
+     * @param {Electrical Resistance In Ohms} resistance 
+     */
     var CalculateVoltageGivenCurrentResistance = function(current, resistance) {
         var voltage = current * resistance;
         return voltage;
