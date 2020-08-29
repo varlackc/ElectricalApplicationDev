@@ -75,6 +75,9 @@
     };
 
     // Clear the input fields
+    /**
+     * Clear the input fields
+     */
     var ClearFields = function() {
         var voltage = document.getElementById("voltage");
         var current = document.getElementById("current");
@@ -89,6 +92,9 @@
         calculatedGlobal = false;
     };
     // --------- Find the Missing Ohms Law Value -------------- //
+    /**
+     * Find the Missing Ohms Law Value
+     */
     var FindTheMissingValue = function() {
         //get values
         var result = 0;
