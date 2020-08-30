@@ -200,7 +200,12 @@
         return result.toPrecision(4);
     }
 
-    // Single Phase KVA Power Calculation
+    /**
+     * Single Phase KVA Power Calculation
+     * 
+     * @param {Electrical Voltage In Volts} volts 
+     * @param {Electrical Current In Amps} amps 
+     */
     function calculateSinglePhaseKVA(volts, amps) {
         var result = 0;
         result = (volts.value * amps.value) / 1000;
