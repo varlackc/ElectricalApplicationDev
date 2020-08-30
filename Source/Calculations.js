@@ -70,7 +70,6 @@
         return power;
     };
 
-    // Clear the input fields
     /**
      * Clear the input fields
      */
