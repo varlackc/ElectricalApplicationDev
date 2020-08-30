@@ -1,7 +1,6 @@
     // Declare variables
     var calculatedGlobal = false; // reset value
 
-    //--------- Find Voltage Given Current and Resistance ---------- //
     /**
      * Find Voltage Given Current and Resistance
      * 
