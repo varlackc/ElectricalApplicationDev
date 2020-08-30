@@ -47,7 +47,7 @@
         var power = voltage * current;
         return power;
     };
-    //-------- Find Power Given Resistance and Current ---------- // 
+
     /**
      * Find Power Given Resistance and Current
      * 
@@ -58,7 +58,7 @@
         var power = (current * current) * resistance;
         return power;
     };
-    //-------- Find Power Given Voltage and Resistance --------- //
+
     /**
      * Find Power Given Voltage and Resistance
      * 
