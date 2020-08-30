@@ -12,7 +12,6 @@
         return voltage;
     };
 
-    //-------- Find Current Given Voltage and Resistance  ---------- //
     /**
      * Find Current Given Voltage and Resistance
      * 
