@@ -23,7 +23,6 @@
         return current;
     };
 
-    //-------- Find Resistance Given Voltage and Current ----------- //
     /**
      * Find Resistance Given Voltage and Current
      * 
@@ -38,7 +37,6 @@
         return resistance;
     };
 
-    //-------- Find Power Given Voltage and Current -------------- //
     /**
      * Find Power Given Voltage and Current
      * 
