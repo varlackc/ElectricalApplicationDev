@@ -183,6 +183,13 @@
     }
 
     // Three Phase Horse Power Calculation
+    /**
+     * 
+     * @param {Electrical Voltage In Volts} volts 
+     * @param {Electrical Current In Amps} amps 
+     * @param {Motor Efficiency} efficiency 
+     * @param {Motor Power Factor} powerFactor 
+     */
     function calculateThreePhaseHP(volts, amps, efficiency, powerFactor) {
         var conversionFactor = 746;
         var result = 0;
