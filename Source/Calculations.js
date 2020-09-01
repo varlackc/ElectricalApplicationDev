@@ -174,9 +174,8 @@
         return result.toPrecision(4);
     }
 
-    // Three Phase Horse Power Calculation
     /**
-     * 
+     * Three Phase Horse Power Calculation
      * @param {Electrical Voltage In Volts} volts 
      * @param {Electrical Current In Amps} amps 
      * @param {Motor Efficiency} efficiency 
