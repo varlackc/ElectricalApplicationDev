@@ -205,7 +205,6 @@
 
     /**
      * Three phase KVA power calculation
-     * 
      * @param {Electrical Voltage In Volts} volts 
      * @param {Electrical Current In Amps} amps 
      */
