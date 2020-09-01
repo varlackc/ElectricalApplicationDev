@@ -56,7 +56,6 @@
 
     /**
      * Find Power Given Voltage and Resistance
-     * 
      * @param {Electrical Voltage In Volts} voltage 
      * @param {Electrical Resistance In Ohms} resistance 
      */
