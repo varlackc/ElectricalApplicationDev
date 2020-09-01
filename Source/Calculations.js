@@ -3,7 +3,6 @@
 
     /**
      * Find Voltage Given Current and Resistance
-     * 
      * @param {Electrical Current In Amps} current 
      * @param {Electrical Resistance In Ohms} resistance 
      */
@@ -14,7 +13,6 @@
 
     /**
      * Find Current Given Voltage and Resistance
-     * 
      * @param {Electrical Voltage In Volts} voltage 
      * @param {Electrical Resistance In Ohms} resistance 
      */
