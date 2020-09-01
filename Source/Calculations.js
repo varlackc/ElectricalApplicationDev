@@ -145,7 +145,6 @@
 
     /**
      * Direct Current Horse Power Calculation
-     * 
      * @param {Electrical Voltage In Volts} volts 
      * @param {Electrical Current In Amps} amps 
      * @param {Motor Efficiency} efficiency 
