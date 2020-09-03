@@ -3,7 +3,6 @@
 
     /**
      * Find Voltage Given Current and Resistance
-     * 
      * @param {Electrical Current In Amps} current 
      * @param {Electrical Resistance In Ohms} resistance 
      */
@@ -14,7 +13,6 @@
 
     /**
      * Find Current Given Voltage and Resistance
-     * 
      * @param {Electrical Voltage In Volts} voltage 
      * @param {Electrical Resistance In Ohms} resistance 
      */
@@ -25,7 +23,6 @@
 
     /**
      * Find Resistance Given Voltage and Current
-     * 
      * @param {Electrical Voltage In Volts} voltage 
      * @param {Electrical Resistance In Ohms} current 
      */
@@ -39,7 +36,6 @@
 
     /**
      * Find Power Given Voltage and Current
-     * 
      * @param {Electrical Voltage In Volts} voltage 
      * @param {Electrical Current In Amps} current 
      */
@@ -50,7 +46,6 @@
 
     /**
      * Find Power Given Resistance and Current
-     * 
      * @param {Electrical Resistance In Ohms} resistance 
      * @param {Electrical Current In Amps} current 
      */
@@ -61,7 +56,6 @@
 
     /**
      * Find Power Given Voltage and Resistance
-     * 
      * @param {Electrical Voltage In Volts} voltage 
      * @param {Electrical Resistance In Ohms} resistance 
      */
@@ -151,7 +145,6 @@
 
     /**
      * Direct Current Horse Power Calculation
-     * 
      * @param {Electrical Voltage In Volts} volts 
      * @param {Electrical Current In Amps} amps 
      * @param {Motor Efficiency} efficiency 
@@ -168,7 +161,6 @@
 
     /**
      * Single Phase Horse Power Calculation
-     * 
      * @param {Electrical Voltage In Volts} volts 
      * @param {Electrical Current In Amps} amps 
      * @param {Motor Efficiency} efficiency 
@@ -182,9 +174,8 @@
         return result.toPrecision(4);
     }
 
-    // Three Phase Horse Power Calculation
     /**
-     * 
+     * Three Phase Horse Power Calculation
      * @param {Electrical Voltage In Volts} volts 
      * @param {Electrical Current In Amps} amps 
      * @param {Motor Efficiency} efficiency 
@@ -213,7 +204,6 @@
 
     /**
      * Three phase KVA power calculation
-     * 
      * @param {Electrical Voltage In Volts} volts 
      * @param {Electrical Current In Amps} amps 
      */
