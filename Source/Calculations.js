@@ -202,7 +202,6 @@
 
     /**
      * Single Phase KVA Power Calculation
-     * 
      * @param {Electrical Voltage In Volts} volts 
      * @param {Electrical Current In Amps} amps 
      */
