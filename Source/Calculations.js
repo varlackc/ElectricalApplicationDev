@@ -259,7 +259,9 @@
         }
     }
 
-    //------------------ Resistor Controller behaviour ----------------- //
+    /**
+     * Resistor Controller Behaviour
+     */
     function getSelectValue() {
         var selectedValue = document.getElementById("Resistor").value;
         console.log("----------------------------------");
