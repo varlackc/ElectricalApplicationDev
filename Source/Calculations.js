@@ -213,7 +213,10 @@
         result = (volts.value * amps.value * threeFaceConversion) / 1000;
         return result.toPrecision(4);
     }
-    // ----------------- MultiSection Calculation ---------------------- //
+    
+    /**
+     * MultiSection Calculation
+     */
     function multiSectionCalculation() {
         // Declare Variables
         var volts = document.getElementById("voltage6");
