@@ -213,7 +213,7 @@
         result = (volts.value * amps.value * threeFaceConversion) / 1000;
         return result.toPrecision(4);
     }
-    
+
     /**
      * MultiSection Calculation
      */
@@ -578,7 +578,9 @@
         }
     }
 
-    //--------------- Select The Calculation ------------------ //
+    /**
+     * Select The Calculation
+     */
     function getSelectCalculation() {
         var selectCalculation = document.getElementById("calculation").value;
         console.log("--------------------------------");
