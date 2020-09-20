@@ -350,9 +350,10 @@
                 changeResistorColors('orange','orange','brown');
                 break;
             case "390":
-                document.getElementById('path1307').style.fill = 'orange';
-                document.getElementById('path1309').style.fill = 'white';
-                document.getElementById('rect2188').style.fill = 'brown';
+                //document.getElementById('path1307').style.fill = 'orange';
+                //document.getElementById('path1309').style.fill = 'white';
+                //document.getElementById('rect2188').style.fill = 'brown';
+                changeResistorColors('orange','white','brown');
                 break;
             case "470":
                 document.getElementById('path1307').style.fill = 'yellow';
