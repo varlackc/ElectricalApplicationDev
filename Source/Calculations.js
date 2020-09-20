@@ -272,14 +272,16 @@
         console.log("----------------------------------");
         switch (selectedValue) {
             case "10":
-                document.getElementById('path1307').style.fill = 'brown';
-                document.getElementById('path1309').style.fill = 'black';
-                document.getElementById('rect2188').style.fill = 'black';
+                //document.getElementById('path1307').style.fill = 'brown';
+                //document.getElementById('path1309').style.fill = 'black';
+                //document.getElementById('rect2188').style.fill = 'black';
+                changeResistorColors('brown','black','black');
                 break;
             case "15":
-                document.getElementById('path1307').style.fill = 'brown';
-                document.getElementById('path1309').style.fill = 'green';
-                document.getElementById('rect2188').style.fill = 'black';
+                //document.getElementById('path1307').style.fill = 'brown';
+                //document.getElementById('path1309').style.fill = 'green';
+                //document.getElementById('rect2188').style.fill = 'black';
+                changeResistorColors(bandOneColor, bandTwoColor, bandThreeColor)
                 break;
             case "22":
                 document.getElementById('path1307').style.fill = 'red';
@@ -552,16 +554,17 @@
                 document.getElementById('rect2188').style.fill = 'green';
                 break;
             default:
-                document.getElementById('path1307').style.fill = 'black';
-                document.getElementById('path1309').style.fill = 'black';
-                document.getElementById('rect2188').style.fill = 'black';
+                //document.getElementById('path1307').style.fill = 'black';
+                //document.getElementById('path1309').style.fill = 'black';
+                //document.getElementById('rect2188').style.fill = 'black';
+                changeResistorColors('black', 'black', 'black');
         }
     }
 
     function changeResistorColors(bandOneColor, bandTwoColor, bandThreeColor){
-                document.getElementById('path1307').style.fill = 'black';
-                document.getElementById('path1309').style.fill = 'black';
-                document.getElementById('rect2188').style.fill = 'black';
+                document.getElementById('path1307').style.fill = bandOneColor;
+                document.getElementById('path1309').style.fill = bandTwoColor;
+                document.getElementById('rect2188').style.fill = bandThreeColor;
     }
 
     function getSelectTolerance() {
