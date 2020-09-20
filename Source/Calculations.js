@@ -296,14 +296,16 @@
                 changeResistorColors('orange','orange','black');
                 break;
             case "47":
-                document.getElementById('path1307').style.fill = 'yellow';
-                document.getElementById('path1309').style.fill = 'violet';
-                document.getElementById('rect2188').style.fill = 'black';
+                //document.getElementById('path1307').style.fill = 'yellow';
+                //document.getElementById('path1309').style.fill = 'violet';
+                //document.getElementById('rect2188').style.fill = 'black';
+                changeResistorColors('yellow','violet','black');
                 break;
             case "68":
-                document.getElementById('path1307').style.fill = 'blue';
-                document.getElementById('path1309').style.fill = 'gray';
-                document.getElementById('rect2188').style.fill = 'black';
+                //document.getElementById('path1307').style.fill = 'blue';
+                //document.getElementById('path1309').style.fill = 'gray';
+                //document.getElementById('rect2188').style.fill = 'black';
+                changeResistorColors('blue','gray','black');
                 break;
             case "100":
                 document.getElementById('path1307').style.fill = 'brown';
