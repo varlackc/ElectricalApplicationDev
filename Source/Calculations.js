@@ -558,7 +558,7 @@
         }
     }
 
-    function changeResistorColors(bandOneColor, bandTwoColor, band3){
+    function changeResistorColors(bandOneColor, bandTwoColor, bandThreeColor){
                 document.getElementById('path1307').style.fill = 'black';
                 document.getElementById('path1309').style.fill = 'black';
                 document.getElementById('rect2188').style.fill = 'black';
