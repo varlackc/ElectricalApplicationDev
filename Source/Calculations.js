@@ -542,9 +542,10 @@
                 changeResistorColors('red','violet','yellow');
                 break;
             case "330k":
-                document.getElementById('path1307').style.fill = 'orange';
-                document.getElementById('path1309').style.fill = 'orange';
-                document.getElementById('rect2188').style.fill = 'yellow';
+                //document.getElementById('path1307').style.fill = 'orange';
+                //document.getElementById('path1309').style.fill = 'orange';
+                //document.getElementById('rect2188').style.fill = 'yellow';
+                changeResistorColors('orange','orange','yellow');
                 break;
             case "390k":
                 document.getElementById('path1307').style.fill = 'orange';
