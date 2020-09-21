@@ -458,9 +458,10 @@
                 changeResistorColors('brown','green','orange');
                 break;
             case "18k":
-                document.getElementById('path1307').style.fill = 'brown';
-                document.getElementById('path1309').style.fill = 'grey';
-                document.getElementById('rect2188').style.fill = 'orange';
+                //document.getElementById('path1307').style.fill = 'brown';
+                //document.getElementById('path1309').style.fill = 'grey';
+                //document.getElementById('rect2188').style.fill = 'orange';
+                changeResistorColors('brown','grey','orange');
                 break;
             case "22k":
                 document.getElementById('path1307').style.fill = 'red';
