@@ -569,16 +569,16 @@
                 changeResistorColors('green','blue','yellow');
                 break;
             case "680k":
-                document.getElementById('path1307').style.fill = 'blue';
-                document.getElementById('path1309').style.fill = 'grey';
-                document.getElementById('rect2188').style.fill = 'yellow';
-                changeResistorColors('','','');
+                //document.getElementById('path1307').style.fill = 'blue';
+                //document.getElementById('path1309').style.fill = 'grey';
+                //document.getElementById('rect2188').style.fill = 'yellow';
+                changeResistorColors('blue','grey','yellow');
                 break;
             case "1.0M":
-                document.getElementById('path1307').style.fill = 'brown';
-                document.getElementById('path1309').style.fill = 'black';
-                document.getElementById('rect2188').style.fill = 'green';
-                changeResistorColors('','','');
+                //document.getElementById('path1307').style.fill = 'brown';
+                //document.getElementById('path1309').style.fill = 'black';
+                //document.getElementById('rect2188').style.fill = 'green';
+                changeResistorColors('brown','black','green');
                 break;
             case "1.5M":
                 document.getElementById('path1307').style.fill = 'brown';
