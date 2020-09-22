@@ -1,8 +1,13 @@
     // Declare variables
-    let calculatedGlobal = false; // reset value
+    var calculatedGlobal = false; // reset value
+
+    var colors = ['black','brown', 'red', 'orange', 'yellow', 'green', 'blue', 'violet','grey', 'white'];
 
     // List of resistors
-    var resistor = {resistorValue: '', bandOneColor: '', bandTwoColor: '', bandThreeColor: ''};
+    var resistors = [];
+
+    // Object of resistor
+    var resistor = {value: '', colorOne: '', colorTwo: '', colorThree: ''};
 
     /**
      * Find Voltage Given Current and Resistance
