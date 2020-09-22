@@ -2,7 +2,7 @@
     let calculatedGlobal = false; // reset value
 
     // List of resistors
-    
+    var resistor = {resistorValue: '', bandOneColor: '', bandTwoColor: '', bandThreeColor: ''};
 
     /**
      * Find Voltage Given Current and Resistance
