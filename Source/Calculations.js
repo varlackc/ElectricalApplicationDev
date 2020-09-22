@@ -9,6 +9,7 @@
     // Object of resistor
     var resistor = {value: '', colors: [3]};
 
+    // Initialize the resistor Array
     resistors[
                 {value:10, colors: ['brown', 'black', 'black']},
                 {value:15, colors: ['', '', '']},
