@@ -593,10 +593,10 @@
                 changeResistorColors('red','red','green');
                 break;
             case "3.3M":
-                document.getElementById('path1307').style.fill = 'orange';
-                document.getElementById('path1309').style.fill = 'orange';
-                document.getElementById('rect2188').style.fill = 'green';
-                changeResistorColors('','','');
+                //document.getElementById('path1307').style.fill = 'orange';
+                //document.getElementById('path1309').style.fill = 'orange';
+                //document.getElementById('rect2188').style.fill = 'green';
+                changeResistorColors('orange','orange','green');
                 break;
             case "4.7M":
                 document.getElementById('path1307').style.fill = 'yellow';
