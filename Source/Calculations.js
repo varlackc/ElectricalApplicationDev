@@ -7,7 +7,10 @@
     var resistors = [];
 
     // Object of resistor
-    var resistor = {value: '', colorOne: '', colorTwo: '', colorThree: ''};
+    var resistor = {value: '', colors: [3]};
+
+    resistors[{value:10, colors: ['brown', 'black', 'black']}];
+    console.log(resistors[0]);
 
     /**
      * Find Voltage Given Current and Resistance
