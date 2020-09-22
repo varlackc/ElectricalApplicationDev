@@ -9,8 +9,22 @@
     // Object of resistor
     var resistor = {value: '', colors: [3]};
 
-    resistors[{value:10, colors: ['brown', 'black', 'black']}];
-    console.log(resistors[0]);
+    resistors[
+                {value:10, colors: ['brown', 'black', 'black']},
+                {value:15, colors: ['', '', '']},
+                {value:22, colors: ['', '', '']},
+                {value:33, colors: ['', '', '']},
+                {value:47, colors: ['', '', '']},
+                {value:68, colors: ['', '', '']},
+                {value:100, colors: ['', '', '']},
+                {value:120, colors: ['', '', '']},
+                {value:150, colors: ['', '', '']},
+                {value:180, colors: ['', '', '']},
+                {value:220, colors: ['', '', '']},
+                {value:270, colors: ['', '', '']},
+                {value:330, colors: ['', '', '']},
+                {value:390, colors: ['', '', '']}
+            ];
 
     /**
      * Find Voltage Given Current and Resistance
