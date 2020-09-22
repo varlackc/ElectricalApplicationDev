@@ -605,10 +605,10 @@
                 changeResistorColors('yellow','violet','green');
                 break;
             case "6.8M":
-                document.getElementById('path1307').style.fill = 'blue';
-                document.getElementById('path1309').style.fill = 'grey';
-                document.getElementById('rect2188').style.fill = 'green';
-                changeResistorColors('','','');
+                //document.getElementById('path1307').style.fill = 'blue';
+                //document.getElementById('path1309').style.fill = 'grey';
+                //document.getElementById('rect2188').style.fill = 'green';
+                changeResistorColors('blue','grey','green');
                 break;
             default:
                 //document.getElementById('path1307').style.fill = 'black';
