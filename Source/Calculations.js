@@ -12,7 +12,7 @@
     // Initialize the resistor Array
     resistors[
                 {value:10, colors: ['brown', 'black', 'black']},
-                {value:15, colors: ['', '', '']},
+                {value:15, colors: ['brown', 'green', 'black']},
                 {value:22, colors: ['', '', '']},
                 {value:33, colors: ['', '', '']},
                 {value:47, colors: ['', '', '']},
