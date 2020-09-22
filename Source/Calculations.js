@@ -1,5 +1,8 @@
     // Declare variables
-    var calculatedGlobal = false; // reset value
+    let calculatedGlobal = false; // reset value
+
+    // List of resistors
+    
 
     /**
      * Find Voltage Given Current and Resistance
