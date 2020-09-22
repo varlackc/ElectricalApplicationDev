@@ -572,36 +572,43 @@
                 document.getElementById('path1307').style.fill = 'blue';
                 document.getElementById('path1309').style.fill = 'grey';
                 document.getElementById('rect2188').style.fill = 'yellow';
+                changeResistorColors('','','');
                 break;
             case "1.0M":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'black';
                 document.getElementById('rect2188').style.fill = 'green';
+                changeResistorColors('','','');
                 break;
             case "1.5M":
                 document.getElementById('path1307').style.fill = 'brown';
                 document.getElementById('path1309').style.fill = 'green';
                 document.getElementById('rect2188').style.fill = 'green';
+                changeResistorColors('','','');
                 break;
             case "2.2M":
                 document.getElementById('path1307').style.fill = 'red';
                 document.getElementById('path1309').style.fill = 'red';
                 document.getElementById('rect2188').style.fill = 'green';
+                changeResistorColors('','','');
                 break;
             case "3.3M":
                 document.getElementById('path1307').style.fill = 'orange';
                 document.getElementById('path1309').style.fill = 'orange';
                 document.getElementById('rect2188').style.fill = 'green';
+                changeResistorColors('','','');
                 break;
             case "4.7M":
                 document.getElementById('path1307').style.fill = 'yellow';
                 document.getElementById('path1309').style.fill = 'violet';
                 document.getElementById('rect2188').style.fill = 'green';
+                changeResistorColors('','','');
                 break;
             case "6.8M":
                 document.getElementById('path1307').style.fill = 'blue';
                 document.getElementById('path1309').style.fill = 'grey';
                 document.getElementById('rect2188').style.fill = 'green';
+                changeResistorColors('','','');
                 break;
             default:
                 //document.getElementById('path1307').style.fill = 'black';
