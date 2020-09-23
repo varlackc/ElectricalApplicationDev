@@ -23,7 +23,7 @@
                 {value:'180', colors: ['', '', '']},
                 {value:'220', colors: ['', '', '']},
                 {value:'270', colors: ['', '', '']},
-                {value:330, colors: ['', '', '']},
+                {value:'330', colors: ['', '', '']},
                 {value:390, colors: ['', '', '']}
             ];
 
