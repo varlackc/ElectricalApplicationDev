@@ -18,7 +18,7 @@
                 {value:'47', colors: ['', '', '']},
                 {value:'68', colors: ['', '', '']},
                 {value:'100', colors: ['', '', '']},
-                {value:120, colors: ['', '', '']},
+                {value:'120', colors: ['', '', '']},
                 {value:150, colors: ['', '', '']},
                 {value:180, colors: ['', '', '']},
                 {value:220, colors: ['', '', '']},
