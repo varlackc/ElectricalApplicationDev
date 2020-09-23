@@ -14,7 +14,7 @@
                 {value:'10', colors: ['brown', 'black', 'black']},
                 {value:'15', colors: ['brown', 'green', 'black']},
                 {value:'22', colors: ['red', 'red', 'black']},
-                {value:33, colors: ['orange', 'orange', 'black']},
+                {value:'33', colors: ['orange', 'orange', 'black']},
                 {value:47, colors: ['', '', '']},
                 {value:68, colors: ['', '', '']},
                 {value:100, colors: ['', '', '']},
