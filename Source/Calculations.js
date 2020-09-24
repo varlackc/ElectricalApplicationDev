@@ -22,7 +22,7 @@
                 {value:'150', colors: ['brown', 'green', 'brown']},
                 {value:'180', colors: ['brown', 'grey', 'brown']},
                 {value:'220', colors: ['red', 'red', 'brown']},
-                {value:'270', colors: ['', '', '']},
+                {value:'270', colors: ['red', 'violet', 'brown']},
                 {value:'330', colors: ['', '', '']},
                 {value:'390', colors: ['', '', '']}
             ];
