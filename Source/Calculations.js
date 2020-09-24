@@ -20,8 +20,8 @@
                 {value:'100', colors: ['brown', 'black', 'brown']},
                 {value:'120', colors: ['brown', 'red', 'brown']},
                 {value:'150', colors: ['brown', 'green', 'brown']},
-                {value:'180', colors: ['brown', '', '']},
-                {value:'220', colors: ['', '', '']},
+                {value:'180', colors: ['brown', 'grey', 'brown']},
+                {value:'220', colors: ['red', 'red', 'brown']},
                 {value:'270', colors: ['', '', '']},
                 {value:'330', colors: ['', '', '']},
                 {value:'390', colors: ['', '', '']}
