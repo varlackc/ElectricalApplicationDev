@@ -24,7 +24,27 @@
                 {value:'220', colors: ['red', 'red', 'brown']},
                 {value:'270', colors: ['red', 'violet', 'brown']},
                 {value:'330', colors: ['orange', 'orange', 'brown']},
-                {value:'390', colors: ['orange', 'white', 'brown']}
+                {value:'390', colors: ['orange', 'white', 'brown']},
+                {value:'470', colors: ['', '', '']},
+                {value:'560', colors: ['', '', '']},
+                {value:'680', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']},
+                {value:'', colors: ['', '', '']}
             ];
 
     /**
