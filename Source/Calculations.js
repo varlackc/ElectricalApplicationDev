@@ -24,7 +24,7 @@
                 {value:'220', colors: ['red', 'red', 'brown']},
                 {value:'270', colors: ['red', 'violet', 'brown']},
                 {value:'330', colors: ['orange', 'orange', 'brown']},
-                {value:'390', colors: ['', '', '']}
+                {value:'390', colors: ['orange', 'white', 'brown']}
             ];
 
     /**
