@@ -34,7 +34,7 @@
                 {value:'1.8k', colors: ['brown', 'grey', 'red']},
                 {value:'2.2k', colors: ['red', 'red', 'red']},
                 {value:'2.7k', colors: ['red', 'violet', 'red']},
-                {value:'3.3k', colors: ['', '', '']},
+                {value:'3.3k', colors: ['orange', 'orange', 'red']},
                 {value:'3.9k', colors: ['', '', '']},
                 {value:'4.7k', colors: ['', '', '']},
                 {value:'', colors: ['', '', '']},
