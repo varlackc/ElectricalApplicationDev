@@ -64,7 +64,7 @@
                 {value:'1.0M', colors: ['brown', 'black', 'green']},
                 {value:'1.5M', colors: ['brown', 'green', 'green']},
                 {value:'2.2M', colors: ['red', 'red', 'green']},
-                {value:'', colors: ['', '', '']},
+                {value:'3.3M', colors: ['orange', 'orange', 'green']},
                 {value:'', colors: ['', '', '']},
                 {value:'', colors: ['', '', '']},
                 {value:'', colors: ['', '', '']},
