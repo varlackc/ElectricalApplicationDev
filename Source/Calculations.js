@@ -66,23 +66,7 @@
                 {value:'2.2M', colors: ['red', 'red', 'green']},
                 {value:'3.3M', colors: ['orange', 'orange', 'green']},
                 {value:'4.7M', colors: ['yellow', 'violet', 'green']},
-                {value:'6.8M', colors: ['blue', 'grey', 'green']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']},
-                {value:'', colors: ['', '', '']}
+                {value:'6.8M', colors: ['blue', 'grey', 'green']}
             ];
 
     /**
@@ -356,9 +340,6 @@
         console.log("----------------------------------");
         switch (selectedValue) {
             case "10":
-                //document.getElementById('path1307').style.fill = 'brown';
-                //document.getElementById('path1309').style.fill = 'black';
-                //document.getElementById('rect2188').style.fill = 'black';
                 changeResistorColors('brown','black','black');
                 break;
             case "15":
