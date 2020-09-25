@@ -343,51 +343,27 @@
                 changeResistorColors('brown','black','black');
                 break;
             case "15":
-                //document.getElementById('path1307').style.fill = 'brown';
-                //document.getElementById('path1309').style.fill = 'green';
-                //document.getElementById('rect2188').style.fill = 'black';
                 changeResistorColors('brown', 'green', 'black');
                 break;
             case "22":
-                //document.getElementById('path1307').style.fill = 'red';
-                //document.getElementById('path1309').style.fill = 'red';
-                //document.getElementById('rect2188').style.fill = 'black';
                 changeResistorColors('red','red','black');
                 break;
             case "33":
-                //document.getElementById('path1307').style.fill = 'orange';
-                //document.getElementById('path1309').style.fill = 'orange';
-                //document.getElementById('rect2188').style.fill = 'black';
                 changeResistorColors('orange','orange','black');
                 break;
             case "47":
-                //document.getElementById('path1307').style.fill = 'yellow';
-                //document.getElementById('path1309').style.fill = 'violet';
-                //document.getElementById('rect2188').style.fill = 'black';
                 changeResistorColors('yellow','violet','black');
                 break;
             case "68":
-                //document.getElementById('path1307').style.fill = 'blue';
-                //document.getElementById('path1309').style.fill = 'gray';
-                //document.getElementById('rect2188').style.fill = 'black';
                 changeResistorColors('blue','gray','black');
                 break;
             case "100":
-                //document.getElementById('path1307').style.fill = 'brown';
-                //document.getElementById('path1309').style.fill = 'black';
-                //document.getElementById('rect2188').style.fill = 'brown';
                 changeResistorColors('brown','black','brown');
                 break;
             case "120":
-                //document.getElementById('path1307').style.fill = 'brown';
-                //document.getElementById('path1309').style.fill = 'red';
-                //document.getElementById('rect2188').style.fill = 'brown';
                 changeResistorColors('brown','red','brown');
                 break;
             case "150":
-                //document.getElementById('path1307').style.fill = 'brown';
-                //document.getElementById('path1309').style.fill = 'green';
-                //document.getElementById('rect2188').style.fill = 'brown';
                 changeResistorColors('brown','green','brown');
                 break;
             case "180":
