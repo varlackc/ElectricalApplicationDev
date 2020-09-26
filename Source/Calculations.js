@@ -339,12 +339,6 @@
         console.log(selectedValue);
         console.log("----------------------------------");
 
-            for(var i = 0; i > resistors.length; i++){
-                if(selectedValue == resistors[i].value){
-                    changeResistorColors(resistor[i].colors[0],resistor[i].colors[1],resistor[i].colors[2] );
-                }
-            }
-        /*
         switch (selectedValue) {
             case "10":
                 changeResistorColors('brown','black','black');
@@ -517,7 +511,6 @@
             default:
                 changeResistorColors('black', 'black', 'black');
         }
-        */
     }
 
     function changeResistorColors(bandOneColor, bandTwoColor, bandThreeColor){
