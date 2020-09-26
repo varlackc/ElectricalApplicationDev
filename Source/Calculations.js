@@ -442,141 +442,72 @@
                 changeResistorColors('red','violet','orange');
                 break;
             case "33k":
-                //document.getElementById('path1307').style.fill = 'orange';
-                //document.getElementById('path1309').style.fill = 'orange';
-                //document.getElementById('rect2188').style.fill = 'orange';
                 changeResistorColors('orange','orange','orange');
                 break;
             case "39k":
-                //document.getElementById('path1307').style.fill = 'orange';
-                //document.getElementById('path1309').style.fill = 'white';
-                //document.getElementById('rect2188').style.fill = 'orange';
                 changeResistorColors('orange','white','orange');
                 break;
             case "47k":
-                //document.getElementById('path1307').style.fill = 'yellow';
-                //document.getElementById('path1309').style.fill = 'violet';
-                //document.getElementById('rect2188').style.fill = 'orange';
                 changeResistorColors('yellow','violet','orange');
                 break;
             case "56k":
-                //document.getElementById('path1307').style.fill = 'green';
-                //document.getElementById('path1309').style.fill = 'blue';
-                //document.getElementById('rect2188').style.fill = 'orange';
                 changeResistorColors('green','blue','orange');
                 break;
             case "68k":
-                //document.getElementById('path1307').style.fill = 'blue';
-                //document.getElementById('path1309').style.fill = 'grey';
-                //document.getElementById('rect2188').style.fill = 'orange';
                 changeResistorColors('blue','grey','orange');
                 break;
             case "100k":
-                //document.getElementById('path1307').style.fill = 'brown';
-                //document.getElementById('path1309').style.fill = 'black';
-                //document.getElementById('rect2188').style.fill = 'yellow';
                 changeResistorColors('brown','black','yellow');
                 break;
             case "120k":
-                //document.getElementById('path1307').style.fill = 'brown';
-                //document.getElementById('path1309').style.fill = 'red';
-                //document.getElementById('rect2188').style.fill = 'yellow';
                 changeResistorColors('brown','red','yellow');
                 break;
             case "150k":
-                //document.getElementById('path1307').style.fill = 'brown';
-                //document.getElementById('path1309').style.fill = 'grey';
-                //document.getElementById('rect2188').style.fill = 'yellow';
                 changeResistorColors('brown','grey','yellow');
                 break;
             case "180k":
-                //document.getElementById('path1307').style.fill = 'brown';
-                //document.getElementById('path1309').style.fill = 'grey';
-                //document.getElementById('rect2188').style.fill = 'yellow';
                 changeResistorColors('brown','grey','yellow');
                 break;
             case "220k":
-                //document.getElementById('path1307').style.fill = 'red';
-                //document.getElementById('path1309').style.fill = 'red';
-                //document.getElementById('rect2188').style.fill = 'yellow';
                 changeResistorColors('red','red','yellow');
                 break;
             case "270k":
-                //document.getElementById('path1307').style.fill = 'red';
-                //document.getElementById('path1309').style.fill = 'violet';
-                //document.getElementById('rect2188').style.fill = 'yellow';
                 changeResistorColors('red','violet','yellow');
                 break;
             case "330k":
-                //document.getElementById('path1307').style.fill = 'orange';
-                //document.getElementById('path1309').style.fill = 'orange';
-                //document.getElementById('rect2188').style.fill = 'yellow';
                 changeResistorColors('orange','orange','yellow');
                 break;
             case "390k":
-                //document.getElementById('path1307').style.fill = 'orange';
-                //document.getElementById('path1309').style.fill = 'white';
-                //document.getElementById('rect2188').style.fill = 'yellow';
                 changeResistorColors('orange','white','yellow');
                 break;
             case "470k":
-                //document.getElementById('path1307').style.fill = 'yellow';
-                //document.getElementById('path1309').style.fill = 'violet';
-                //document.getElementById('rect2188').style.fill = 'yellow';
                 changeResistorColors('yellow','violet','yellow');
                 break;
             case "560k":
-                //document.getElementById('path1307').style.fill = 'green';
-                //document.getElementById('path1309').style.fill = 'blue';
-                //document.getElementById('rect2188').style.fill = 'yellow';
                 changeResistorColors('green','blue','yellow');
                 break;
             case "680k":
-                //document.getElementById('path1307').style.fill = 'blue';
-                //document.getElementById('path1309').style.fill = 'grey';
-                //document.getElementById('rect2188').style.fill = 'yellow';
                 changeResistorColors('blue','grey','yellow');
                 break;
             case "1.0M":
-                //document.getElementById('path1307').style.fill = 'brown';
-                //document.getElementById('path1309').style.fill = 'black';
-                //document.getElementById('rect2188').style.fill = 'green';
                 changeResistorColors('brown','black','green');
                 break;
             case "1.5M":
-                //document.getElementById('path1307').style.fill = 'brown';
-                //document.getElementById('path1309').style.fill = 'green';
-                //document.getElementById('rect2188').style.fill = 'green';
                 changeResistorColors('brown','green','green');
                 break;
             case "2.2M":
-                //document.getElementById('path1307').style.fill = 'red';
-                //document.getElementById('path1309').style.fill = 'red';
-                //document.getElementById('rect2188').style.fill = 'green';
                 changeResistorColors('red','red','green');
                 break;
             case "3.3M":
-                //document.getElementById('path1307').style.fill = 'orange';
-                //document.getElementById('path1309').style.fill = 'orange';
-                //document.getElementById('rect2188').style.fill = 'green';
                 changeResistorColors('orange','orange','green');
                 break;
             case "4.7M":
-                //document.getElementById('path1307').style.fill = 'yellow';
-                //document.getElementById('path1309').style.fill = 'violet';
-                //document.getElementById('rect2188').style.fill = 'green';
                 changeResistorColors('yellow','violet','green');
                 break;
             case "6.8M":
-                //document.getElementById('path1307').style.fill = 'blue';
-                //document.getElementById('path1309').style.fill = 'grey';
-                //document.getElementById('rect2188').style.fill = 'green';
                 changeResistorColors('blue','grey','green');
                 break;
             default:
-                //document.getElementById('path1307').style.fill = 'black';
-                //document.getElementById('path1309').style.fill = 'black';
-                //document.getElementById('rect2188').style.fill = 'black';
                 changeResistorColors('black', 'black', 'black');
         }
     }
