@@ -68,6 +68,7 @@
                 {value:'4.7M', colors: ['yellow', 'violet', 'green']},
                 {value:'6.8M', colors: ['blue', 'grey', 'green']}
             ];
+            
     var resistorsLength = resistors.length;
     /**
      * Find Voltage Given Current and Resistance
