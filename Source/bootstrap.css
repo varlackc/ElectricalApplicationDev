@@ -1687,23 +1687,19 @@ pre code {
   }
 }
 
-/*
 .table {
   width: 100%;
   margin-bottom: 1rem;
   color: #212529;
 }
-*/
 
-/*
 .table th,
 .table td {
   padding: 0.75rem;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
 }
-*/
-/*
+
 .table thead th {
   vertical-align: bottom;
   border-bottom: 2px solid #dee2e6;
@@ -1712,7 +1708,7 @@ pre code {
 .table tbody + tbody {
   border-top: 2px solid #dee2e6;
 }
-*/
+
 .table-sm th,
 .table-sm td {
   padding: 0.3rem;
