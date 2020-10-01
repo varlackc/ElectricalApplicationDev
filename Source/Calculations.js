@@ -602,7 +602,6 @@
                 document.getElementById("efficiency6").style.backgroundColor = "#9AD58E";
                 document.getElementById("powerFactor6").style.backgroundColor = "#9AD58E";
                 document.getElementById("horsePower6").style.backgroundColor = "#FFAAAA"; //"#D46D6A";
-
                 // Select the Three Phase Current Horse Power Calculation
                 console.log(" Calculate Three Phase Current HP ");
                 break;
