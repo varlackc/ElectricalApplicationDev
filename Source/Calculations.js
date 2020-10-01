@@ -613,7 +613,6 @@
                 document.getElementById("current6").disabled = false;
                 document.getElementById("efficiency6").disabled = true;
                 document.getElementById("horsePower6").disabled = true;
-
                 //change the color of the answer
                 document.getElementById("voltage6").style.backgroundColor = "#9AD58E";
                 document.getElementById("current6").style.backgroundColor = "#9AD58E";
