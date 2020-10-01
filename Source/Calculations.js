@@ -166,7 +166,6 @@
             console.log("Reset");
             ClearFields();
         }
-
         // Calculate voltage
         if (voltage.value.length === 0 && current.value.length > 0 && resistance.value.length > 0 && calculatedGlobal == false) {
             console.log("Calculate Voltage");
@@ -339,7 +338,6 @@
         console.log("----------------------------------");
         console.log(selectedValue);
         console.log("----------------------------------");
-
         switch (selectedValue) {
             case "10":
                 changeResistorColors('brown','black','black');
