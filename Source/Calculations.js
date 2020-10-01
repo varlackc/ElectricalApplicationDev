@@ -141,7 +141,6 @@
         var current = document.getElementById("current");
         var resistance = document.getElementById("resistance");
         var power = document.getElementById("power");
-
         console.log("Reset");
         voltage.value = null;
         current.value = null;
