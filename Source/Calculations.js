@@ -566,7 +566,6 @@
                 document.getElementById("powerFactor6").style.backgroundColor = "initial";
                 document.getElementById("horsePower6").style.backgroundColor = "#FFAAAA"; //"#D46D6A";
                 document.getElementById("kva6").style.backgroundColor = "initial";
-
                 // Select the Direct Current Horse Power Calculation
                 horsePower = calculateDirectCurrentHP(volts, amps, efficiency);
                 document.getElementById("horsePower6").value = horsePower;
