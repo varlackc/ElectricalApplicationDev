@@ -1,6 +1,5 @@
     // Declare variables
     var calculatedGlobal = false; // reset value
-
     var colors = ['black','brown', 'red', 'orange', 'yellow', 'green', 'blue', 'violet','grey', 'white'];
 
     // List of resistors
