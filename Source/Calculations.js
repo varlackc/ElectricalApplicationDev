@@ -620,7 +620,6 @@
                 document.getElementById("powerFactor6").style.backgroundColor = "initial";
                 document.getElementById("horsePower6").style.backgroundColor = "initial";
                 document.getElementById("kva6").style.backgroundColor = "#FFAAAA"; //"#D46D6A";
-
                 // Single Phase KVA Calculation
                 console.log(" Calculate Single Phase KVA ");
                 break;
@@ -632,7 +631,6 @@
                 document.getElementById("current6").disabled = false;
                 document.getElementById("efficiency6").disabled = false;
                 document.getElementById("horsePower6").disabled = true;
-
                 //change the color of the answer
                 document.getElementById("voltage6").style.backgroundColor = "#9AD58E";
                 document.getElementById("current6").style.backgroundColor = "#9AD58E";
@@ -640,7 +638,6 @@
                 document.getElementById("powerFactor6").style.backgroundColor = "initial";
                 document.getElementById("horsePower6").style.backgroundColor = "initial";
                 document.getElementById("kva6").style.backgroundColor = "#FFAAAA"; //"#D46D6A";
-
                 // Three Phase KVA Calculation
                 console.log(" Calculate Three Phase KVA ");
                 break;
