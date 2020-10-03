@@ -34,10 +34,13 @@ td {
 }
 
 .ColorBrown{ color: brown; /*background-color: white;*/}
-.ColorBrown{ color: brown; /*background-color: white;*/}
-.ColorBrown{ color: brown; /*background-color: white;*/}
-.ColorBrown{ color: brown; /*background-color: white;*/}
-.ColorBrown{ color: brown; /*background-color: white;*/}
-.ColorBrown{ color: brown; /*background-color: white;*/}
-.ColorBrown{ color: brown; /*background-color: white;*/}
-.ColorBrown{ color: brown; /*background-color: white;*/}
+.ColorRed{ color: red; /*background-color: white;*/}
+.ColorOrange{ color: orange; /*background-color: white;*/}
+.ColorYellow{ color: yellow; /*background-color: white;*/}
+.ColorGreen{ color: Green; /*background-color: white;*/}
+.ColorBlue{ color: Blue; /*background-color: white;*/}
+.ColorViolet{ color: Violet; /*background-color: white;*/}
+.ColorGray{ color: Gray; /*background-color: white;*/}
+.ColorWhite{ color: white; /*background-color: white;*/}
+.ColorGold{ color: gold; /*background-color: white;*/}
+.ColorSilver{ color: silver; /*background-color: white;*/}
