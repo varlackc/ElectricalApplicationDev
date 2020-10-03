@@ -32,3 +32,9 @@ td {
     display: block;
     margin: auto;
 }
+
+.ColorBrown{
+    color: brown;
+    /*background-color: white;*/
+
+}
