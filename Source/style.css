@@ -42,5 +42,8 @@ td {
 .ColorViolet{ color: Violet; /*background-color: white;*/}
 .ColorGray{ color: Gray; /*background-color: white;*/}
 .ColorWhite{ color: white; /*background-color: white;*/}
-.ColorGold{ color: gold; /*background-color: white;*/}
+.ColorGold{ 
+    color: gold; 
+    background-color: black;
+}
 .ColorSilver{ color: silver; /*background-color: white;*/}
