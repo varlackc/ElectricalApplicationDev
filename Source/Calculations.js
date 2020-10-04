@@ -640,11 +640,18 @@
             default:
                 document.getElementById("multipleSectionLabel").innerHTML = "Select An Option";
                 document.getElementById("powerFactor6").disabled = true;
+                $("powerFactor6").remove();
+                //$( "div" ).remove( ".hello" );
                 document.getElementById("kva6").disabled = true;
+                $("kva6").remove();
                 document.getElementById("voltage6").disabled = true;
+                $("voltage6").remove();
                 document.getElementById("current6").disabled = true;
+                $("current6").remove();
                 document.getElementById("efficiency6").disabled = true;
+                $("efficiency6").remove();
                 document.getElementById("horsePower6").disabled = true;
+                $("horsePower6").remove();
                 // Select An Option, Default Option
                 console.log(" Calculate Multiple Section Label ");
                 break;
