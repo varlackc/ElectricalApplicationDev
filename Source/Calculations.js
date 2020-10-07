@@ -668,5 +668,5 @@
         element.setAttribute("name", type);
         var foo = document.getElementById("fooBar");
         //append the element in page (in span). 
-        foo.appendChild(element)
+        foo.appendChild(element);
     }
