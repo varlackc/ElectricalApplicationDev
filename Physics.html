@@ -113,6 +113,15 @@
         <option value="DiffractionGratingsAndSpectra">Diffraction, Gratings and spectra</option>
         <option value="WavesAndParticles">Waves and Particles</option>
     </select>
+
+    <h2>Dinamically add elements</h2>
+    <select name="element">
+        <option value="button">Button</option>
+        <option value="text">TextBox</option>
+        <option value="radio">Radio</option>
+    </select>
+    <input type="button" value="add"  onclick="add(document.form[0].element.value)">
+    <span id="fooBar">Example</span>>
     <br/><br/>
 </body>
 
