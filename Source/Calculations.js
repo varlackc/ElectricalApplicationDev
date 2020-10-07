@@ -657,3 +657,16 @@
                 break;
         }
     }
+
+    function add(type){
+        //Create an input type dynamically. 
+        var element = document.createElement("input");
+
+        //Different Attributes to the element
+        element.setAttribute("type", type);
+        element.setAttribute("Value", type);
+        element.setAttribute("name", type);
+        var foo = document.getElementById("fooBar");
+        //append the element in page (in span). 
+        foo.appendChild(element)
+    }
