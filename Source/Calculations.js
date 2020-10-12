@@ -331,6 +331,7 @@
     /**
      * Resistor Controller Behaviour
      */
+    // need to simplify
     function getSelectValue() {
         var selectedValue = document.getElementById("Resistor").value;
         console.log("----------------------------------");
