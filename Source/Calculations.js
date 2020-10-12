@@ -658,6 +658,7 @@
         }
     }
 
+    // update code section
     function add(type){
         //Create an input type dynamically. 
         var element = document.createElement("input");
