@@ -3,3 +3,5 @@
 var ResistorValues = "";
 
 var CapacitorValues = "";
+
+var InductorValues = "";
