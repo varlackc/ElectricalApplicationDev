@@ -8,7 +8,7 @@ var ResistorValues = {
                         "Value": "47", "ColorDigitOne": 'yellow', "ColorDigitTwo": 'violet', "Multiplier": 'black', 
                         "Value": "68", "ColorDigitOne": 'blue', "ColorDigitTwo": 'gray', "Multiplier": 'black', 
                         "Value": "100", "ColorDigitOne": 'brown', "ColorDigitTwo": 'black', "Multiplier": 'brown',
-                        "Value": "120", "ColorDigitOne": , "ColorDigitTwo": , "Multiplier": ,
+                        "Value": "120", "ColorDigitOne": 'brown', "ColorDigitTwo": 'red', "Multiplier": 'brown',
                         "Value": "150", "ColorDigitOne": , "ColorDigitTwo": , "Multiplier": , 
                         "Value": "180", "ColorDigitOne": , "ColorDigitTwo": , "Multiplier": , 
                         "Value": "220", "ColorDigitOne": , "ColorDigitTwo": , "Multiplier": , 
