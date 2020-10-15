@@ -1,6 +1,10 @@
 /* Need to improve the background design, add a background image */
 body {
-    background-image: url("pexels-kenneth-carpina-4584612.jpg");
+    background-image: url("pexels-pixabay-279747.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
     background-color: Moccasin;
 }
 
