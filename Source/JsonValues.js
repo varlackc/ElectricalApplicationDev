@@ -1,6 +1,6 @@
 // This section will give the Json Values to the rest of the application
 
-var ResistorValues = {}
+var ResistorValues = {
     "resistor":[{"value":"10", "colors": ["brown", "black", "black"]}],
     "resistor":[{"value":"15", "colors": ["brown", "green", "black"]}],
     "resistor":[{"value":"22", "colors": ["red", "red", "black"]}],
@@ -56,9 +56,11 @@ var ResistorValues = {}
     "resistor":[{"value":"2.2M", "colors": ["red", "red", "green"]}],
     "resistor":[{"value":"3.3M", "colors": ["orange", "orange", "green"]}],
     "resistor":[{"value":"4.7M", "colors": ["yellow", "violet", "green"]}],
-    "resistor":[{"value":"6.8M", "colors": ["blue", "grey", "green"]}
+    "resistor":[{"value":"6.8M", "colors": ["blue", "grey", "green"]}]
                      };
 
+console.log(resistors);
+/*
 var CapacitorValues = {
                         "Value": , "ColorDigitOne": , "ColorDigitTwo": , "Multiplier": , "Tolerance": ,
                       };
@@ -66,3 +68,4 @@ var CapacitorValues = {
 var InductorValues = {
                         "Value": , "ColorDigitOne": , "ColorDigitTwo:" , "Multiplier": , "Tolerance": ,
                      };
+                     */
