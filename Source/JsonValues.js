@@ -62,7 +62,9 @@ var ResistorValues = {
 console.log(resistors);
 /*
 var CapacitorValues = {
-                        "Value": , "ColorDigitOne": , "ColorDigitTwo": , "Multiplier": , "Tolerance": ,
+                        "Value": ,
+                        "Value": ,
+                        "Value": ,
                       };
 
 var InductorValues = {
