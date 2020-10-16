@@ -66,6 +66,7 @@ var CapacitorValues = {
                         "Value": ,
                         "Value": ,
                         "Value": ,
+                        "Value": ,
                       };
 
 var InductorValues = {
