@@ -1,5 +1,7 @@
 // Import external JS file using JQuery
-//$.getScript("~/JsonValues.js", function(){});
+//$.getScript("~/JsonValues.js", function(){});\
+console.log("About to fetch data")
+$.getScript("./Data.js");
 
     // Declare variables
     var calculatedGlobal = false; // reset value
