@@ -50,3 +50,18 @@ td {
 .ColorWhite{ color: white; background-color: gray;}
 .ColorGold{ color: gold; background-color: gray;}
 .ColorSilver{ color: silver; /*background-color: white;*/}
+
+.content-head {
+    background-color: rgba(51, 102, 153, 0.8 );
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color: #3c2300;
+}
+
+.content-body {
+    background-color: rgba(51, 102, 153, 0.2 );
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
