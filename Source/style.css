@@ -65,3 +65,42 @@ td {
     font-weight: bold;
     font-size: 15px;
 }
+
+thead tr th {
+    color: #0c0f3a;
+    background-color: rgba(51, 102, 153, 100 );
+    font-size: 15px;
+}
+
+
+tbody tr td {
+    font-weight: bold;
+
+}
+
+tbody tr td {
+    text-align: right;
+}
+
+tbody tr td.left {
+    text-align: left;
+    white-space: nowrap;
+}
+
+tbody tr{
+    background-color: rgba(120, 161, 188, 0.2);
+
+}
+/*
+tbody tr:hover {
+    background-color: khaki;
+    color: #003813;
+}
+*/
+.content-title {
+    text-align: center;
+    font-weight: bold;
+    color: #acc7e2;
+    font-weight: bolder;
+    font-size: 20px;
+}
