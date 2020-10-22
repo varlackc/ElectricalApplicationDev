@@ -59,4 +59,4 @@ var resistor = {
                 value:'6.8M', colors: ['blue', 'grey', 'green']
 }
 
-console.log(ResistorValues);
+console.log(resistor);
