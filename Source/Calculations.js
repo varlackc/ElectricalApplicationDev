@@ -1,5 +1,6 @@
 // Import external JS file using JQuery
 
+
     // Declare variables
     var calculatedGlobal = false; // reset value
     var colors = ['black','brown', 'red', 'orange', 'yellow', 'green', 'blue', 'violet','grey', 'white'];
