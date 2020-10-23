@@ -1,4 +1,5 @@
 // This section will give the Json Values to the rest of the application
+$.getScript("Data.js", function() {});
 
 var resistor = {
                 "resitors":[
