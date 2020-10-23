@@ -1,5 +1,5 @@
 // Import external JS file using JQuery
-
+//$.getScript("Data.js", function() {});
 
     // Declare variables
     var calculatedGlobal = false; // reset value
