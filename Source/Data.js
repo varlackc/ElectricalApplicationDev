@@ -1,5 +1,5 @@
 // This section will give the Json Values to the rest of the application
-$.getScript("Data.js", function() {});
+
 
 var resistor = {
                 "resitors":[
@@ -62,6 +62,24 @@ var resistor = {
                 {"value":'6.8M', "colors": ['blue', 'grey', 'green']}
             
             ]
-}
+};
+
+var friends = ["Oscar", "Angela", "Kevin"];
+
+var outputText = "<h2> Resistor Content </h2>";
+
+resistor.resitors.forEach(function(res){
+    outputText += "Value: "+ res.value+" Colors: "+res.colors[0]+res.colors[1]+res.colors[2]+"<br>";
+});
+
+console.log(outputText);
+//document.write(outputText);
 
 console.log(resistor);
+
+// display content
+/*
+resistor.resitors.foreach(function(){
+    console.log("Display the content of the resistor value: "+item.value+ " Colors: "+item.colors[0]+res.colors[1]+item.colors[2]);
+});
+*/
