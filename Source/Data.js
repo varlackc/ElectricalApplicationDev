@@ -95,6 +95,24 @@ var capacitor = {
 
 var inductor ={
     "inductors":[
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
         {"value":''}
     ]
 };
