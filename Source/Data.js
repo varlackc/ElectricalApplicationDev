@@ -66,7 +66,24 @@ var resistor = {
 
 var capacitor = {
     "capacitors":[
-
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
+        {"value":''},
     ]
 };
 
