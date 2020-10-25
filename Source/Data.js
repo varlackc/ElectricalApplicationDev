@@ -87,9 +87,9 @@ var capacitor = {
         {"value":'10 uF'},
         {"value":'22 uF'},
         {"value":'47 uF'},
-        {"value":''},
-        {"value":''},
-        {"value":''},
+        {"value":'100 uF'},
+        {"value":'220 uF'},
+        {"value":'470 uF'}
     ]
 };
 
