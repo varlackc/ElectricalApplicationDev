@@ -98,22 +98,7 @@ var inductor ={
         {"value":'10 uH', "Amp":"3 A"},
         {"value":'100 uH',  "Amp":"0.91 A"},
         {"value":'1 mH',  "Amp":"0.15 A"},
-        {"value":'10 mH',  "Amp":"0.04 A"},
-        {"value":''},
-        {"value":''},
-        {"value":''},
-        {"value":''},
-        {"value":''},
-        {"value":''},
-        {"value":''},
-        {"value":''},
-        {"value":''},
-        {"value":''},
-        {"value":''},
-        {"value":''},
-        {"value":''},
-        {"value":''},
-        {"value":''}
+        {"value":'10 mH',  "Amp":"0.04 A"}
     ]
 };
 
