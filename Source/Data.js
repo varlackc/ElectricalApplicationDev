@@ -64,6 +64,12 @@ var resistor = {
             ]
 };
 
+var capacitor = {
+    "capacitors":[
+
+    ]
+};
+
 var friends = ["Oscar", "Angela", "Kevin"];
 
 var outputText = "<h2> Resistor Content </h2>";
