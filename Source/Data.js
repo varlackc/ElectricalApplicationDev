@@ -94,7 +94,9 @@ var capacitor = {
 };
 
 var inductor ={
-    
+    "inductors":[
+        {"value":''}
+    ]
 };
 
 var friends = ["Oscar", "Angela", "Kevin"];
