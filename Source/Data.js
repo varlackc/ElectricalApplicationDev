@@ -1,6 +1,6 @@
 // This section will give the Json Values to the rest of the application
-
-
+//Create a JS Module
+export function data (){
 var resistor = {
                 "resitors":[
                     
@@ -121,3 +121,5 @@ resistor.resitors.foreach(function(){
     console.log("Display the content of the resistor value: "+item.value+ " Colors: "+item.colors[0]+res.colors[1]+item.colors[2]);
 });
 */
+
+}
