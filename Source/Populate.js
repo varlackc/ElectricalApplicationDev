@@ -1,6 +1,6 @@
 //JavaScript Modules
-import{ data } from './Data.mjs';
-
+import Data  from './Data.js';
+/*
 console.log(data.data.resistors)
 
 foreach(res in resistors){
@@ -9,3 +9,7 @@ foreach(res in resistors){
 function testFunction(){
     alert("Page is loaded");
 }
+*/
+
+const data = new Data();
+console.log(data)
