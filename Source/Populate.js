@@ -1,15 +1,21 @@
 //JavaScript Modules
-import Data  from './Data.js';
-/*
-console.log(data.data.resistors)
+import {resistors, capacitors, inductors} from './Data.js';
 
-foreach(res in resistors){
-    console.log("Values");
-}
-function testFunction(){
-    alert("Page is loaded");
-}
-*/
+// Import data
+var res = resistors();
+var cap = capacitors();
+var ind = inductors();
 
-const data = new Data();
-console.log(data)
+// Test to display data
+console.log(res);
+console.log(cap);
+console.log(ind);
+
+//console.log(resistorTable);
+function CreateResistorTable(){
+    var resistorTable = ""
+    res.resitor.forEach(r => {
+        resistorTable += r.value + " "+r.colors[0]+"<br>";
+    });
+    console.log(resistorTable);
+}
