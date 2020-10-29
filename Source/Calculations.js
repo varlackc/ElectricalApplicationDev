@@ -1,7 +1,7 @@
     // Declare variables
     var calculatedGlobal = false; // reset value
 
-    var resistorsLength = resistors.length;
+    //var resistorsLength = resistors.length;
     /**
      * Find Voltage Given Current and Resistance
      * @param {Electrical Current In Amps} current 
