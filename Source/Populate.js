@@ -13,7 +13,7 @@ console.log(ind);
 
 //console.log(resistorTable);
 function CreateResistorTable(){
-    var resistorTable = ""
+    var resistorTable = "resistorTableTest <br>"
     res.resitor.forEach(r => {
         resistorTable += r.value +" <br>";
     });
@@ -23,7 +23,7 @@ function CreateResistorTable(){
 
 //wait until the page is loaded in order to display the data
 window.onload = function(){
-    var resistorTableMessage ="resistorTableTest <br>";
+    var resistorTableMessage ="";
     resistorTableMessage += CreateResistorTable();
     var resistorTable = document.getElementById('resistorTableTest');
     resistorTable.innerHTML = resistorTableMessage;
