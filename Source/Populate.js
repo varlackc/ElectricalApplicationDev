@@ -13,6 +13,7 @@ console.log(ind);
 
 //console.log(resistorTable);
 function CreateResistorTable(){
+    console.log("Made it to the Resistor Table");
     var resistorTable = ""
     res.resitor.forEach(r => {
         resistorTable += r.value + " "+r.colors[0]+"<br>";
