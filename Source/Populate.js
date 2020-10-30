@@ -23,8 +23,7 @@ function CreateResistorTable(){
 
 //wait until the page is loaded in order to display the data
 window.onload = function(){
-    var resistorTableMessage ="";
-    resistorTableMessage += CreateResistorTable();
+    var resistorTableMessage = CreateResistorTable();
     var resistorTable = document.getElementById('resistorTableTest');
     resistorTable.innerHTML = resistorTableMessage;
 }
