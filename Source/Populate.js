@@ -13,17 +13,18 @@ console.log(ind);
 
 //console.log(resistorTable);
 function CreateResistorTable(){
-    console.log("Made it to the Resistor Table");
     var resistorTable = ""
     res.resitor.forEach(r => {
-        resistorTable += r.value + " "+r.colors[0]+"<br>";
+        resistorTable += r.value +" <br>";
     });
     console.log(resistorTable);
+    return resistorTable;
 }
 
 //wait until the page is loaded in order to display the data
 window.onload = function(){
+    var resistorTableMessage ="resistorTableTest <br>";
+    resistorTableMessage += CreateResistorTable();
     var resistorTable = document.getElementById('resistorTableTest');
-    resistorTable.innerHTML = 'The Resistor Table Test Succeded';
-    CreateResistorTable();
+    resistorTable.innerHTML = resistorTableMessage;
 }
