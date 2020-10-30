@@ -25,4 +25,5 @@ function CreateResistorTable(){
 window.onload = function(){
     var resistorTable = document.getElementById('resistorTableTest');
     resistorTable.innerHTML = 'The Resistor Table Test Succeded';
+    CreateResistorTable();
 }
