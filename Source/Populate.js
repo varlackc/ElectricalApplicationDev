@@ -20,3 +20,9 @@ function CreateResistorTable(){
     });
     console.log(resistorTable);
 }
+
+//wait until the page is loaded in order to display the data
+window.onload = function(){
+    var resistorTable = document.getElementById('resistorTableTest');
+    resistorTable.innerHTML = 'The Resistor Table Test Succeded';
+}
