@@ -47,7 +47,7 @@ function CreateResistorTable(){
                       </div>
                       </div>`;
     console.log(resistorTable);
-    console.log(res.resitor.length());
+    console.log(res.resitor.length);
     return resistorTable;
 }
 
