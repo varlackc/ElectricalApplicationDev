@@ -13,6 +13,8 @@ console.log(ind);
 
 //console.log(resistorTable);
 function CreateResistorTable(){
+    //Declare Variables
+
     var resistorTable = `<h3>Resistor values (5% tolerance) ohms</h3>
                             <div class="container">
                             <div class="row">
@@ -30,19 +32,34 @@ function CreateResistorTable(){
                         </thead> 
                         <tbody>
                         `
+    //-------------------------------------------
+    for(var i = 0; i < 6; i++){
+        var offsetA, offsetB, offsetC, offsetD, offsetE,offsetF, offsetG, offsetH, offsetI = 0;
 
-    for(var i = 0; i < res.resitor.length; i++){
-        if((i !== 0) && i%(6) == 0){
-            console.log(i +" Close the TR tag");
-            resistorTable += `</TR>`;
+        offsetA = 6 + i; offsetB = 17 + i; offsetC = 28 + i; offsetD = 39 + i; offsetE = 50; 
+        offsetF = 7 + i; offsetG= 18 + i; offsetH = 29 + i; offsetI = 40 + i;
+
+        var col1 = res.resitor[i].value;
+        var col2 = res.resitor[i+offsetA].value;
+        var col3 = res.resitor[i+offsetB].value;
+        var col4 = res.resitor[i+offsetC].value;
+        var col5 = res.resitor[i+offsetD].value;
+        var col6 = res.resitor[i+offsetE].value;
+        //--------
+        var col7 = res.resitor[i+offsetF].value;
+        var col8 = res.resitor[i+offsetG].value;
+        var col9 = res.resitor[i+offsetH].value;
+        var col10 = res.resitor[i+offsetI].value; // Ternary Operator to determine the resistor value
+
+        // --- Display
+        console.log("<TR><td>"+col1+"</td><td>"+col2+"</td><td>"+col3+"</td><td>"+col4+"</td><td>"+col5+"</td><td>"+col6+"</td>\n");
+        resistorTable += `<TR><td>`+col1+`</td><td>`+col2+`</td><td>`+col3+`</td><td>`+col4+`</td><td>`+col5+`</td><td>`+col6+`</td></TR>`;
+        if(i < 5){console.log(`<TR><td>  </td><td>`+col7+`</td><td>`+col8+`</td><td>`+col9+`</td><td>`+col10+`</td><td>    </td></TR>`);
+        resistorTable += `<TR><td>  </td><td>`+col7+`</td><td>`+col8+`</td><td>`+col9+`</td><td>`+col10+`</td><td>    </td></TR>`;
         }
-        if(i%(6) == 0){
-            console.log(i +" Open the TR tag");
-            resistorTable += `<TR>`;
-        }
-        resistorTable += `<td>` + res.resitor[i].value + `</td>`;
-        console.log(res.resitor[i].value)
     }
+    //-------------------------------------------
+
     resistorTable += `</TR>`;
     console.log(i +" Close the TR tag");
 
@@ -53,15 +70,10 @@ function CreateResistorTable(){
                       </div>`;
     console.log(resistorTable);
     console.log("array size" + res.resitor.length);
-    return resistorTable;
+
+        // -- return
+        return resistorTable; 
 }
-
-
-for(var i = 0; i < 6; i++){
-    console.log(i);
-}
-
-
 
 //wait until the page is loaded in order to display the data
 window.onload = function(){
