@@ -30,12 +30,7 @@ function CreateResistorTable(){
                         </thead> 
                         <tbody>
                         `
-    /*
-    res.resitor.forEach(r => {
-        resistorTable += `<td>` + r.value +`</td>`;
-    });
-    */
-
+/*
     for(var i = 0; i < res.resitor.length; i++){
         if((i !== 0) && i%(6) == 0){
             console.log(i +" Close the TR tag");
@@ -59,6 +54,11 @@ function CreateResistorTable(){
     console.log(resistorTable);
     console.log("array size" + res.resitor.length);
     return resistorTable;
+}
+*/
+
+for(var i = 0; i < 6; i++){
+    console.log(i);
 }
 
 //wait until the page is loaded in order to display the data
