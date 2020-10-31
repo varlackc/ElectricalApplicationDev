@@ -13,11 +13,41 @@ console.log(ind);
 
 //console.log(resistorTable);
 function CreateResistorTable(){
-    var resistorTable = "resistorTableTest <br>"
+    var resistorTable = `<h3>Resistor values (5% tolerance) ohms</h3>
+                            <div class="container">
+                            <div class="row">
+                            <div class="col-md-12">
+                        <table  class="table  table-inverse  table-striped  table-hover">
+                        <thead class="thead-dark ">
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead> 
+                        <tbody>
+                        `
+    
     res.resitor.forEach(r => {
-        resistorTable += r.value +" <br>";
+        resistorTable += `<td>` + r.value +`</td>`;
     });
+    
+/*
+    for(var i = 0; i < res.resitor.length(); i++){
+        
+        resistorTable += `<td>` + res.resitor[i].value + `</td>`;
+    }
+*/
+    resistorTable += `      </tbody>
+                            </table>
+                         </div>
+                      </div>
+                      </div>`;
     console.log(resistorTable);
+    console.log(res.resitor.length());
     return resistorTable;
 }
 
