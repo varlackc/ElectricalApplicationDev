@@ -41,6 +41,7 @@ function CreateResistorTable(){
             console.log("Open the TR tag");
         }
         resistorTable += `<td>` + res.resitor[i].value + `</td>`;
+        console.log(res.resitor[i].value)
         /*
         if(i%(4) == 0){
             console.log("Open the TR tag");
