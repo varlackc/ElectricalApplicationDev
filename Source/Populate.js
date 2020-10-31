@@ -30,24 +30,31 @@ function CreateResistorTable(){
                         </thead> 
                         <tbody>
                         `
-    
+    /*
     res.resitor.forEach(r => {
         resistorTable += `<td>` + r.value +`</td>`;
     });
-    
-/*
-    for(var i = 0; i < res.resitor.length(); i++){
-        
+    */
+
+    for(var i = 0; i < res.resitor.length; i++){
+        if(i%(4) == 0){
+            console.log("Open the TR tag");
+        }
         resistorTable += `<td>` + res.resitor[i].value + `</td>`;
+        /*
+        if(i%(4) == 0){
+            console.log("Open the TR tag");
+        }
+        */
     }
-*/
+
     resistorTable += `      </tbody>
                             </table>
                          </div>
                       </div>
                       </div>`;
     console.log(resistorTable);
-    console.log(res.resitor.length);
+    console.log("array size" + res.resitor.length);
     return resistorTable;
 }
 
