@@ -37,17 +37,19 @@ function CreateResistorTable(){
     */
 
     for(var i = 0; i < res.resitor.length; i++){
-        if(i%(4) == 0){
-            console.log("Open the TR tag");
+        if((i !== 0) && i%(6) == 0){
+            console.log(i +" Close the TR tag");
+            resistorTable += `</TR>`;
+        }
+        if(i%(6) == 0){
+            console.log(i +" Open the TR tag");
+            resistorTable += `<TR>`;
         }
         resistorTable += `<td>` + res.resitor[i].value + `</td>`;
         console.log(res.resitor[i].value)
-        
-        if(i%(3) == 0){
-            console.log("Close the TR tag");
-        }
-        
     }
+    resistorTable += `</TR>`;
+    console.log(i +" Close the TR tag");
 
     resistorTable += `      </tbody>
                             </table>
