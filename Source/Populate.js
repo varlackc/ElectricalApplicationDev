@@ -75,6 +75,10 @@ function CreateResistorTable(){
         return resistorTable; 
 }
 
+function CreateCalculatorTable(){
+    
+}
+
 //wait until the page is loaded in order to display the data
 window.onload = function(){
     var resistorTableMessage = CreateResistorTable();
