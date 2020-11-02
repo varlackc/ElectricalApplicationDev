@@ -76,7 +76,7 @@ function CreateResistorTable(){
 }
 
 function CreateCalculatorTable(){
-    
+    var calculatorTable = "<h2>Common Capacitor Values</h2>";
 }
 
 //wait until the page is loaded in order to display the data
