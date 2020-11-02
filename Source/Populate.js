@@ -86,5 +86,6 @@ window.onload = function(){
     var inductorTableMessage = "";
     var resistorTable = document.getElementById('resistorTableTest');
     var capacitorTable = document.getElementById('capacitorTableTest');
+    var inductorTable = document.getElementById('inductorTableTest');
     resistorTable.innerHTML = resistorTableMessage;
 }
