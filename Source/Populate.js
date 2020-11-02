@@ -82,6 +82,9 @@ function CreateCalculatorTable(){
 //wait until the page is loaded in order to display the data
 window.onload = function(){
     var resistorTableMessage = CreateResistorTable();
+    var capacitorTableMessage = "";
+    var inductorTableMessage = "";
     var resistorTable = document.getElementById('resistorTableTest');
+    var capacitorTable = document.getElementById('capacitorTableTest');
     resistorTable.innerHTML = resistorTableMessage;
 }
