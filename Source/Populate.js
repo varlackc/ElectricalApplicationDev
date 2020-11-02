@@ -75,17 +75,18 @@ function CreateResistorTable(){
         return resistorTable; 
 }
 
-function CreateCalculatorTable(){
+function CreateCapacitorTable(){
     var calculatorTable = "<h2>Common Capacitor Values</h2>";
 }
 
 //wait until the page is loaded in order to display the data
 window.onload = function(){
     var resistorTableMessage = CreateResistorTable();
-    var capacitorTableMessage = "";
+    var capacitorTableMessage = CreateCapacitorTable();
     var inductorTableMessage = "";
     var resistorTable = document.getElementById('resistorTableTest');
     var capacitorTable = document.getElementById('capacitorTableTest');
     var inductorTable = document.getElementById('inductorTableTest');
     resistorTable.innerHTML = resistorTableMessage;
+    capacitorTable.innerHTML = capacitorTableMessage;
 }
