@@ -89,9 +89,10 @@ window.onload = function(){
     var resistorTable = document.getElementById('resistorTableTest');
     if(resistorTable){resistorTable.innerHTML = resistorTableMessage;}
     
-    console.log("Made it here");
+    
     var capacitorTable = document.getElementById('capacitorTableTest').innerHTML;
     if(capacitorTable){capacitorTable.innerHTML = capacitorTableMessage;}
+    console.log("Made it here");
     //var inductorTable = document.getElementById('inductorTableTest');
     
     
