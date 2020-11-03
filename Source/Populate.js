@@ -7,9 +7,9 @@ var cap = capacitors();
 var ind = inductors();
 
 // Test to display data
-console.log(res);
-console.log(cap);
-console.log(ind);
+//console.log(res);
+//console.log(cap);
+//console.log(ind);
 
 //console.log(resistorTable);
 function CreateResistorTable(){
@@ -52,7 +52,7 @@ function CreateResistorTable(){
         var col10 = res.resitor[i+offsetI].value; // Ternary Operator to determine the resistor value
 
         // --- Display
-        console.log("<TR><td>"+col1+"</td><td>"+col2+"</td><td>"+col3+"</td><td>"+col4+"</td><td>"+col5+"</td><td>"+col6+"</td>\n");
+        //console.log("<TR><td>"+col1+"</td><td>"+col2+"</td><td>"+col3+"</td><td>"+col4+"</td><td>"+col5+"</td><td>"+col6+"</td>\n");
         resistorTable += `<TR><td>`+col1+`</td><td>`+col2+`</td><td>`+col3+`</td><td>`+col4+`</td><td>`+col5+`</td><td>`+col6+`</td></TR>`;
         if(i < 5){console.log(`<TR><td>  </td><td>`+col7+`</td><td>`+col8+`</td><td>`+col9+`</td><td>`+col10+`</td><td>    </td></TR>`);
         resistorTable += `<TR><td>  </td><td>`+col7+`</td><td>`+col8+`</td><td>`+col9+`</td><td>`+col10+`</td><td>    </td></TR>`;
@@ -61,15 +61,15 @@ function CreateResistorTable(){
     //-------------------------------------------
 
     resistorTable += `</TR>`;
-    console.log(i +" Close the TR tag");
+    //console.log(i +" Close the TR tag");
 
     resistorTable += `      </tbody>
                             </table>
                          </div>
                       </div>
                       </div>`;
-    console.log(resistorTable);
-    console.log("array size" + res.resitor.length);
+    //console.log(resistorTable);
+    //console.log("array size" + res.resitor.length);
 
         // -- return
         return resistorTable; 
@@ -77,6 +77,7 @@ function CreateResistorTable(){
 
 function CreateCapacitorTable(){
     var calculatorTable = `<h2>Common Capacitor Values</h2>`;
+    console.log("Made it here");
     return calculatorTable;
 }
 
@@ -86,13 +87,13 @@ window.onload = function(){
     var capacitorTableMessage = CreateCapacitorTable();
     //var inductorTableMessage = "";
     
-    var resistorTable = document.getElementById('resistorTableTest');
+    let resistorTable = document.getElementById('resistorTableTest');
     if(resistorTable){resistorTable.innerHTML = resistorTableMessage;}
     
     
-    var capacitorTable = document.getElementById('capacitorTableTest').innerHTML;
+    let capacitorTable = document.getElementById('capacitorTableTest').innerHTML;
     if(capacitorTable){capacitorTable.innerHTML = capacitorTableMessage;}
-    console.log("Made it here");
+    //console.log("Made it here");
     //var inductorTable = document.getElementById('inductorTableTest');
     
     
