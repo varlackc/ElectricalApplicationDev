@@ -76,22 +76,22 @@ function CreateResistorTable(){
 }
 
 function CreateCapacitorTable(){
-    var calculatorTable = "<h2>Common Capacitor Values</h2>";
+    var calculatorTable = `<h2>Common Capacitor Values</h2>`;
     return calculatorTable;
 }
 
 //wait until the page is loaded in order to display the data
 window.onload = function(){
     var resistorTableMessage = CreateResistorTable();
-    var capacitorTableMessage = "Ready to modify"//CreateCapacitorTable();
+    var capacitorTableMessage = CreateCapacitorTable();
     //var inductorTableMessage = "";
     
     var resistorTable = document.getElementById('resistorTableTest');
+    if(resistorTable){resistorTable.innerHTML = resistorTableMessage;}
     
-    resistorTable.innerHTML = resistorTableMessage;
     console.log("Made it here");
-    var capacitorTable = document.getElementById('capacitorTableTest').innerHTML = "This has worked";
-    capacitorTable.innerHTML = capacitorTableMessage;
+    var capacitorTable = document.getElementById('capacitorTableTest').innerHTML;
+    if(capacitorTable){capacitorTable.innerHTML = capacitorTableMessage;}
     //var inductorTable = document.getElementById('inductorTableTest');
     
     
