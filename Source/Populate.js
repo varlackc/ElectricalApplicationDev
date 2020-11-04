@@ -80,7 +80,7 @@ function CreateCapacitorTable(){
     return calculatorTable;
 }
 
-function CreateCapacitorTable(){
+function CreateInductorTable(){
     var calculatorTable = `<h2>Common Inductor Values</h2>`;
     return calculatorTable;
 }
@@ -90,13 +90,15 @@ function CreateCapacitorTable(){
 window.onload = function(){
     var resistorTableMessage = CreateResistorTable();
     var capacitorTableMessage = CreateCapacitorTable();
+    var inductorTableMessage = CreateInductorTable();
     
     let resistorTable = document.getElementById('resistorTableTest');
     let capacitorTable = document.getElementById('capacitorTableTest');
-    let inductorTableMessage = document.getElementById('inductorTableTest');
+    let inductorTable = document.getElementById('inductorTableTest');
 
     if(resistorTable){resistorTable.innerHTML = resistorTableMessage;} 
     if(capacitorTable){capacitorTable.innerHTML = capacitorTableMessage;}
+    if(inductorTable){inductorTable.innerHTML = inductorTableMessage;}
     //console.log("Made it here");
     //var inductorTable = document.getElementById('inductorTableTest');
     
