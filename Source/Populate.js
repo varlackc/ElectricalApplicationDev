@@ -85,13 +85,12 @@ function CreateCapacitorTable(){
 window.onload = function(){
     var resistorTableMessage = CreateResistorTable();
     var capacitorTableMessage = CreateCapacitorTable();
-    //var inductorTableMessage = "";
     
     let resistorTable = document.getElementById('resistorTableTest');
-    if(resistorTable){resistorTable.innerHTML = resistorTableMessage;}
-    
-    
     let capacitorTable = document.getElementById('capacitorTableTest');
+    let inductorTableMessage = document.getElementById('inductorTableTest');
+
+    if(resistorTable){resistorTable.innerHTML = resistorTableMessage;} 
     if(capacitorTable){capacitorTable.innerHTML = capacitorTableMessage;}
     //console.log("Made it here");
     //var inductorTable = document.getElementById('inductorTableTest');
