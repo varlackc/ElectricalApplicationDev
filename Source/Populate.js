@@ -77,9 +77,14 @@ function CreateResistorTable(){
 
 function CreateCapacitorTable(){
     var calculatorTable = `<h2>Common Capacitor Values</h2>`;
-    console.log("Made it here");
     return calculatorTable;
 }
+
+function CreateCapacitorTable(){
+    var calculatorTable = `<h2>Common Inductor Values</h2>`;
+    return calculatorTable;
+}
+
 
 //wait until the page is loaded in order to display the data
 window.onload = function(){
