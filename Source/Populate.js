@@ -91,7 +91,7 @@ window.onload = function(){
     if(resistorTable){resistorTable.innerHTML = resistorTableMessage;}
     
     
-    let capacitorTable = document.getElementById('capacitorTableTest').innerHTML;
+    let capacitorTable = document.getElementById('capacitorTableTest');
     if(capacitorTable){capacitorTable.innerHTML = capacitorTableMessage;}
     //console.log("Made it here");
     //var inductorTable = document.getElementById('inductorTableTest');
