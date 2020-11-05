@@ -98,7 +98,23 @@ function CreateCapacitorTable(){
 }
 
 function CreateInductorTable(){
-    var calculatorTable = `<h2>Common Inductor Values</h2>`;
+    var calculatorTable = `<h2>Common Inductor Values</h2>
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+<table  class="table  table-inverse  table-striped  table-hover">
+<thead class="thead-dark ">
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+</thead> 
+<tbody>
+    `;
     return calculatorTable;
 }
 
