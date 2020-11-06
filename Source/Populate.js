@@ -94,6 +94,9 @@ function CreateCapacitorTable(){
 <tbody>
 `;
 
+    //-------------------------------------------
+    
+    //-------------------------------------------
     return calculatorTable;
 }
 
@@ -115,6 +118,10 @@ function CreateInductorTable(){
 </thead> 
 <tbody>
     `;
+    
+    //-------------------------------------------
+    
+    //-------------------------------------------
     return calculatorTable;
 }
 
