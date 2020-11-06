@@ -59,9 +59,6 @@ function CreateResistorTable(){
                          </div>
                       </div>
                       </div>`;
-    //console.log(resistorTable);
-    //console.log("array size" + res.resitor.length);
-
         // -- return
         return resistorTable; 
 }
@@ -84,19 +81,14 @@ function CreateCapacitorTable(){
 
     //-------------------------------------------
     
-    //-------------------------------------------
-    
+    //------------------------------------------- 
     resistorTable += `</TR>`;
-    //console.log(i +" Close the TR tag");
 
     resistorTable += `      </tbody>
                             </table>
                          </div>
                       </div>
                       </div>`;
-    //console.log(resistorTable);
-    //console.log("array size" + res.resitor.length);
-
         // -- return
     return calculatorTable;
 }
