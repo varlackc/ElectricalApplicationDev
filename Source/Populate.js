@@ -119,8 +119,6 @@ function CreateInductorTable(){
                          </div>
                       </div>
                       </div>`;
-    //console.log(resistorTable);
-    //console.log("array size" + res.resitor.length);
 
         // -- return
     return calculatorTable;
