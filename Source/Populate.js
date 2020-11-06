@@ -138,8 +138,6 @@ window.onload = function(){
     if(resistorTable){resistorTable.innerHTML = resistorTableMessage;} 
     if(capacitorTable){capacitorTable.innerHTML = capacitorTableMessage;}
     if(inductorTable){inductorTable.innerHTML = inductorTableMessage;}
-    //console.log("Made it here");
-    //var inductorTable = document.getElementById('inductorTableTest');
     
     
 }
