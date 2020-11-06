@@ -113,7 +113,6 @@ function CreateInductorTable(){
     //-------------------------------------------
     
     resistorTable += `</TR>`;
-    //console.log(i +" Close the TR tag");
 
     resistorTable += `      </tbody>
                             </table>
