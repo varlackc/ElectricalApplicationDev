@@ -64,7 +64,7 @@ function CreateResistorTable(){
 }
 
 function CreateCapacitorTable(){
-    var calculatorTable = `<h2>Common Capacitor Values</h2>
+    var capacitorTable = `<h2>Common Capacitor Values</h2>
     <div class="container">
     <div class="row">
     <div class="col-md-12">
@@ -82,19 +82,19 @@ function CreateCapacitorTable(){
     //-------------------------------------------
     
     //------------------------------------------- 
-    resistorTable += `</TR>`;
+    capacitorTable += `</TR>`;
 
-    resistorTable += `      </tbody>
+    capacitorTable += `      </tbody>
                             </table>
                          </div>
                       </div>
                       </div>`;
         // -- return
-    return calculatorTable;
+    return capacitorTable;
 }
 
 function CreateInductorTable(){
-    var calculatorTable = `<h2>Common Inductor Values</h2>
+    var inductorTable = `<h2>Common Inductor Values</h2>
     <div class="container">
     <div class="row">
     <div class="col-md-12">
@@ -112,16 +112,16 @@ function CreateInductorTable(){
     
     //-------------------------------------------
     
-    resistorTable += `</TR>`;
+    inductorTable += `</TR>`;
 
-    resistorTable += `      </tbody>
+    inductorTable += `      </tbody>
                             </table>
                          </div>
                       </div>
                       </div>`;
 
         // -- return
-    return calculatorTable;
+    return inductorTable;
 }
 
 
@@ -138,6 +138,5 @@ window.onload = function(){
     if(resistorTable){resistorTable.innerHTML = resistorTableMessage;} 
     if(capacitorTable){capacitorTable.innerHTML = capacitorTableMessage;}
     if(inductorTable){inductorTable.innerHTML = inductorTableMessage;}
-    
     
 }
