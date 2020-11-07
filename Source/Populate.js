@@ -80,9 +80,11 @@ function CreateCapacitorTable(){
 `;
 
     //-------------------------------------------
-    for(var i = 0; i < 3; i++){
-        //cap
+    console.log("----------------------------");
+    for(var i = 0; i < 24; i++){
+        console.log(cap.capacitor[i].value);
     }
+    console.log("----------------------------");
     //------------------------------------------- 
     capacitorTable += `</TR>`;
 
@@ -112,7 +114,9 @@ function CreateInductorTable(){
     
     //-------------------------------------------
       for(var i = 0; i < 2; i++){
-        //ind
+        console.log("-----------------------");
+        console.log(ind.inductor[i].value);
+        console.log("-----------------------");
     }  
     //-------------------------------------------
     
