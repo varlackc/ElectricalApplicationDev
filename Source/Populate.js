@@ -114,18 +114,22 @@ function CreateInductorTable(){
 <table  class="table  table-inverse  table-striped  table-hover">
 <thead class="thead-dark ">
     <tr>
-        <th></th>
-        <th></th>
+        <th>Value</th>
+        <th>Current Rating</th>
     </tr>
 </thead> 
 <tbody>
     `;
     
     //-------------------------------------------
-      for(var i = 0; i < 2; i++){
+      for(var i = 0; i < 4; i++){
+        var col1 = ind.inductor[i].value;
+        var col2 = ind.inductor[i].Amp;
         console.log("-----------------------");
-        console.log(ind.inductor[i].value);
+        console.log(col1 +" "+col2);
         console.log("-----------------------");
+
+        inductorTable += `<TR><td>`+col1+`</td><td>`+col2+`</td></TR>`;
     }  
     //-------------------------------------------
     
