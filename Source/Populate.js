@@ -80,7 +80,6 @@ function CreateCapacitorTable(){
 `;
 
     //-------------------------------------------
-    console.log("----------------------------");
     for(var i = 0; i < 8; i++){
         var col1, col2, col3;
         col1 = cap.capacitor[i*3].value;
@@ -89,7 +88,7 @@ function CreateCapacitorTable(){
 
         capacitorTable += `<TR><td>`+col1+`</td><td>`+col2+`</td><td>`+col3+`</td></TR>`;
     }
-    console.log("----------------------------");
+
     //------------------------------------------- 
     capacitorTable += `</TR>`;
 
