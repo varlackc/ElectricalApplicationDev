@@ -87,10 +87,6 @@ function CreateCapacitorTable(){
         col2 = cap.capacitor[i*3 + 1].value;
         col3 = cap.capacitor[i*3 + 2].value;
 
-        console.log(col1);
-        console.log(col2);
-        console.log(col3);
-
         capacitorTable += `<TR><td>`+col1+`</td><td>`+col2+`</td><td>`+col3+`</td></TR>`;
     }
     console.log("----------------------------");
@@ -125,9 +121,6 @@ function CreateInductorTable(){
       for(var i = 0; i < 4; i++){
         var col1 = ind.inductor[i].value;
         var col2 = ind.inductor[i].Amp;
-        console.log("-----------------------");
-        console.log(col1 +" "+col2);
-        console.log("-----------------------");
 
         inductorTable += `<TR><td>`+col1+`</td><td>`+col2+`</td></TR>`;
     }  
