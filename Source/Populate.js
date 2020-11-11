@@ -8,7 +8,6 @@ var ind = inductors();
 
 function CreateResistorTable(){
     //Declare Variables
-
     var resistorTable = `<h3>Resistor values (5% tolerance) ohms</h3>
                             <div class="container">
                             <div class="row">
@@ -44,7 +43,6 @@ function CreateResistorTable(){
         var col8 = res.resitor[i+offsetG].value;
         var col9 = res.resitor[i+offsetH].value;
         var col10 = res.resitor[i+offsetI].value; // Ternary Operator to determine the resistor value
-
         // --- Display
         resistorTable += `<TR><td>`+col1+`</td><td>`+col2+`</td><td>`+col3+`</td><td>`+col4+`</td><td>`+col5+`</td><td>`+col6+`</td></TR>`;
         if(i < 5){console.log(`<TR><td>  </td><td>`+col7+`</td><td>`+col8+`</td><td>`+col9+`</td><td>`+col10+`</td><td>    </td></TR>`);
@@ -53,7 +51,6 @@ function CreateResistorTable(){
     }
     //-------------------------------------------
     resistorTable += `</TR>`;
-
     resistorTable += `      </tbody>
                             </table>
                          </div>
@@ -91,7 +88,6 @@ function CreateCapacitorTable(){
 
     //------------------------------------------- 
     capacitorTable += `</TR>`;
-
     capacitorTable += `      </tbody>
                             </table>
                          </div>
@@ -126,13 +122,11 @@ function CreateInductorTable(){
     //-------------------------------------------
     
     inductorTable += `</TR>`;
-
     inductorTable += `      </tbody>
                             </table>
                          </div>
                       </div>
                       </div>`;
-
         // -- return
     return inductorTable;
 }
@@ -151,5 +145,4 @@ window.onload = function(){
     if(resistorTable){resistorTable.innerHTML = resistorTableMessage;} 
     if(capacitorTable){capacitorTable.innerHTML = capacitorTableMessage;}
     if(inductorTable){inductorTable.innerHTML = inductorTableMessage;}
-    
 }
