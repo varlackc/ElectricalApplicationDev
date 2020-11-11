@@ -475,9 +475,9 @@
      */
     function getSelectCalculation() {
         var selectCalculation = document.getElementById("calculation").value;
-        console.log("--------------------------------");
-        console.log("Calculation Selection: " + selectCalculation);
-        console.log("--------------------------------");
+       // console.log("--------------------------------");
+       // console.log("Calculation Selection: " + selectCalculation);
+       // console.log("--------------------------------");
         //switch 
         switch (selectCalculation) {
             case "directCurrentHP":
