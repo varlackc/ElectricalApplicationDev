@@ -498,7 +498,7 @@
                 // Select the Direct Current Horse Power Calculation
                 horsePower = calculateDirectCurrentHP(volts, amps, efficiency);
                 document.getElementById("horsePower6").value = horsePower;
-                console.log(" Calculate Direct Current HP ");
+              //  console.log(" Calculate Direct Current HP ");
                 break;
             case "singlePhaseHP":
                 document.getElementById("multipleSectionLabel").innerHTML = "Single Phase Horse Power";
