@@ -569,7 +569,7 @@
                 document.getElementById("horsePower6").style.backgroundColor = "initial";
                 document.getElementById("kva6").style.backgroundColor = "#FFAAAA"; //"#D46D6A";
                 // Three Phase KVA Calculation
-                console.log(" Calculate Three Phase KVA ");
+            //    console.log(" Calculate Three Phase KVA ");
                 break;
             default:
                 document.getElementById("multipleSectionLabel").innerHTML = "Select An Option";
@@ -587,7 +587,7 @@
                 document.getElementById("horsePower6").disabled = true;
                 $("horsePower6").remove();
                 // Select An Option, Default Option
-                console.log(" Calculate Multiple Section Label ");
+             //   console.log(" Calculate Multiple Section Label ");
                 break;
         }
     }
