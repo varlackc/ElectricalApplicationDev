@@ -73,7 +73,7 @@
         var current = document.getElementById("current");
         var resistance = document.getElementById("resistance");
         var power = document.getElementById("power");
-        console.log("Reset");
+        //console.log("Reset");
         voltage.value = null;
         current.value = null;
         resistance.value = null;
@@ -92,14 +92,14 @@
         var resistance = document.getElementById("resistance");
         var power = document.getElementById("power");
 
-        console.log("made it to the top");
+        //console.log("made it to the top");
         if (calculatedGlobal == true) {
-            console.log("Reset");
+            //console.log("Reset");
             ClearFields();
         }
         // Calculate voltage
         if (voltage.value.length === 0 && current.value.length > 0 && resistance.value.length > 0 && calculatedGlobal == false) {
-            console.log("Calculate Voltage");
+            //console.log("Calculate Voltage");
             result = CalculateVoltageGivenCurrentResistance(current.value, resistance.value);
             voltage.value = result;
             result = PowerGivenResistantCurrent(resistance.value, resistance.value);
@@ -109,7 +109,7 @@
         }
         // Calculate Current
         else if (voltage.value.length > 0 && current.value.length === 0 && resistance.value.length > 0 && calculatedGlobal == false) {
-            console.log("Calculate Current");
+            //console.log("Calculate Current");
             result = CalculateCurrentGivenVoltageResistance(voltage.value, resistance.value)
             current.value = result;
             result = PowerGivenVoltageResistance(voltage.value, resistance.value);
@@ -119,7 +119,7 @@
         }
         // Calculate Resistance
         else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length === 0 && calculatedGlobal == false) {
-            console.log("Calculate Resistance");
+            //console.log("Calculate Resistance");
             result = CalculateResistanceGivenVoltageCurrent(voltage.value, current.value) // Calculate Resistance
             resistance.value = result;
             result = PowerGivenVoltageCurrent(voltage.value, current.value); // Calculate power
@@ -132,7 +132,7 @@
             var testVoltage = CalculateVoltageGivenCurrentResistance(current.value, resistance.value);
             if (testVoltage == voltage.value) {
                 result = PowerGivenVoltageCurrent(voltage.value, current.value);
-                console.log("Power: " + result);
+               // console.log("Power: " + result);
                 power.value = result;
                 calculatedGlobal = true;
 
@@ -151,10 +151,10 @@
     function calculateDirectCurrentHP(volts, amps, efficiency) {
         var conversionFactor = 746;
         var result = 0;
-        console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor)
+       // console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor)
         result = (volts.value * amps.value * efficiency.value) / (conversionFactor);
         result = result.toPrecision(4);
-        console.log("The Result is: " + result);
+      //  console.log("The Result is: " + result);
         return result;
     }
 
@@ -168,7 +168,7 @@
     function calculateSinglePhaseHP(volts, amps, efficiency, powerFactor) {
         var conversionFactor = 746;
         var result = 0;
-        console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor);
+       // console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor);
         result = (volts.value * amps.value * efficiency.value * powerFactor.value) / (conversionFactor);
         return result.toPrecision(4);
     }
@@ -226,34 +226,34 @@
         var kva = document.getElementById("kva6");
         var calcType = document.getElementById("calculation").value;
         var result = 0;
-        console.log("Calculate Result: " + calcType);
+     //   console.log("Calculate Result: " + calcType);
         switch (calcType) {
             case "directCurrentHP":
-                console.log("Direct Current HP Calculation");
+             //   console.log("Direct Current HP Calculation");
                 result = calculateDirectCurrentHP(volts, amps, efficiency);
-                console.log("Result: " + result);
+              //  console.log("Result: " + result);
                 horsePower.value = result;
                 break;
             case "singlePhaseHP":
-                console.log("Single Phase HP Calculation");
+            //    console.log("Single Phase HP Calculation");
                 result = calculateSinglePhaseHP(volts, amps, efficiency, powerFactor);
-                console.log("Result: " + result);
+             //   console.log("Result: " + result);
                 horsePower.value = result;
                 break;
             case "threePhaseCurrentHP":
-                console.log("Three Phase Current HP");
+             //   console.log("Three Phase Current HP");
                 result = calculateThreePhaseHP(volts, amps, efficiency, powerFactor)
-                console.log("Result: " + result);
+             //   console.log("Result: " + result);
                 horsePower.value = result;
                 break;
             case "singlePhaseKVA":
-                console.log("Single Phase KVA");
-                console.log("Result: " + result);
+              //  console.log("Single Phase KVA");
+              //  console.log("Result: " + result);
                 kva.value = calculateSinglePhaseKVA(volts, amps);
                 break;
             case "threePhaseKVA":
-                console.log("Single Phase KVA");
-                console.log("Result: " + result);
+             //   console.log("Single Phase KVA");
+             //   console.log("Result: " + result);
                 kva.value = calculateThreePhaseKVA(volts, amps);
                 break;
             default:
@@ -267,9 +267,9 @@
     // need to simplify this section
     function getSelectValue() {
         var selectedValue = document.getElementById("Resistor").value;
-        console.log("----------------------------------");
-        console.log(selectedValue);
-        console.log("----------------------------------");
+      //  console.log("----------------------------------");
+      //  console.log(selectedValue);
+      //  console.log("----------------------------------");
         switch (selectedValue) {
             case "10":
                 changeResistorColors('brown','black','black');
