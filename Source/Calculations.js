@@ -93,7 +93,6 @@
 
         //console.log("made it to the top");
         if (calculatedGlobal == true) {
-            //console.log("Reset");
             ClearFields();
         }
         // Calculate voltage
