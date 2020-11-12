@@ -127,7 +127,6 @@
             var testVoltage = CalculateVoltageGivenCurrentResistance(current.value, resistance.value);
             if (testVoltage == voltage.value) {
                 result = PowerGivenVoltageCurrent(voltage.value, current.value);
-               // console.log("Power: " + result);
                 power.value = result;
                 calculatedGlobal = true;
 
