@@ -160,7 +160,6 @@
     function calculateSinglePhaseHP(volts, amps, efficiency, powerFactor) {
         var conversionFactor = 746;
         var result = 0;
-       // console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor);
         result = (volts.value * amps.value * efficiency.value * powerFactor.value) / (conversionFactor);
         return result.toPrecision(4);
     }
@@ -221,31 +220,21 @@
      //   console.log("Calculate Result: " + calcType);
         switch (calcType) {
             case "directCurrentHP":
-             //   console.log("Direct Current HP Calculation");
                 result = calculateDirectCurrentHP(volts, amps, efficiency);
-              //  console.log("Result: " + result);
-                horsePower.value = result;
+               horsePower.value = result;
                 break;
             case "singlePhaseHP":
-            //    console.log("Single Phase HP Calculation");
                 result = calculateSinglePhaseHP(volts, amps, efficiency, powerFactor);
-             //   console.log("Result: " + result);
                 horsePower.value = result;
                 break;
             case "threePhaseCurrentHP":
-             //   console.log("Three Phase Current HP");
                 result = calculateThreePhaseHP(volts, amps, efficiency, powerFactor)
-             //   console.log("Result: " + result);
                 horsePower.value = result;
                 break;
             case "singlePhaseKVA":
-              //  console.log("Single Phase KVA");
-              //  console.log("Result: " + result);
                 kva.value = calculateSinglePhaseKVA(volts, amps);
                 break;
             case "threePhaseKVA":
-             //   console.log("Single Phase KVA");
-             //   console.log("Result: " + result);
                 kva.value = calculateThreePhaseKVA(volts, amps);
                 break;
             default:
@@ -259,9 +248,6 @@
     // need to simplify this section
     function getSelectValue() {
         var selectedValue = document.getElementById("Resistor").value;
-      //  console.log("----------------------------------");
-      //  console.log(selectedValue);
-      //  console.log("----------------------------------");
         switch (selectedValue) {
             case "10":
                 changeResistorColors('brown','black','black');
@@ -444,10 +430,7 @@
 
     function getSelectTolerance() {
         var selectedTolerance = document.getElementById("Tolerance").value;
-      //  console.log("----------------------------------");
-      //  console.log(selectedTolerance);
-      //  console.log("----------------------------------");
-        switch (selectedTolerance) {
+          switch (selectedTolerance) {
             case "5%":
                 $(this).attr('id', 'rect2190');
                 document.getElementById('rect2190').style.fill = 'url(#linearGradient9206)';
@@ -467,10 +450,7 @@
      */
     function getSelectCalculation() {
         var selectCalculation = document.getElementById("calculation").value;
-       // console.log("--------------------------------");
-       // console.log("Calculation Selection: " + selectCalculation);
-       // console.log("--------------------------------");
-        //switch 
+      //switch 
         switch (selectCalculation) {
             case "directCurrentHP":
                 multipleSectionLabel = document.getElementById("multipleSectionLabel").innerHTML = "Direct Current Horse Power";
@@ -490,7 +470,6 @@
                 // Select the Direct Current Horse Power Calculation
                 horsePower = calculateDirectCurrentHP(volts, amps, efficiency);
                 document.getElementById("horsePower6").value = horsePower;
-              //  console.log(" Calculate Direct Current HP ");
                 break;
             case "singlePhaseHP":
                 document.getElementById("multipleSectionLabel").innerHTML = "Single Phase Horse Power";
@@ -561,13 +540,11 @@
                 document.getElementById("horsePower6").style.backgroundColor = "initial";
                 document.getElementById("kva6").style.backgroundColor = "#FFAAAA"; //"#D46D6A";
                 // Three Phase KVA Calculation
-            //    console.log(" Calculate Three Phase KVA ");
                 break;
             default:
                 document.getElementById("multipleSectionLabel").innerHTML = "Select An Option";
                 document.getElementById("powerFactor6").disabled = true;
                 $("powerFactor6").remove();
-                //$( "div" ).remove( ".hello" );
                 document.getElementById("kva6").disabled = true;
                 $("kva6").remove();
                 document.getElementById("voltage6").disabled = true;
@@ -578,8 +555,6 @@
                 $("efficiency6").remove();
                 document.getElementById("horsePower6").disabled = true;
                 $("horsePower6").remove();
-                // Select An Option, Default Option
-             //   console.log(" Calculate Multiple Section Label ");
                 break;
         }
     }
