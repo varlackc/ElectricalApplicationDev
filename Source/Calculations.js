@@ -145,10 +145,8 @@
     function calculateDirectCurrentHP(volts, amps, efficiency) {
         var conversionFactor = 746;
         var result = 0;
-       // console.log("Voltage: " + volts.value + " Amp: " + amps.value + " Eff: " + efficiency.value + " Conversion: " + conversionFactor)
         result = (volts.value * amps.value * efficiency.value) / (conversionFactor);
         result = result.toPrecision(4);
-      //  console.log("The Result is: " + result);
         return result;
     }
 
