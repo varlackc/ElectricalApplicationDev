@@ -115,7 +115,6 @@
         }
         // Calculate Resistance
         else if (voltage.value.length > 0 && current.value.length > 0 && resistance.value.length === 0 && calculatedGlobal == false) {
-            //console.log("Calculate Resistance");
             result = CalculateResistanceGivenVoltageCurrent(voltage.value, current.value) // Calculate Resistance
             resistance.value = result;
             result = PowerGivenVoltageCurrent(voltage.value, current.value); // Calculate power
