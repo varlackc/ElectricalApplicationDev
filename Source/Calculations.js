@@ -522,7 +522,6 @@
                 document.getElementById("horsePower6").style.backgroundColor = "initial";
                 document.getElementById("kva6").style.backgroundColor = "#FFAAAA"; //"#D46D6A";
                 // Single Phase KVA Calculation
-             //   console.log(" Calculate Single Phase KVA ");
                 break;
             case "threePhaseKVA":
                 document.getElementById("multipleSectionLabel").innerHTML = "Three Phase KVA";
