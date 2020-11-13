@@ -484,7 +484,7 @@
                 document.getElementById("current6").style.backgroundColor = "#9AD58E";
                 document.getElementById("efficiency6").style.backgroundColor = "#9AD58E";
                 document.getElementById("powerFactor6").style.backgroundColor = "#9AD58E";
-                document.getElementById("horsePower6").style.backgroundColor = "#FFAAAA"; //"#D46D6A";
+                document.getElementById("horsePower6").style.backgroundColor = "#FFAAAA"; 
                 document.getElementById("kva6").style.backgroundColor = "initial";
                 // Select the Single Phase Horse Power Calculation
                 console.log(" Calculate Single Phase HP ");
