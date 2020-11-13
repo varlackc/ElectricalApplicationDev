@@ -537,7 +537,7 @@
                 document.getElementById("efficiency6").style.backgroundColor = "#9AD58E";
                 document.getElementById("powerFactor6").style.backgroundColor = "initial";
                 document.getElementById("horsePower6").style.backgroundColor = "initial";
-                document.getElementById("kva6").style.backgroundColor = "#FFAAAA"; //"#D46D6A";
+                document.getElementById("kva6").style.backgroundColor = "#FFAAAA"; 
                 // Three Phase KVA Calculation
                 break;
             default:
