@@ -42,7 +42,7 @@ function CreateResistorTable(){
         var col7 = res.resitor[i+offsetF].value;
         var col8 = res.resitor[i+offsetG].value;
         var col9 = res.resitor[i+offsetH].value;
-        var col10 = res.resitor[i+offsetI].value; // Ternary Operator to determine the resistor value
+        var col10 = res.resitor[i+offsetI].value; 
         // --- Display
         resistorTable += `<TR><td>`+col1+`</td><td>`+col2+`</td><td>`+col3+`</td><td>`+col4+`</td><td>`+col5+`</td><td>`+col6+`</td></TR>`;
         if(i < 5){console.log(`<TR><td>  </td><td>`+col7+`</td><td>`+col8+`</td><td>`+col9+`</td><td>`+col10+`</td><td>    </td></TR>`);
