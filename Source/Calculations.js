@@ -90,7 +90,6 @@
         var current = document.getElementById("current");
         var resistance = document.getElementById("resistance");
         var power = document.getElementById("power");
-
         //console.log("made it to the top");
         if (calculatedGlobal == true) {
             ClearFields();
@@ -217,11 +216,11 @@
         var kva = document.getElementById("kva6");
         var calcType = document.getElementById("calculation").value;
         var result = 0;
-     //   console.log("Calculate Result: " + calcType);
+        //   console.log("Calculate Result: " + calcType);
         switch (calcType) {
             case "directCurrentHP":
                 result = calculateDirectCurrentHP(volts, amps, efficiency);
-               horsePower.value = result;
+                horsePower.value = result;
                 break;
             case "singlePhaseHP":
                 result = calculateSinglePhaseHP(volts, amps, efficiency, powerFactor);
@@ -250,187 +249,187 @@
         var selectedValue = document.getElementById("Resistor").value;
         switch (selectedValue) {
             case "10":
-                changeResistorColors('brown','black','black');
+                changeResistorColors('brown', 'black', 'black');
                 break;
             case "15":
                 changeResistorColors('brown', 'green', 'black');
                 break;
             case "22":
-                changeResistorColors('red','red','black');
+                changeResistorColors('red', 'red', 'black');
                 break;
             case "33":
-                changeResistorColors('orange','orange','black');
+                changeResistorColors('orange', 'orange', 'black');
                 break;
             case "47":
-                changeResistorColors('yellow','violet','black');
+                changeResistorColors('yellow', 'violet', 'black');
                 break;
             case "68":
-                changeResistorColors('blue','gray','black');
+                changeResistorColors('blue', 'gray', 'black');
                 break;
             case "100":
-                changeResistorColors('brown','black','brown');
+                changeResistorColors('brown', 'black', 'brown');
                 break;
             case "120":
-                changeResistorColors('brown','red','brown');
+                changeResistorColors('brown', 'red', 'brown');
                 break;
             case "150":
-                changeResistorColors('brown','green','brown');
+                changeResistorColors('brown', 'green', 'brown');
                 break;
             case "180":
-                changeResistorColors('brown','grey','brown');
+                changeResistorColors('brown', 'grey', 'brown');
                 break;
             case "220":
-                changeResistorColors('red','red','brown');
+                changeResistorColors('red', 'red', 'brown');
                 break;
             case "270":
-                changeResistorColors('red','violet','brwon');
+                changeResistorColors('red', 'violet', 'brwon');
                 break;
             case "330":
-                changeResistorColors('orange','orange','brown');
+                changeResistorColors('orange', 'orange', 'brown');
                 break;
             case "390":
-                changeResistorColors('orange','white','brown');
+                changeResistorColors('orange', 'white', 'brown');
                 break;
             case "470":
-                changeResistorColors('yellow','violet','brown');
+                changeResistorColors('yellow', 'violet', 'brown');
                 break;
             case "560":
-                changeResistorColors('green','blue','brown');
+                changeResistorColors('green', 'blue', 'brown');
                 break;
             case "680":
-                changeResistorColors('blue','grey','brown');
+                changeResistorColors('blue', 'grey', 'brown');
                 break;
             case "1.0k":
-                changeResistorColors('brown','black','red');
+                changeResistorColors('brown', 'black', 'red');
                 break;
             case "1.2k":
-                changeResistorColors('brown','red','red');
+                changeResistorColors('brown', 'red', 'red');
                 break;
             case "1.5k":
-                changeResistorColors('brown','green','red');
+                changeResistorColors('brown', 'green', 'red');
                 break;
             case "1.8k":
-                changeResistorColors('brown','grey','red');
+                changeResistorColors('brown', 'grey', 'red');
                 break;
             case "2.2k":
-                changeResistorColors('red','red','red');
+                changeResistorColors('red', 'red', 'red');
                 break;
             case "2.7k":
-                changeResistorColors('red','violet','red');
+                changeResistorColors('red', 'violet', 'red');
                 break;
             case "3.3k":
-                changeResistorColors('orange','orange','red');
+                changeResistorColors('orange', 'orange', 'red');
                 break;
             case "3.9k":
-                changeResistorColors('orange','white','red');
+                changeResistorColors('orange', 'white', 'red');
                 break;
             case "4.7k":
-                changeResistorColors('yellow','violet','red');
+                changeResistorColors('yellow', 'violet', 'red');
                 break;
             case "5.6k":
-                changeResistorColors('green','blue','red');
+                changeResistorColors('green', 'blue', 'red');
                 break;
             case "6.8k":
-                changeResistorColors('blue','grey','red');
+                changeResistorColors('blue', 'grey', 'red');
                 break;
             case "10k":
-                changeResistorColors('brown','black','orange');
+                changeResistorColors('brown', 'black', 'orange');
                 break;
             case "12k":
-                changeResistorColors('brown','red','orange');
+                changeResistorColors('brown', 'red', 'orange');
                 break;
             case "15k":
-                changeResistorColors('brown','green','orange');
+                changeResistorColors('brown', 'green', 'orange');
                 break;
             case "18k":
-                changeResistorColors('brown','grey','orange');
+                changeResistorColors('brown', 'grey', 'orange');
                 break;
             case "22k":
-                changeResistorColors('red','red','orange');
+                changeResistorColors('red', 'red', 'orange');
                 break;
             case "27k":
-                changeResistorColors('red','violet','orange');
+                changeResistorColors('red', 'violet', 'orange');
                 break;
             case "33k":
-                changeResistorColors('orange','orange','orange');
+                changeResistorColors('orange', 'orange', 'orange');
                 break;
             case "39k":
-                changeResistorColors('orange','white','orange');
+                changeResistorColors('orange', 'white', 'orange');
                 break;
             case "47k":
-                changeResistorColors('yellow','violet','orange');
+                changeResistorColors('yellow', 'violet', 'orange');
                 break;
             case "56k":
-                changeResistorColors('green','blue','orange');
+                changeResistorColors('green', 'blue', 'orange');
                 break;
             case "68k":
-                changeResistorColors('blue','grey','orange');
+                changeResistorColors('blue', 'grey', 'orange');
                 break;
             case "100k":
-                changeResistorColors('brown','black','yellow');
+                changeResistorColors('brown', 'black', 'yellow');
                 break;
             case "120k":
-                changeResistorColors('brown','red','yellow');
+                changeResistorColors('brown', 'red', 'yellow');
                 break;
             case "150k":
-                changeResistorColors('brown','grey','yellow');
+                changeResistorColors('brown', 'grey', 'yellow');
                 break;
             case "180k":
-                changeResistorColors('brown','grey','yellow');
+                changeResistorColors('brown', 'grey', 'yellow');
                 break;
             case "220k":
-                changeResistorColors('red','red','yellow');
+                changeResistorColors('red', 'red', 'yellow');
                 break;
             case "270k":
-                changeResistorColors('red','violet','yellow');
+                changeResistorColors('red', 'violet', 'yellow');
                 break;
             case "330k":
-                changeResistorColors('orange','orange','yellow');
+                changeResistorColors('orange', 'orange', 'yellow');
                 break;
             case "390k":
-                changeResistorColors('orange','white','yellow');
+                changeResistorColors('orange', 'white', 'yellow');
                 break;
             case "470k":
-                changeResistorColors('yellow','violet','yellow');
+                changeResistorColors('yellow', 'violet', 'yellow');
                 break;
             case "560k":
-                changeResistorColors('green','blue','yellow');
+                changeResistorColors('green', 'blue', 'yellow');
                 break;
             case "680k":
-                changeResistorColors('blue','grey','yellow');
+                changeResistorColors('blue', 'grey', 'yellow');
                 break;
             case "1.0M":
-                changeResistorColors('brown','black','green');
+                changeResistorColors('brown', 'black', 'green');
                 break;
             case "1.5M":
-                changeResistorColors('brown','green','green');
+                changeResistorColors('brown', 'green', 'green');
                 break;
             case "2.2M":
-                changeResistorColors('red','red','green');
+                changeResistorColors('red', 'red', 'green');
                 break;
             case "3.3M":
-                changeResistorColors('orange','orange','green');
+                changeResistorColors('orange', 'orange', 'green');
                 break;
             case "4.7M":
-                changeResistorColors('yellow','violet','green');
+                changeResistorColors('yellow', 'violet', 'green');
                 break;
             case "6.8M":
-                changeResistorColors('blue','grey','green');
+                changeResistorColors('blue', 'grey', 'green');
                 break;
             default:
                 changeResistorColors('black', 'black', 'black');
         }
     }
 
-    function changeResistorColors(bandOneColor, bandTwoColor, bandThreeColor){
-                document.getElementById('path1307').style.fill = bandOneColor;
-                document.getElementById('path1309').style.fill = bandTwoColor;
-                document.getElementById('rect2188').style.fill = bandThreeColor;
+    function changeResistorColors(bandOneColor, bandTwoColor, bandThreeColor) {
+        document.getElementById('path1307').style.fill = bandOneColor;
+        document.getElementById('path1309').style.fill = bandTwoColor;
+        document.getElementById('rect2188').style.fill = bandThreeColor;
     }
 
     function getSelectTolerance() {
         var selectedTolerance = document.getElementById("Tolerance").value;
-          switch (selectedTolerance) {
+        switch (selectedTolerance) {
             case "5%":
                 $(this).attr('id', 'rect2190');
                 document.getElementById('rect2190').style.fill = 'url(#linearGradient9206)';
@@ -450,7 +449,7 @@
      */
     function getSelectCalculation() {
         var selectCalculation = document.getElementById("calculation").value;
-      //switch 
+        //switch 
         switch (selectCalculation) {
             case "directCurrentHP":
                 multipleSectionLabel = document.getElementById("multipleSectionLabel").innerHTML = "Direct Current Horse Power";
@@ -484,7 +483,7 @@
                 document.getElementById("current6").style.backgroundColor = "#9AD58E";
                 document.getElementById("efficiency6").style.backgroundColor = "#9AD58E";
                 document.getElementById("powerFactor6").style.backgroundColor = "#9AD58E";
-                document.getElementById("horsePower6").style.backgroundColor = "#FFAAAA"; 
+                document.getElementById("horsePower6").style.backgroundColor = "#FFAAAA";
                 document.getElementById("kva6").style.backgroundColor = "initial";
                 // Select the Single Phase Horse Power Calculation
                 console.log(" Calculate Single Phase HP ");
@@ -502,7 +501,7 @@
                 document.getElementById("current6").style.backgroundColor = "#9AD58E";
                 document.getElementById("efficiency6").style.backgroundColor = "#9AD58E";
                 document.getElementById("powerFactor6").style.backgroundColor = "#9AD58E";
-                document.getElementById("horsePower6").style.backgroundColor = "#FFAAAA"; 
+                document.getElementById("horsePower6").style.backgroundColor = "#FFAAAA";
                 // Select the Three Phase Current Horse Power Calculation
                 console.log(" Calculate Three Phase Current HP ");
                 break;
@@ -520,7 +519,7 @@
                 document.getElementById("efficiency6").style.backgroundColor = "initial";
                 document.getElementById("powerFactor6").style.backgroundColor = "initial";
                 document.getElementById("horsePower6").style.backgroundColor = "initial";
-                document.getElementById("kva6").style.backgroundColor = "#FFAAAA"; 
+                document.getElementById("kva6").style.backgroundColor = "#FFAAAA";
                 // Single Phase KVA Calculation
                 break;
             case "threePhaseKVA":
@@ -537,7 +536,7 @@
                 document.getElementById("efficiency6").style.backgroundColor = "#9AD58E";
                 document.getElementById("powerFactor6").style.backgroundColor = "initial";
                 document.getElementById("horsePower6").style.backgroundColor = "initial";
-                document.getElementById("kva6").style.backgroundColor = "#FFAAAA"; 
+                document.getElementById("kva6").style.backgroundColor = "#FFAAAA";
                 // Three Phase KVA Calculation
                 break;
             default:
@@ -559,10 +558,9 @@
     }
 
     // update code section
-    function add(type){
+    function add(type) {
         //Create an input type dynamically. 
         var element = document.createElement("input");
-
         //Different Attributes to the element
         element.setAttribute("type", type);
         element.setAttribute("Value", type);
