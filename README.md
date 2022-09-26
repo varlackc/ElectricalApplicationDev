@@ -7,5 +7,5 @@ There are other miscelaneous resources included in this program such as:
     - Common resistor values table
     - Common capacitor value tables
     - Common Inductor value tables
-    - Ohms Law Calculations
+    - Ohms Law Calculations including voltage and current calculations
 This program is provided without any warranty of correctness, accuracy or completeness. 
